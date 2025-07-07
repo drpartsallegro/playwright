@@ -1,0 +1,1221 @@
+# Page snapshot
+
+```yaml
+- img
+- img
+- img
+- banner:
+  - link "Skip to main content":
+    - /url: "#mainContent"
+  - navigation:
+    - text: Hi!
+    - link "Sign in":
+      - /url: https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&sgfl=gh&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40%26_trksid%3Dm570.l1313
+    - text: or
+    - link "register":
+      - /url: https://signup.ebay.com/pa/crte?ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40%26_trksid%3Dm570.l1313
+    - link "Daily Deals":
+      - /url: https://www.ebay.com/deals
+    - link "Brand Outlet":
+      - /url: https://www.ebay.com/b/Brand-Outlet/bn_7115532402
+    - link "Gift Cards":
+      - /url: https://www.ebay.com/giftcards
+    - link "Help & Contact":
+      - /url: https://www.ebay.com/help/home
+    - link "Sell":
+      - /url: https://www.ebay.com/sl/sell
+    - link "Watchlist":
+      - /url: https://www.ebay.com/mye/myebay/watchlist
+    - button "Expand Watch List"
+    - link "My eBay":
+      - /url: https://www.ebay.com/mys/home?source=GBH
+    - button "Expand My eBay"
+    - button "Expand Notifications"
+    - link "Your shopping cart contains 0 items":
+      - /url: https://cart.ebay.com
+    - button "Expand Cart"
+  - link "eBay Home":
+    - /url: https://www.ebay.com
+    - img "eBay Home"
+  - button "Shop by category"
+  - text: Enter your search keyword
+  - combobox "Search for anything": laptop
+  - combobox "Select a category for search":
+    - option "PC Laptops & Netbooks" [selected]
+    - option "└ Laptops & Netbooks"
+    - option "└ Computers/Tablets & Networking"
+    - option "All Categories"
+    - option "Antiques"
+    - option "Art"
+    - option "Baby"
+    - option "Books & Magazines"
+    - option "Business & Industrial"
+    - option "Cameras & Photo"
+    - option "Cell Phones & Accessories"
+    - option "Clothing, Shoes & Accessories"
+    - option "Coins & Paper Money"
+    - option "Collectibles"
+    - option "Computers/Tablets & Networking"
+    - option "Consumer Electronics"
+    - option "Crafts"
+    - option "Dolls & Bears"
+    - option "Entertainment Memorabilia"
+    - option "Everything Else"
+    - option "Gift Cards & Coupons"
+    - option "Health & Beauty"
+    - option "Home & Garden"
+    - option "Jewelry & Watches"
+    - option "Movies & TV"
+    - option "Music"
+    - option "Musical Instruments & Gear"
+    - option "Pet Supplies"
+    - option "Pottery & Glass"
+    - option "Real Estate"
+    - option "Specialty Services"
+    - option "Sporting Goods"
+    - option "Sports Mem, Cards & Fan Shop"
+    - option "Stamps"
+    - option "Tickets & Experiences"
+    - option "Toys & Hobbies"
+    - option "Travel"
+    - option "Video Games & Consoles"
+  - button "Search"
+  - link "Advanced":
+    - /url: https://www.ebay.com/sch/ebayadvsearch?_nkw=laptop&_sacat=0&_from=R40&_trksid=m570.l1313
+  - status
+- text: "Related:"
+- link "surface":
+  - /url: https://www.ebay.com/sch/i.html?_nkw=surface&_sop=12
+- link "laptop computers":
+  - /url: https://www.ebay.com/sch/i.html?_nkw=laptop+computers&_sop=12
+- link "laptop gaming":
+  - /url: https://www.ebay.com/sch/i.html?_nkw=laptop+gaming&_sop=12
+- link "macbook":
+  - /url: https://www.ebay.com/sch/i.html?_nkw=macbook&_sop=12
+- link "iphone":
+  - /url: https://www.ebay.com/sch/i.html?_nkw=iphone&_sop=12
+- link "laptop dell":
+  - /url: https://www.ebay.com/sch/i.html?_nkw=laptop+dell&_sop=12
+- link "dell":
+  - /url: https://www.ebay.com/sch/i.html?_nkw=dell&_sop=12
+- link "hp laptop":
+  - /url: https://www.ebay.com/sch/i.html?_nkw=hp+laptop&_sop=12
+- link "laptop i7":
+  - /url: https://www.ebay.com/sch/i.html?_nkw=laptop+i7&_sop=12
+- link "laptop lot":
+  - /url: https://www.ebay.com/sch/i.html?_nkw=laptop+lot&_sop=12
+- link "chromebook":
+  - /url: https://www.ebay.com/sch/i.html?_nkw=chromebook&_sop=12
+- link "thinkpad":
+  - /url: https://www.ebay.com/sch/i.html?_nkw=thinkpad&_sop=12
+- checkbox "Include description"
+- text: Include description
+- heading "Filter" [level=2]
+- list:
+  - listitem:
+    - list:
+      - listitem:
+        - heading "Category" [level=3]:
+          - button "Category" [expanded]
+        - list:
+          - listitem:
+            - link "All":
+              - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_from=R40&_oac=1
+            - list:
+              - listitem:
+                - link "Computers/Tablets & Networking":
+                  - /url: https://www.ebay.com/sch/58058/i.html?_nkw=laptop&_from=R40
+              - listitem:
+                - link "Laptops & Netbooks":
+                  - /url: https://www.ebay.com/sch/175672/i.html?_nkw=laptop&_from=R40
+                - list:
+                  - listitem: Selected category PC Laptops & Netbooks
+                  - listitem:
+                    - link "Apple Laptops":
+                      - /url: https://www.ebay.com/sch/111422/i.html?_nkw=laptop&_from=R40
+              - listitem:
+                - link "eBay Motors":
+                  - /url: https://www.ebay.com/sch/6000/i.html?_nkw=laptop&_from=R40
+              - listitem:
+                - link "Home & Garden":
+                  - /url: https://www.ebay.com/sch/11700/i.html?_nkw=laptop&_from=R40
+              - listitem:
+                - link "Clothing, Shoes & Accessories":
+                  - /url: https://www.ebay.com/sch/11450/i.html?_nkw=laptop&_from=R40
+              - listitem:
+                - link "Business & Industrial":
+                  - /url: https://www.ebay.com/sch/12576/i.html?_nkw=laptop&_from=R40
+              - listitem:
+                - link "Books & Magazines":
+                  - /url: https://www.ebay.com/sch/267/i.html?_nkw=laptop&_from=R40
+              - listitem:
+                - link "Collectibles":
+                  - /url: https://www.ebay.com/sch/1/i.html?_nkw=laptop&_from=R40
+              - listitem:
+                - button "Show more - All": Show More
+      - listitem:
+        - list:
+          - listitem:
+            - heading "RAM Size" [level=3]:
+              - button "RAM Size" [expanded]
+            - list:
+              - listitem:
+                - link "16 GB (53,616) Items":
+                  - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&RAM%2520Size=16%2520GB&_dcat=177
+              - listitem:
+                - link "8 GB (50,260) Items":
+                  - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&RAM%2520Size=8%2520GB&_dcat=177
+              - listitem:
+                - link "32 GB (18,195) Items":
+                  - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&RAM%2520Size=32%2520GB&_dcat=177
+              - listitem:
+                - link "4 GB (31,440) Items":
+                  - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&RAM%2520Size=4%2520GB&_dcat=177
+              - listitem:
+                - link "64 GB (8,984) Items":
+                  - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&RAM%2520Size=64%2520GB&_dcat=177
+              - listitem:
+                - link "512 GB (3,691) Items":
+                  - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&RAM%2520Size=512%2520GB&_dcat=177
+              - listitem:
+                - link "2 GB (4,724) Items":
+                  - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&RAM%2520Size=2%2520GB&_dcat=177
+              - listitem:
+                - link "256 GB (3,868) Items":
+                  - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&RAM%2520Size=256%2520GB&_dcat=177
+            - button "see all - RAM Size - opens dialog": see all
+          - listitem:
+            - heading "Screen Size" [level=3]:
+              - button "Screen Size" [expanded]
+            - list:
+              - listitem:
+                - link "Less Than 12 in (15,804) Items":
+                  - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&Screen%2520Size=Less%2520Than%252012%2520in&_dcat=177
+              - listitem:
+                - link "12-12.9 in (8,470) Items":
+                  - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&Screen%2520Size=12%252D12%252E9%2520in&_dcat=177
+              - listitem:
+                - link "13-13.9 in (20,214) Items":
+                  - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&Screen%2520Size=13%252D13%252E9%2520in&_dcat=177
+              - listitem:
+                - link "14-14.9 in (59,819) Items":
+                  - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&Screen%2520Size=14%252D14%252E9%2520in&_dcat=177
+              - listitem:
+                - link "15-15.9 in (62,345) Items":
+                  - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&Screen%2520Size=15%252D15%252E9%2520in&_dcat=177
+              - listitem:
+                - link "16-17 in (10,729) Items":
+                  - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&Screen%2520Size=16%252D17%2520in&_dcat=177
+              - listitem:
+                - link "More Than 17 in (7,257) Items":
+                  - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&Screen%2520Size=More%2520Than%252017%2520in&_dcat=177
+              - listitem:
+                - link "Not Specified (16,076) Items":
+                  - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&Screen%2520Size=%21&_dcat=177
+          - listitem:
+            - heading "Processor" [level=3]:
+              - button "Processor" [expanded]
+            - list:
+              - listitem:
+                - link "AMD Ryzen 5 (3,768) Items":
+                  - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&Processor=AMD%2520Ryzen%25205&_dcat=177
+              - listitem:
+                - link "AMD Ryzen 7 (3,254) Items":
+                  - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&Processor=AMD%2520Ryzen%25207&_dcat=177
+              - listitem:
+                - link "Intel Core i5 10th Gen. (3,936) Items":
+                  - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&Processor=Intel%2520Core%2520i5%252010th%2520Gen%252E&_dcat=177
+              - listitem:
+                - link "Intel Core i5 11th Gen. (4,720) Items":
+                  - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&Processor=Intel%2520Core%2520i5%252011th%2520Gen%252E&_dcat=177
+              - listitem:
+                - link "Intel Core i7 10th Gen. (4,242) Items":
+                  - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&Processor=Intel%2520Core%2520i7%252010th%2520Gen%252E&_dcat=177
+              - listitem:
+                - link "Intel Core i7 11th Gen. (4,080) Items":
+                  - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&Processor=Intel%2520Core%2520i7%252011th%2520Gen%252E&_dcat=177
+              - listitem:
+                - link "Intel Core i7 12th Gen. (2,491) Items":
+                  - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&Processor=Intel%2520Core%2520i7%252012th%2520Gen%252E&_dcat=177
+              - listitem:
+                - link "Intel Core i7 8th Gen. (4,949) Items":
+                  - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&Processor=Intel%2520Core%2520i7%25208th%2520Gen%252E&_dcat=177
+            - button "see all - Processor - opens dialog": see all
+          - listitem:
+            - heading "Storage Type" [level=3]:
+              - button "Storage Type" [expanded]
+            - list:
+              - listitem:
+                - link "SSD (Solid State Drive) (107,126) Items":
+                  - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&Storage%2520Type=SSD%2520%2528Solid%2520State%2520Drive%2529&_dcat=177
+              - listitem:
+                - link "HDD (Hard Disk Drive) (32,731) Items":
+                  - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&Storage%2520Type=HDD%2520%2528Hard%2520Disk%2520Drive%2529&_dcat=177
+              - listitem:
+                - link "eMMC (9,327) Items":
+                  - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&Storage%2520Type=eMMC&_dcat=177
+              - listitem:
+                - link "NVMe (Non-Volatile Memory Express) (4,404) Items":
+                  - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&Storage%2520Type=NVMe%2520%2528Non%252DVolatile%2520Memory%2520Express%2529&_dcat=177
+              - listitem:
+                - link "HDD + SSD (3,134) Items":
+                  - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&Storage%2520Type=HDD%2520%252B%2520SSD&_dcat=177
+              - listitem:
+                - link "SSHD (Solid State Hybrid Drive) (411) Items":
+                  - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&Storage%2520Type=SSHD%2520%2528Solid%2520State%2520Hybrid%2520Drive%2529&_dcat=177
+              - listitem:
+                - link "UFS (Universal Flash Storage) (239) Items":
+                  - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&Storage%2520Type=UFS%2520%2528Universal%2520Flash%2520Storage%2529&_dcat=177
+              - listitem:
+                - link "eUFS (Embedded Universal Flash Storage) (69) Items":
+                  - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&Storage%2520Type=eUFS%2520%2528Embedded%2520Universal%2520Flash%2520Storage%2529&_dcat=177
+            - button "see all - Storage Type - opens dialog": see all
+          - listitem:
+            - heading "Operating System" [level=3]:
+              - button "Operating System" [expanded]
+            - list:
+              - listitem:
+                - link "Chrome OS (12,773) Items":
+                  - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&Operating%2520System=Chrome%2520OS&_dcat=177
+              - listitem:
+                - link "Not Included (19,404) Items":
+                  - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&Operating%2520System=Not%2520Included&_dcat=177
+              - listitem:
+                - link "Windows 10 (23,174) Items":
+                  - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&Operating%2520System=Windows%252010&_dcat=177
+              - listitem:
+                - link "Windows 10 Home (5,621) Items":
+                  - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&Operating%2520System=Windows%252010%2520Home&_dcat=177
+              - listitem:
+                - link "Windows 10 Pro (22,168) Items":
+                  - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&Operating%2520System=Windows%252010%2520Pro&_dcat=177
+              - listitem:
+                - link "Windows 11 Home (24,720) Items":
+                  - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&Operating%2520System=Windows%252011%2520Home&_dcat=177
+              - listitem:
+                - link "Windows 11 Pro (36,695) Items":
+                  - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&Operating%2520System=Windows%252011%2520Pro&_dcat=177
+              - listitem:
+                - link "Windows 7 (4,193) Items":
+                  - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&Operating%2520System=Windows%25207&_dcat=177
+            - button "see all - Operating System - opens dialog": see all
+          - listitem:
+            - heading "Graphics Processing Type" [level=3]:
+              - button "Graphics Processing Type"
+          - listitem:
+            - heading "Brand" [level=3]:
+              - button "Brand"
+          - listitem:
+            - heading "Features" [level=3]:
+              - button "Features"
+          - listitem:
+            - heading "Hard Drive Capacity" [level=3]:
+              - button "Hard Drive Capacity"
+      - listitem:
+        - heading "Price" [level=3]:
+          - button "Price" [expanded]
+        - list:
+          - listitem:
+            - link "Under $150.00":
+              - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&_udhi=150
+          - listitem:
+            - link "$150.00 to $350.00":
+              - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&_udlo=150&_udhi=350
+          - listitem:
+            - link "Over $350.00":
+              - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&_udlo=350
+        - text: $ Min
+        - textbox "Minimum Value in $"
+        - text: to $ Max
+        - textbox "Maximum Value in $"
+        - button "Submit price range" [disabled]
+        - alert
+        - img "Graph of available inventory between $0 and $1500+": Available inventory $ 0 $ 1500+
+      - listitem:
+        - heading "Condition" [level=3]:
+          - button "Condition" [expanded]
+        - list:
+          - listitem:
+            - link "New (27,228) Items":
+              - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&LH_ItemCondition=1000
+          - listitem:
+            - link "Open box (10,602) Items":
+              - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&LH_ItemCondition=1500
+          - listitem:
+            - link "Certified - Refurbished (2,638) Items":
+              - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&LH_ItemCondition=2000
+          - listitem:
+            - link "Excellent - Refurbished (9,314) Items":
+              - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&LH_ItemCondition=2010
+          - listitem:
+            - link "Very Good - Refurbished (6,674) Items":
+              - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&LH_ItemCondition=2020
+          - listitem:
+            - link "Good - Refurbished (2,374) Items":
+              - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&LH_ItemCondition=2030
+          - listitem:
+            - link "Used (109,213) Items":
+              - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&LH_ItemCondition=3000
+          - listitem:
+            - link "For parts or not working (32,532) Items":
+              - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&LH_ItemCondition=7000
+          - listitem:
+            - link "Not Specified (18) Items":
+              - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&LH_ItemCondition=10
+        - button "see all - Condition - opens dialog": see all
+      - listitem:
+        - heading "Buying Format" [level=3]:
+          - button "Buying Format" [expanded]
+        - list:
+          - listitem:
+            - link "All Listings (200,593) Items Filter Applied":
+              - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc
+              - text: All Listings (200,593) Filter Applied
+          - listitem:
+            - link "Auction (4,237) Items":
+              - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&LH_Auction=1
+              - text: Auction (4,237)
+          - listitem:
+            - link "Buy It Now (197,176) Items":
+              - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&LH_BIN=1
+              - text: Buy It Now (197,176)
+          - listitem:
+            - link "Accepts Offers (97,150) Items":
+              - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&LH_BO=1
+              - text: Accepts Offers (97,150)
+      - listitem:
+        - heading "Shipping and pickup" [level=3]:
+          - button "Shipping and pickup" [expanded]
+        - list:
+          - listitem: Arrives in 2-4 days
+          - listitem:
+            - link "Free International Shipping":
+              - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&LH_FS=1
+          - listitem:
+            - link "Local Pickup within 25 miles":
+              - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&_fspt=1&_sadis=25&LH_PrefLoc=99&_stpos=18-400&LH_LPickup=1
+            - button "Update your location 25 mi"
+      - listitem:
+        - heading "Show only" [level=3]:
+          - button "Show only" [expanded]
+        - list:
+          - listitem:
+            - link "Free Returns":
+              - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&LH_FR=1
+          - listitem:
+            - link "Returns Accepted":
+              - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&LH_RPA=1
+          - listitem:
+            - link "Authorized Seller":
+              - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&LH_AS=1
+          - listitem:
+            - link "Completed Items":
+              - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&LH_Complete=1
+          - listitem:
+            - link "Sold Items":
+              - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&LH_Sold=1&LH_Complete=1
+          - listitem:
+            - link "Deals & Savings":
+              - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&LH_Savings=1
+        - button "see all - Show only - opens dialog": see all
+  - listitem:
+    - button "More filters..."
+- main:
+  - link "Securis":
+    - /url: https://www.ebay.com/str/pcrecyclerinc?_sacat=177&promoted_items=336047461189%2C146687465846%2C336047603326&itmprp=encpd%3AAQAKAAAC4HKgCxPMhKkD9GLPsRQbheWoSZEYgU1rtpFfNP9IO9ik5Vg%2BC0u%2Fv0qTx2fpGyAVOgPGoDcwWahoK5Wo0INnhwoGEG3EvpaD%2F2U5qE8LuWY0ENF26GzNxnv%2FRT%2BEeRjhUJAXsE5p9b4otlhRdGWoSYfr3YnzwcchlZPZNAmeqcVCbvRA4K80JNEW7SnBXO6qKhvXuSvDANTocNtYAntG9ucbvy5Kq%2FkAw9GaG0Q0wZgjyNsaXZuGTw1ST5QPehVyP4rrE9nPhyiYiopIvtjFJXbn028xD8hmiaUrzWtK0aElfK0t%2F3nkBrHSD27iKnPJKeE9Sr59TuB8zhjCZYr6NTeBPUT8bBavyQuYw%2FwCt5CvBWnMm77MF%2BNEUrHlfuVLjKBdPb12EGHV7MOzSL8RBzr1FX1aEpsab8rggvz%2F4D5Y%2Fg0Ag42vxi41A3Qf7HF7HgmM32nOjyXDlU4ptfQ9CWf5EBTqxZoUY21DuZufow%2F0LAChspG1AVP%2BjQ%2Fq9bRv3G9nIGsI9ifFeTS09lufluIGI3pi%2FQ81MBZl0hERhew80wMYThHmWeODA1y4IIjmYCms3q%2FJoTDX1u4QyWFcKqNQ5f7FhiRyW8GWF%2F1w6FEq7pdUqoCaOnZZPeabhJkdOpsamMnAMHlneSnnl3U3uO6fc8UYfo59XqZiDgFTEaw57EYg0n7aSm5YXxl%2FLUIbmq%2BxiBjVMOwFhVUOh1e03V6KtnvVjUVhpHM6HfVH2fDK1Ji1n4PQYP8qFHh%2FXpeYtHsIlNCIq80BsozGMze48It7dKD%2BdBRcMQ0y%2BmB7tUmQJshlTHjxdP3%2FcsVDA3EgO%2Be6ZTFW5u6WkCuc8WE6GmBGGXd5q3QKNxOkyisHtmhNU3YgxTg7TcbXL4Kg8PFGCsOcqlGFdlHNEdCuQk7crDC0SnTjdZUgno6ZcviTnTtQKaXdtIg2LD5DlYCKSSnEvi3ReZyEy07JrZOr4SgjSmg%3D&itmmeta=wwHmKhYwY%2Fjx0DQwMUpaSjk3WTNKNlhYWkZaOTdRS1czVENOMzQwMUpaSjk3WFg5REJTQ0UwMlNIRFMwUjc1VLagDA%3D%3D
+    - img "Securis"
+  - link "Securis":
+    - /url: https://www.ebay.com/str/pcrecyclerinc?_sacat=177&promoted_items=336047461189%2C146687465846%2C336047603326&itmprp=encpd%3AAQAKAAAC4HKgCxPMhKkD9GLPsRQbheWoSZEYgU1rtpFfNP9IO9ik5Vg%2BC0u%2Fv0qTx2fpGyAVOgPGoDcwWahoK5Wo0INnhwoGEG3EvpaD%2F2U5qE8LuWY0ENF26GzNxnv%2FRT%2BEeRjhUJAXsE5p9b4otlhRdGWoSYfr3YnzwcchlZPZNAmeqcVCbvRA4K80JNEW7SnBXO6qKhvXuSvDANTocNtYAntG9ucbvy5Kq%2FkAw9GaG0Q0wZgjyNsaXZuGTw1ST5QPehVyP4rrE9nPhyiYiopIvtjFJXbn028xD8hmiaUrzWtK0aElfK0t%2F3nkBrHSD27iKnPJKeE9Sr59TuB8zhjCZYr6NTeBPUT8bBavyQuYw%2FwCt5CvBWnMm77MF%2BNEUrHlfuVLjKBdPb12EGHV7MOzSL8RBzr1FX1aEpsab8rggvz%2F4D5Y%2Fg0Ag42vxi41A3Qf7HF7HgmM32nOjyXDlU4ptfQ9CWf5EBTqxZoUY21DuZufow%2F0LAChspG1AVP%2BjQ%2Fq9bRv3G9nIGsI9ifFeTS09lufluIGI3pi%2FQ81MBZl0hERhew80wMYThHmWeODA1y4IIjmYCms3q%2FJoTDX1u4QyWFcKqNQ5f7FhiRyW8GWF%2F1w6FEq7pdUqoCaOnZZPeabhJkdOpsamMnAMHlneSnnl3U3uO6fc8UYfo59XqZiDgFTEaw57EYg0n7aSm5YXxl%2FLUIbmq%2BxiBjVMOwFhVUOh1e03V6KtnvVjUVhpHM6HfVH2fDK1Ji1n4PQYP8qFHh%2FXpeYtHsIlNCIq80BsozGMze48It7dKD%2BdBRcMQ0y%2BmB7tUmQJshlTHjxdP3%2FcsVDA3EgO%2Be6ZTFW5u6WkCuc8WE6GmBGGXd5q3QKNxOkyisHtmhNU3YgxTg7TcbXL4Kg8PFGCsOcqlGFdlHNEdCuQk7crDC0SnTjdZUgno6ZcviTnTtQKaXdtIg2LD5DlYCKSSnEvi3ReZyEy07JrZOr4SgjSmg%3D&itmmeta=wwHmKhYwY%2Fjx0DQwMUpaSjk3WTNKNlhYWkZaOTdRS1czVENOMzQwMUpaSjk3WFg5REJTQ0UwMlNIRFMwUjc1VLagDA%3D%3D
+  - link "119K items sold":
+    - /url: https://www.ebay.com/str/pcrecyclerinc?_sacat=177&promoted_items=336047461189%2C146687465846%2C336047603326&itmprp=encpd%3AAQAKAAAC4HKgCxPMhKkD9GLPsRQbheWoSZEYgU1rtpFfNP9IO9ik5Vg%2BC0u%2Fv0qTx2fpGyAVOgPGoDcwWahoK5Wo0INnhwoGEG3EvpaD%2F2U5qE8LuWY0ENF26GzNxnv%2FRT%2BEeRjhUJAXsE5p9b4otlhRdGWoSYfr3YnzwcchlZPZNAmeqcVCbvRA4K80JNEW7SnBXO6qKhvXuSvDANTocNtYAntG9ucbvy5Kq%2FkAw9GaG0Q0wZgjyNsaXZuGTw1ST5QPehVyP4rrE9nPhyiYiopIvtjFJXbn028xD8hmiaUrzWtK0aElfK0t%2F3nkBrHSD27iKnPJKeE9Sr59TuB8zhjCZYr6NTeBPUT8bBavyQuYw%2FwCt5CvBWnMm77MF%2BNEUrHlfuVLjKBdPb12EGHV7MOzSL8RBzr1FX1aEpsab8rggvz%2F4D5Y%2Fg0Ag42vxi41A3Qf7HF7HgmM32nOjyXDlU4ptfQ9CWf5EBTqxZoUY21DuZufow%2F0LAChspG1AVP%2BjQ%2Fq9bRv3G9nIGsI9ifFeTS09lufluIGI3pi%2FQ81MBZl0hERhew80wMYThHmWeODA1y4IIjmYCms3q%2FJoTDX1u4QyWFcKqNQ5f7FhiRyW8GWF%2F1w6FEq7pdUqoCaOnZZPeabhJkdOpsamMnAMHlneSnnl3U3uO6fc8UYfo59XqZiDgFTEaw57EYg0n7aSm5YXxl%2FLUIbmq%2BxiBjVMOwFhVUOh1e03V6KtnvVjUVhpHM6HfVH2fDK1Ji1n4PQYP8qFHh%2FXpeYtHsIlNCIq80BsozGMze48It7dKD%2BdBRcMQ0y%2BmB7tUmQJshlTHjxdP3%2FcsVDA3EgO%2Be6ZTFW5u6WkCuc8WE6GmBGGXd5q3QKNxOkyisHtmhNU3YgxTg7TcbXL4Kg8PFGCsOcqlGFdlHNEdCuQk7crDC0SnTjdZUgno6ZcviTnTtQKaXdtIg2LD5DlYCKSSnEvi3ReZyEy07JrZOr4SgjSmg%3D&itmmeta=wwHmKhYwY%2Fjx0DQwMUpaSjk3WTNKNlhYWkZaOTdRS1czVENOMzQwMUpaSjk3WFg5REJTQ0UwMlNIRFMwUjc1VLagDA%3D%3D
+  - link "Shop store on eBay":
+    - /url: https://www.ebay.com/str/pcrecyclerinc?_sacat=177&promoted_items=336047461189%2C146687465846%2C336047603326&itmprp=encpd%3AAQAKAAAC4HKgCxPMhKkD9GLPsRQbheWoSZEYgU1rtpFfNP9IO9ik5Vg%2BC0u%2Fv0qTx2fpGyAVOgPGoDcwWahoK5Wo0INnhwoGEG3EvpaD%2F2U5qE8LuWY0ENF26GzNxnv%2FRT%2BEeRjhUJAXsE5p9b4otlhRdGWoSYfr3YnzwcchlZPZNAmeqcVCbvRA4K80JNEW7SnBXO6qKhvXuSvDANTocNtYAntG9ucbvy5Kq%2FkAw9GaG0Q0wZgjyNsaXZuGTw1ST5QPehVyP4rrE9nPhyiYiopIvtjFJXbn028xD8hmiaUrzWtK0aElfK0t%2F3nkBrHSD27iKnPJKeE9Sr59TuB8zhjCZYr6NTeBPUT8bBavyQuYw%2FwCt5CvBWnMm77MF%2BNEUrHlfuVLjKBdPb12EGHV7MOzSL8RBzr1FX1aEpsab8rggvz%2F4D5Y%2Fg0Ag42vxi41A3Qf7HF7HgmM32nOjyXDlU4ptfQ9CWf5EBTqxZoUY21DuZufow%2F0LAChspG1AVP%2BjQ%2Fq9bRv3G9nIGsI9ifFeTS09lufluIGI3pi%2FQ81MBZl0hERhew80wMYThHmWeODA1y4IIjmYCms3q%2FJoTDX1u4QyWFcKqNQ5f7FhiRyW8GWF%2F1w6FEq7pdUqoCaOnZZPeabhJkdOpsamMnAMHlneSnnl3U3uO6fc8UYfo59XqZiDgFTEaw57EYg0n7aSm5YXxl%2FLUIbmq%2BxiBjVMOwFhVUOh1e03V6KtnvVjUVhpHM6HfVH2fDK1Ji1n4PQYP8qFHh%2FXpeYtHsIlNCIq80BsozGMze48It7dKD%2BdBRcMQ0y%2BmB7tUmQJshlTHjxdP3%2FcsVDA3EgO%2Be6ZTFW5u6WkCuc8WE6GmBGGXd5q3QKNxOkyisHtmhNU3YgxTg7TcbXL4Kg8PFGCsOcqlGFdlHNEdCuQk7crDC0SnTjdZUgno6ZcviTnTtQKaXdtIg2LD5DlYCKSSnEvi3ReZyEy07JrZOr4SgjSmg%3D&itmmeta=wwHmKhYwY%2Fjx0DQwMUpaSjk3WTNKNlhYWkZaOTdRS1czVENOMzQwMUpaSjk3WFg5REJTQ0UwMlNIRFMwUjc1VLagDA%3D%3D
+  - button
+  - 'link "Dell Precision 5540 Intel Core i5 2.50GHz 16G Ram Laptop {Intel Video}/"':
+    - /url: https://www.ebay.com/itm/336047461189?itmprp=encpd%3AAQAKAAAC4HKgCxPMhKkD9GLPsRQbheWoSZEYgU1rtpFfNP9IO9ik5Vg%2BC0u%2Fv0qTx2fpGyAVOgPGoDcwWahoK5Wo0INnhwoGEG3EvpaD%2F2U5qE8LuWY0ENF26GzNxnv%2FRT%2BEeRjhUJAXsE5p9b4otlhRdGWoSYfr3YnzwcchlZPZNAmeqcVCbvRA4K80JNEW7SnBXO6qKhvXuSvDANTocNtYAntG9ucbvy5Kq%2FkAw9GaG0Q0wZgjyNsaXZuGTw1ST5QPehVyP4rrE9nPhyiYiopIvtjFJXbn028xD8hmiaUrzWtK0aElfK0t%2F3nkBrHSD27iKnPJKeE9Sr59TuB8zhjCZYr6NTeBPUT8bBavyQuYw%2FwCt5CvBWnMm77MF%2BNEUrHlfuVLjKBdPb12EGHV7MOzSL8RBzr1FX1aEpsab8rggvz%2F4D5Y%2Fg0Ag42vxi41A3Qf7HF7HgmM32nOjyXDlU4ptfQ9CWf5EBTqxZoUY21DuZufow%2F0LAChspG1AVP%2BjQ%2Fq9bRv3G9nIGsI9ifFeTS09lufluIGI3pi%2FQ81MBZl0hERhew80wMYThHmWeODA1y4IIjmYCms3q%2FJoTDX1u4QyWFcKqNQ5f7FhiRyW8GWF%2F1w6FEq7pdUqoCaOnZZPeabhJkdOpsamMnAMHlneSnnl3U3uO6fc8UYfo59XqZiDgFTEaw57EYg0n7aSm5YXxl%2FLUIbmq%2BxiBjVMOwFhVUOh1e03V6KtnvVjUVhpHM6HfVH2fDK1Ji1n4PQYP8qFHh%2FXpeYtHsIlNCIq80BsozGMze48It7dKD%2BdBRcMQ0y%2BmB7tUmQJshlTHjxdP3%2FcsVDA3EgO%2Be6ZTFW5u6WkCuc8WE6GmBRvMOBxcZDBGfEElczs96%2Bsg%2F7ri%2FczeRXwqF43GOYVnBGoeFO17A0uBUVw4lTBX3Z5lk4WYyViXWeSQlTqdfxd9Z6HDw0t%2Be6t0a77BFKJMVXaa%2BHF1RgvoTFjDsIlew%3D&itmmeta=wwHmKhYwY%2Fjx0DQwMUpaSjk3WTNKNlhYWkZaOTdRS1czVENOMzQwMUpaSjk3WFg5REJTQ0UwMlNIRFMwUjc1VLagDA%3D%3D
+    - 'img "Dell Precision 5540 Intel Core i5 2.50GHz 16G Ram Laptop {Intel Video}/"'
+  - 'link "Dell Precision 5540 Intel Core i5 2.50GHz 16GB Ram Laptop {Intel Video}/"':
+    - /url: https://www.ebay.com/itm/146687465846?itmprp=encpd%3AAQAKAAAC4HKgCxPMhKkD9GLPsRQbheWoSZEYgU1rtpFfNP9IO9ik5Vg%2BC0u%2Fv0qTx2fpGyAVOgPGoDcwWahoK5Wo0INnhwoGEG3EvpaD%2F2U5qE8LuWY0ENF26GzNxnv%2FRT%2BEeRjhUJAXsE5p9b4otlhRdGWoSYfr3YnzwcchlZPZNAmeqcVCbvRA4K80JNEW7SnBXO6qKhvXuSvDANTocNtYAntG9ucbvy5Kq%2FkAw9GaG0Q0wZgjyNsaXZuGTw1ST5QPehVyP4rrE9nPhyiYiopIvtjFJXbn028xD8hmiaUrzWtK0aElfK0t%2F3nkBrHSD27iKnPJKeE9Sr59TuB8zhjCZYr6NTeBPUT8bBavyQuYw%2FwCt5CvBWnMm77MF%2BNEUrHlfuVLjKBdPb12EGHV7MOzSL8RBzr1FX1aEpsab8rggvz%2F4D5Y%2Fg0Ag42vxi41A3Qf7HF7HgmM32nOjyXDlU4ptfQ9CWf5EBTqxZoUY21DuZufow%2F0LAChspG1AVP%2BjQ%2Fq9bRv3G9nIGsI9ifFeTS09lufluIGI3pi%2FQ81MBZl0hERhew80wMYThHmWeODA1y4IIjmYCms3q%2FJoTDX1u4QyWFcKqNQ5f7FhiRyW8GWF%2F1w6FEq7pdUqoCaOnZZPeabhJkdOpsamMnAMHlneSnnl3U3uO6fc8UYfo59XqZiDgFTEaw57EYg0n7aSm5YXxl%2FLUIbmq%2BxiBjVMOwFhVUOh1e03V6KtnvVjUVhpHM6HfVH2fDK1Ji1n4PQYP8qFHh%2FXpeYtHsIlNCIq80BsozGMze48It7dKD%2BdBRcMQ0y%2BmB7tUmQJshlTHjxdP3%2FcsVDA3EgO%2Be6ZTFW5u6WkCuc8WE6GmBRvMOBxcZDBGfEElczs96%2Bsg%2F7ri%2FczeRXwqF43GOYVnBGoeFO17A0uBUVw4lTBX3Z5lk4WYyViXWeSQlTqdfxd9Z6HDw0t%2Be6t0a77BFKJMVXaa%2BHF1RgvoTFjDsIlew%3D&itmmeta=wwHmKhYwY%2Fjx0DQwMUpaSjk3WTNKNlhYWkZaOTdRS1czVENOMzQwMUpaSjk3WFg5REJTQ0UwMlNIRFMwUjc1VLagDA%3D%3D
+    - 'img "Dell Precision 5540 Intel Core i5 2.50GHz 16GB Ram Laptop {Intel Video}/"'
+  - link "HP EliteBook 840 G9 Intel Core i7 1.70GHz 16GB Ram Laptop 512GB Windows 11 Pro":
+    - /url: https://www.ebay.com/itm/336047603326?itmprp=encpd%3AAQAKAAAC4HKgCxPMhKkD9GLPsRQbheWoSZEYgU1rtpFfNP9IO9ik5Vg%2BC0u%2Fv0qTx2fpGyAVOgPGoDcwWahoK5Wo0INnhwoGEG3EvpaD%2F2U5qE8LuWY0ENF26GzNxnv%2FRT%2BEeRjhUJAXsE5p9b4otlhRdGWoSYfr3YnzwcchlZPZNAmeqcVCbvRA4K80JNEW7SnBXO6qKhvXuSvDANTocNtYAntG9ucbvy5Kq%2FkAw9GaG0Q0wZgjyNsaXZuGTw1ST5QPehVyP4rrE9nPhyiYiopIvtjFJXbn028xD8hmiaUrzWtK0aElfK0t%2F3nkBrHSD27iKnPJKeE9Sr59TuB8zhjCZYr6NTeBPUT8bBavyQuYw%2FwCt5CvBWnMm77MF%2BNEUrHlfuVLjKBdPb12EGHV7MOzSL8RBzr1FX1aEpsab8rggvz%2F4D5Y%2Fg0Ag42vxi41A3Qf7HF7HgmM32nOjyXDlU4ptfQ9CWf5EBTqxZoUY21DuZufow%2F0LAChspG1AVP%2BjQ%2Fq9bRv3G9nIGsI9ifFeTS09lufluIGI3pi%2FQ81MBZl0hERhew80wMYThHmWeODA1y4IIjmYCms3q%2FJoTDX1u4QyWFcKqNQ5f7FhiRyW8GWF%2F1w6FEq7pdUqoCaOnZZPeabhJkdOpsamMnAMHlneSnnl3U3uO6fc8UYfo59XqZiDgFTEaw57EYg0n7aSm5YXxl%2FLUIbmq%2BxiBjVMOwFhVUOh1e03V6KtnvVjUVhpHM6HfVH2fDK1Ji1n4PQYP8qFHh%2FXpeYtHsIlNCIq80BsozGMze48It7dKD%2BdBRcMQ0y%2BmB7tUmQJshlTHjxdP3%2FcsVDA3EgO%2Be6ZTFW5u6WkCuc8WE6GmBRvMOBxcZDBGfEElczs96%2Bsg%2F7ri%2FczeRXwqF43GOYVnBGoeFO17A0uBUVw4lTBX3Z5lk4WYyViXWeSQlTqdfxd9Z6HDw0t%2Be6t0a77BFKJMVXaa%2BHF1RgvoTFjDsIlew%3D&itmmeta=wwHmKhYwY%2Fjx0DQwMUpaSjk3WTNKNlhYWkZaOTdRS1czVENOMzQwMUpaSjk3WFg5REJTQ0UwMlNIRFMwUjc1VLagDA%3D%3D
+    - img "HP EliteBook 840 G9 Intel Core i7 1.70GHz 16GB Ram Laptop 512GB Windows 11 Pro"
+  - heading "180,000+ results for laptop" [level=1]
+  - button "Save this search laptop search": Save this search
+  - button "Update your location Shipping to18-400"
+  - list:
+    - listitem:
+      - link "All selected":
+        - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&LH_All=1
+        - text: All
+    - listitem:
+      - link "Auction":
+        - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&LH_Auction=1
+    - listitem:
+      - link "Buy It Now":
+        - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&rt=nc&LH_BIN=1
+  - button "Condition"
+  - button "Shipping and pickup"
+  - button "Sort selector. Best Match selected.": "Sort: Best Match"
+  - button "Listing options selector. List View selected."
+  - group "Multi-Aspect Guidance Carousel":
+    - button "Go to previous slide - Multi-Aspect Guidance Carousel" [disabled]
+    - list:
+      - listitem:
+        - heading "RAM Size" [level=2]
+        - link "16 GB - apply RAM Size filter":
+          - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&RAM%2520Size=16%2520GB&_dcat=177
+      - listitem:
+        - link "8 GB - apply RAM Size filter":
+          - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&RAM%2520Size=8%2520GB&_dcat=177
+      - listitem:
+        - link "32 GB - apply RAM Size filter":
+          - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&RAM%2520Size=32%2520GB&_dcat=177
+      - listitem:
+        - link "64 GB - apply RAM Size filter":
+          - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&RAM%2520Size=64%2520GB&_dcat=177
+      - listitem:
+        - link "4 GB - apply RAM Size filter":
+          - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&RAM%2520Size=4%2520GB&_dcat=177
+      - listitem:
+        - link "512 GB - apply RAM Size filter":
+          - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&RAM%2520Size=512%2520GB&_dcat=177
+      - listitem:
+        - link "256 GB - apply RAM Size filter":
+          - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&RAM%2520Size=256%2520GB&_dcat=177
+      - listitem:
+        - link "2 GB - apply RAM Size filter":
+          - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&RAM%2520Size=2%2520GB&_dcat=177
+      - listitem:
+        - heading "Screen Size" [level=2]
+        - link "15-15.9 in - apply Screen Size filter":
+          - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&Screen%2520Size=15%252D15%252E9%2520in&_dcat=177
+      - listitem:
+        - link "14-14.9 in - apply Screen Size filter":
+          - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&Screen%2520Size=14%252D14%252E9%2520in&_dcat=177
+    - button "Go to next slide - Multi-Aspect Guidance Carousel"
+  - list:
+    - listitem:
+      - 'link "watch ~OVERSTOCK EVENT~ DELL Latitude Laptop PC: Intel Core i5!! 16GB RAM 480GB SSD!!"':
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=116614077043&pt=null&srt=01000a0000005011e6508e63185157b837827fff28984874f091eea8ec8dbe491ec3e28fc81dc80e2a3b78f57b8a9195966d0426185652a5e8e726be485ee6d2b482081425c07f22b39e2c8335b7a7e849471930651d53&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - 'link "~OVERSTOCK EVENT~ DELL Latitude Laptop PC: Intel Core i5!! 16GB RAM 480GB SSD!! Opens in a new window or tab"':
+        - /url: https://www.ebay.com/itm/116614077043?_skw=laptop&itmmeta=01JZJ97YGSC82ACYCW0BAEP92Z&hash=item1b26bd9a73:g:HaoAAOSwatxoWsIM&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1cBsH2o%2BVfuwpJoIUZ%2Bo4jRLyrEe%2B8nP5TDaWPuXQCO18NVjZvXWXnHBjaIt%2B1FujkjaKeP7hnY%2F0vc4SXkbmSr9R5EPHdCU3f3%2BM1thSaFS7tVugCiR1Ztj6Lg%2BslGl0s6m5Juto4M7wZ5gMnjc7FX%2FiDb2zgx5K%2BBi0C%2FWFz%2BdRofTa7%2BLmOZoXT%2B%2FITgZzBLiTjEa7UneCPZVXrqKZfFSZ0ccWr11t3gYZ3jO3Pa2Q%3D%3D%7Ctkp%3ABlBMUPbon8n8ZQ
+        - 'heading "~OVERSTOCK EVENT~ DELL Latitude Laptop PC: Intel Core i5!! 16GB RAM 480GB SSD!!" [level=3]'
+        - text: Opens in a new window or tab
+      - text: "Backlit Keyboard! Windows 10! 1 Year Warranty! Good - Refurbished · Dell $168.95 Was: $228.9526% off Buy It Now +$91.01 delivery Located in United States eBay Refurbished Last one"
+      - button "Top Rated Plus"
+      - text: Top Rated Plus rinuvo (7,360) 99.3%
+    - listitem:
+      - 'link "watch ~OVERSTOCK EVENT~ 14 DELL Latitude Laptop: Intel Core i7! 16GB RAM ~ 256GB SSD!!"':
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=116666128641&pt=null&srt=01000a00000050a5485ccf738cc53f6a46c6f35080742e932cbb9d9db54a33e8a0e2ab4b3a92fe64df87f3c5b14a7b3816b7e725f50a2eccd52677f9aea5ad815e08ac3172204208f4954d10f539075621c4e7ec1040d7&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - 'link "~OVERSTOCK EVENT~ 14 DELL Latitude Laptop: Intel Core i7! 16GB RAM ~ 256GB SSD!! Opens in a new window or tab"':
+        - /url: https://www.ebay.com/itm/116666128641?_skw=laptop&itmmeta=01JZJ97YGSK218XG3ZSTWRAJ83&hash=item1b29d7d901:g:gK4AAOSwyrdoWrW3&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1e7ueH%2BT%2F1sRotUi9kia%2FWpSx%2Fdvz3gBXec7bL5xPamJPaoAuPKBcm%2F8%2BUD9ePQe00HN00Y9YOMl5U1RQgER814Fvmo68%2BK0IMtGmF3Ut6cbpuzMu%2FnKuUdgoq8B27tMVvd4Ev6jlJBZhWeWsHSmDmT4Higgy8RV%2FjpsdmV3EdWj%2FDAiEtiMo3%2F40tmW4C0aPmNX6mlznJCxtvdYpr0kn1U9lmRce%2BOP%2BmHk%2BR5Vt7W%2Fw%3D%3D%7Ctkp%3ABlBMUPbon8n8ZQ
+        - 'heading "~OVERSTOCK EVENT~ 14 DELL Latitude Laptop: Intel Core i7! 16GB RAM ~ 256GB SSD!!" [level=3]'
+        - text: Opens in a new window or tab
+      - text: "Built in Webcam! Wi-Fi Ready! 1 Year Warranty! Good - Refurbished · Dell $164.95 Was: $214.9523% off or Best Offer +$144.00 delivery Located in United States eBay Refurbished Last one"
+      - button "Top Rated Plus"
+      - text: Top Rated Plus rinuvo (7,360) 99.3%
+    - listitem:
+      - link "watch HP CHROMEBOOK 11a-na0090nr MT8183 4GB RAM 64GB eMMC - SCRATCHED":
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=226310386634&pt=null&srt=01000a000000502d288d8958e23eeec5e70e5887bb25a245585d36fbbe7ee98780a5d8e7931f81c79bbd20bf6e1cd8773ee0c504925254be26d435db81b38f0ee02979abf3fcb042d67eec8541770799c67d56ca6cce8a&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - link "HP CHROMEBOOK 11a-na0090nr MT8183 4GB RAM 64GB eMMC - SCRATCHED Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/226310386634?_skw=laptop&epid=15056127794&itmmeta=01JZJ97YGS04FRQA3QY78JZC3A&hash=item34b12673ca:g:QzgAAOSwNdRmyNsP&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1esLDiMy1nySbz28POwsiIbpv7DgoNAqqab%2FOU96z2MHZUJ5%2B8MXnWHP%2BhloQu6O3H%2F0eHvI%2FpUS8wLa0NRclL4A3GolOpTM3bQ%2BIdUzN47kra%2FlvcMyjADTf6ScQFXi9EdhfeZ5qc9MQ6sDjgJly8clP0VTQuI6HJkeCctLrKWSnsJIij%2Bth%2F6xV1TSMynLYEEux%2F%2BjTzEKWINOJeC0AXKBTtqEb1y0cHV4160g2oZUQ%3D%3D%7Ctkp%3ABlBMUPbon8n8ZQ
+        - heading "HP CHROMEBOOK 11a-na0090nr MT8183 4GB RAM 64GB eMMC - SCRATCHED" [level=3]
+        - text: Opens in a new window or tab
+      - text: Pre-Owned · HP
+      - link "5.0 out of 5 stars. 1 product rating - HP CHROMEBOOK 11a-na0090nr MT8183 4GB RAM 64GB eMMC - SCRATCHED":
+        - /url: https://www.ebay.com/p/15056127794?iid=226310386634#UserReviews
+      - text: $89.50 or Best Offer +$90.73 delivery Located in United States Benefits charity 38 watchers Save up to 20% when you buy more eworksil (1,875) 98.8%
+    - listitem:
+      - link "watch Dell Latitude 5410 i7":
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=135744553846&pt=null&srt=01000a00000050a175401dedd7d5d0480b2798d91dc4c12d624819bda7a920577291a84742e479e7ce7bd3b20c3e61dec32926e4af44a0fcb4c1fe2f95fb100e94202d4eef51482e26eb6447e9934dcbb30cc5c42b67e3&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - link "Dell Latitude 5410 i7 Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/135744553846?_skw=laptop&itmmeta=01JZJ97YGSJERQMMSERHFKH6YR&hash=item1f9b018376:g:qegAAOSwOLdoDAM4&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1crrBFmIdrlSlLfQBtIgcB2LwijZLvGivIAxwIk9f3SQUQKkCZxnZ417EU9Cl5XH%2BRdqHZ1vrKEsAI21EaXkUnoasxkmO%2B5g9s8s5ZNNWPbncMpXx6k%2BGfXxPBu66grtIee0VOyxSIu9NPxwVMYglYfGCZyQgI7n12LlJ%2FvhF%2FhiezkDI8AmAK1S1nwEiUA77dsK5yZq%2FgxWl5WzO5Jjxp%2B6f70CoNbDLTNpte35%2Be8Wg%3D%3D%7Ctkp%3ABlBMUPbon8n8ZQ
+        - heading "Dell Latitude 5410 i7" [level=3]
+        - text: Opens in a new window or tab
+      - text: Pre-Owned · Dell · 256 GB $160.00 or Best Offer Shipping not specified Located in United States smartdeals11 (9) 100%
+    - listitem:
+      - heading "Trending auctions" [level=2]
+      - group "Trending auctions Carousel":
+        - button "Go to previous slide - Trending auctions" [disabled]
+        - list:
+          - listitem:
+            - list:
+              - listitem:
+                - link "watch Samsung Galaxy Book5 Pro 14\" 3K+ 120Hz TOUCH OLED Core Ultra 7 256V 16GB 512GB":
+                  - /url: https://www.ebay.com/myb/WatchListAdd?item=277250046751&pt=null&srt=01000a00000050e774b6e1e4c9924f2ef3db0242dcb7cbebeedfc93e4ac494ce58ae0796e6ac5a0938dc7215b48b1dc79fdc8ef7af86c5231755db0c68bb83955524855ccffc7e07b95355ba488078f52f406120e59ebc&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+                - link "Samsung Galaxy Book5 Pro 14\" 3K+ 120Hz TOUCH OLED Core Ultra 7 256V 16GB 512GB Opens in a new window or tab":
+                  - /url: https://www.ebay.com/itm/277250046751?_skw=laptop&epid=6078439390&itmmeta=01JZJ97YJEZG9J63SXNS4YWC7T&hash=item408d63fb1f:g:Aq4AAeSwWHpoUwyc
+                  - heading "Samsung Galaxy Book5 Pro 14\" 3K+ 120Hz TOUCH OLED Core Ultra 7 256V 16GB 512GB" [level=3]
+                  - text: Opens in a new window or tab
+                - text: Open Box $710.00 39 bids
+          - listitem:
+            - list:
+              - listitem:
+                - link "watch Dell XPS 13 7390 13\" Core i7-10510U 1.8GHz 8GB RAM 256GB SSD NO OS Good":
+                  - /url: https://www.ebay.com/myb/WatchListAdd?item=205592097525&pt=null&srt=01000a00000050606a699cab515b95bd9daac7ba6e7254e5161f5155b579458561c167d41c085cb840175bc689b3723efbc64416fc76c8e830149aca29e9525e915888dc7479bf977bf9f51ecf5d5a718038e69684e89b&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+                - link "Dell XPS 13 7390 13\" Core i7-10510U 1.8GHz 8GB RAM 256GB SSD NO OS Good Opens in a new window or tab":
+                  - /url: https://www.ebay.com/itm/205592097525?_skw=laptop&itmmeta=01JZJ97YJEG8ZZ9EV4AT63XTV8&hash=item2fde3e72f5:g:SzgAAeSwAEhoWqhe
+                  - heading "Dell XPS 13 7390 13\" Core i7-10510U 1.8GHz 8GB RAM 256GB SSD NO OS Good" [level=3]
+                  - text: Opens in a new window or tab
+                - text: Pre-Owned $107.50 36 bids
+          - listitem:
+            - list:
+              - listitem:
+                - link "watch Lenovo Gaming Notebook Laptop Core i5 2.8Ghz 8GB i7 / 256NVME /":
+                  - /url: https://www.ebay.com/myb/WatchListAdd?item=396829860270&pt=null&srt=01000a000000501bb95cbe4792d55d8f0bf7f23763da9b5c525c3513f5f47fabdf3be57e6f5a789d65653abedbbe678687adc63ae18e9a1ce1747daaa16bb3d7010778b9dea26a66031e13af2ba9c6d6318571d8261dfd&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+                - link "Lenovo Gaming Notebook Laptop Core i5 2.8Ghz 8GB i7 / 256NVME / Opens in a new window or tab":
+                  - /url: https://www.ebay.com/itm/396829860270?_skw=laptop&epid=19064283230&itmmeta=01JZJ97YJD3MJ2GM9DVTX15FHG&hash=item5c64e721ae:g:9m0AAOSwdKJoLjYL
+                  - heading "Lenovo Gaming Notebook Laptop Core i5 2.8Ghz 8GB i7 / 256NVME /" [level=3]
+                  - text: Opens in a new window or tab
+                - text: Pre-Owned $102.50 32 bids
+        - button "Go to next slide - Trending auctions"
+    - listitem:
+      - link "watch Microsoft Surface Laptop 3 Intel i7 1065G7 1.30GHz 16GB RAM 256GB SSD 13.5\" Win":
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=186853524903&pt=null&srt=01000a00000050c788e1ccb8409063be09974078f57b7fb034b73d45f3e7126f88e24d36f25667c71f0a5d2110f40e32c3116fd7b35e2a99199f7e2ed6c54f1c651f2faba3c48c79c4b607fe6c6ec10f25a8f59260941f&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - button "Open product gallery Microsoft Surface Laptop 3 Intel i7 1065G7 1.30GHz 16GB RAM 256GB SSD 13.5\" Win"
+      - link "Microsoft Surface Laptop 3 Intel i7 1065G7 1.30GHz 16GB RAM 256GB SSD 13.5\" Win Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/186853524903?_skw=laptop&itmmeta=01JZJ97YGSC6GEHDHZX7H1XNZ3&hash=item2b815685a7:g:TO4AAeSwbVtoShkt&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1fkJSrImuhwlLOJ5toPA%2Bi2FWZWevCaDQQGEuPL83%2B7PIZm6OGZv9O4hn%2B%2BetGWc6wqWTTIslpyLNzzxgGygMEyuF9qe3qqvrs7DVJetOiWXDZW2xJgkKjlsZBfzpMWDrGXqaP%2Fsq57CPVM9NrQkjL02esxLvqAnOWe%2Bt2kgASHp1GgcnNhtqfkb25qPuynqydwT7s0EnUQdtI%2BUV967zkoWz%2BNKrnmOCs4XXaAGBowtw%3D%3D%7Ctkp%3ABk9SR_bon8n8ZQ
+        - heading "Microsoft Surface Laptop 3 Intel i7 1065G7 1.30GHz 16GB RAM 256GB SSD 13.5\" Win" [level=3]
+        - text: Opens in a new window or tab
+      - text: Pre-Owned · Microsoft $314.69 Buy It Now +$32.12 delivery Located in Australia 116 watchers bneacttrader (44,257) 98.5%
+    - listitem:
+      - link "watch Microsoft Surface Laptop 3 Intel i7 1065G7 1.30GHz 16GB RAM 256GB SSD 13.5\" Win":
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=186999874807&pt=null&srt=01000a0000005031041c5a3471a16194f9a83b28f34ce2740f16f645c7362a4653a480c923275462ceff318399b9a2f7d879c580b6bb597eb58627e78288408e825bbd05cb0c27d214dd602d58246cf2e6213bbe48cc26&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - button "Open product gallery Microsoft Surface Laptop 3 Intel i7 1065G7 1.30GHz 16GB RAM 256GB SSD 13.5\" Win"
+      - link "Microsoft Surface Laptop 3 Intel i7 1065G7 1.30GHz 16GB RAM 256GB SSD 13.5\" Win Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/186999874807?_skw=laptop&itmmeta=01JZJ97YGS7STBKX2YF138288E&hash=item2b8a0fa4f7:g:TH0AAeSwnF9oShhf&itmprp=enc%3AAQAKAAAA4FkggFvd1GGDu0w3yXCmi1eV7y8ntqJ6%2BfLlEnLVVmihvBhKYcrH6afSkTlux1778g4qgLycV4gA9dQwvcX%2FS0OVhO4AKLIsA%2F3A07DRVsk5wNnJdIhu6tm7w9sef6%2BJvdglNGVpeJ5DKOMlCb8SGNrf4Zy%2BN049uxKkykHIx1YLyNuO--mexusx4JeQbxmTo25Z4oXqzbdiHO5NntXsFOvbizg0Jgl9Eh6G9%2FXq6wsBDdS1%2Buw3IRBeU1A7dP0%2B2%2BSPgyEsl3%2FH3f%2B5jfDYmp%2BEvTv5NZEMAJsnUHUPp8%2Fs%7Ctkp%3ABk9SR_bon8n8ZQ
+        - heading "Microsoft Surface Laptop 3 Intel i7 1065G7 1.30GHz 16GB RAM 256GB SSD 13.5\" Win" [level=3]
+        - text: Opens in a new window or tab
+      - text: Good - Refurbished · Microsoft $342.88 Buy It Now +$32.12 delivery Located in Australia Almost gone 293 sold bneacttrader (44,257) 98.5%
+    - listitem:
+      - link "2025 Lenovo IdeaPad Laptop Notebook 15.6 Intel Processor Upto 20GB RAM 1TB SSD Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/146493392451?_skw=laptop&itmmeta=01JZJ97YGSNBX4TAP9PQZT9K4Z&hash=item221bafc643:g:OrUAAOSweZ1n7bDV&itmprp=enc%3AAQAKAAAA4FkggFvd1GGDu0w3yXCmi1f6B1uIQQdigWZtEofdUpttps5RFPf49hIrSr%2FkPH3hw36tJtf4jPsfsvYY7zoaRUAh00srKgZKh0Bl5lcwdkJcwygY01NWnpAIcvFhQ92aQgywj6iHsMEal439rjWp6skRzySpYaK1PyGNyIAh5c2FnyPK%2BG6yBx%2BGyiblAflUJhdF15lYL2tL5mtxcuisx09gAKn5P1F%2BeS2C1ZXDur%2BZQ5Ut5j3IcYhMS0NzZEoOcONKiRPDJnfCt99nQp2bwDylVEICssoLi40Xx5hs6J68%7Ctkp%3ABk9SR_bon8n8ZQ
+        - heading "2025 Lenovo IdeaPad Laptop Notebook 15.6 Intel Processor Upto 20GB RAM 1TB SSD" [level=3]
+        - text: Opens in a new window or tab
+      - text: ✅Free Office 365 ✅8GB|12GB|20GB RAM✅512GB|1TB SSD Brand New $239.00 to $349.00 Buy It Now +$123.81 delivery Located in United States 15+ watchers
+      - button "Top Rated Plus"
+      - text: Top Rated Plus hellogoodlife1 (14,410) 97.9%
+    - listitem:
+      - 'link "watch ~OVERSTOCK~ 15.6\" DELL Latitude Laptop PC: Intel Core i5! 32GB RAM ~ 512GB SSD!"':
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=116528001029&pt=null&srt=01000a00000050ddba0f5d0af7d101573e628205f88f5a779e24671998609733655f3c1956aae719ad19cbc43105963d47c9fa11fb2a752d44742fc88d224b91888294813e562d133beefe18c62878430e2c99013fef21&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - 'link "~OVERSTOCK~ 15.6\" DELL Latitude Laptop PC: Intel Core i5! 32GB RAM ~ 512GB SSD! Opens in a new window or tab"':
+        - /url: https://www.ebay.com/itm/116528001029?_skw=laptop&itmmeta=01JZJ97YGSX9QZHY97F1H8YY15&hash=item1b219c3005:g:44cAAeSw7JZoXuFL&itmprp=enc%3AAQAKAAAA4FkggFvd1GGDu0w3yXCmi1e6kQTH0bptauya%2BMCNrisJJ77zqb9Eyixp4mKo7RKbzui1%2Fdvbx34QRyN%2BiudNpckPwPFK73aL%2FCIOjYqV3cqLYk0p7lcOgYikd4LWKpSpn4ASpk2tmrZq60ocg63o3djOm%2BvZYKrUEHaBxx5Zy8Zlv5y0aXOsBDQrr8OrYyYj5%2B0XR%2BFHj%2BZ9Ch%2FUh698r5Cd7OuHcCZIfOIePLQS599yEop%2Bor%2BG52Na6q8B9sZXM7KcmriHGS%2B4yz1OEWfDNh846XLc2w30ZHxbHaZr1iNW%7Ctkp%3ABk9SR_bon8n8ZQ
+        - 'heading "~OVERSTOCK~ 15.6\" DELL Latitude Laptop PC: Intel Core i5! 32GB RAM ~ 512GB SSD!" [level=3]'
+        - text: Opens in a new window or tab
+      - text: "Built in Webcam! Windows 10! 1 Year Warranty! Good - Refurbished · Dell $209.95 Was: $259.9519% off or Best Offer +$100.44 delivery Located in United States eBay Refurbished Last one"
+      - button "Top Rated Plus"
+      - text: Top Rated Plus rinuvo (7,360) 99.3%
+    - listitem:
+      - link "watch Microsoft Surface Laptop 4 Intel Core 11th i7 16GB RAM 512GB NVMe Touchscreen":
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=306379310841&pt=null&srt=01000a000000500e3358a5012476684e2855c6f3a1c10f0bf4d8ed742fc6ed33e3bc1c3f628689ae442d99a771282ade26264c258ef1e757a442a52ca667d8ed87fb9892822db5dae6197101d6be8024de09e9034b2b50&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - link "Microsoft Surface Laptop 4 Intel Core 11th i7 16GB RAM 512GB NVMe Touchscreen Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/306379310841?_skw=laptop&itmmeta=01JZJ97YGSJ9ZSVRE3FZTPQWM0&hash=item4755a146f9:g:qb4AAeSwFI1oZm1F&itmprp=enc%3AAQAKAAAA4FkggFvd1GGDu0w3yXCmi1e4q17G5CmYYEFNBGKgK%2FiVIpgvSz0KulnULpVyXOKIYhwORwSDZ7eO0dk%2BxAWJIQZL4MSJ6Fba%2Bys7ZvdppCz4Y%2B8rDLK4Mpswm4Xh6cjlFrU7HUJUqX8WGmXu7XKJpcyb%2Fnw2o7osa1KrnB1EDOX36IsYkqn%2F129kp%2BzfCdE8Yk6FCC9ewEDnztyrglJTDTICjEl1Y7uyGX0mb35tzGo6VTKW%2BMSQ7KnPmSfMFMDvmlzxjKV0CaFaJjnMcxezd%2FhkkbVG89sB%2Fq3tGE7%2F42w8%7Ctkp%3ABk9SR_bon8n8ZQ
+        - heading "Microsoft Surface Laptop 4 Intel Core 11th i7 16GB RAM 512GB NVMe Touchscreen" [level=3]
+        - text: Opens in a new window or tab
+      - text: Pre-Owned · Microsoft · 512 GB $249.99 or Best Offer +$106.19 delivery Located in United States 29 watchers tuckercapital (1,760) 99.1%
+    - listitem:
+      - link "10.1\" PANASONIC TOUGHPAD FZ-G1 MK4 FZ-G1R0-53TE i5-6300U 2.40GHZ 4GB 128GB LTE Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/116301415327?_skw=laptop&itmmeta=01JZJ97YGSS2RX311MK3CVPK7N&hash=item1b141ac39f:g:uGMAAOSwkcNnWg8O&itmprp=enc%3AAQAKAAAA4FkggFvd1GGDu0w3yXCmi1cEucyu1V8NDmmLuRJ2E0HCaRS7eaxebt5V3%2B9TV9Ojyd0b0YWglHCZ9%2B3iCeOEhrFhpAmPz4UoUH90GzEsBI3m4PojPVe8a6o6GUdvS2xFyrQxSZxeERoVRMKt5%2FmNgQ5ob%2F5QJcvxMSHThvhJ2I6o718lf7Ys9Pn49Goccawnm6oUXd%2B7hcw7b6YASB5ssxqetuvztVBbb6IPYwSMjbrz67b0KxJYuBhjG2NUcPc0Yugp%2BIH4mCNSbHbZmnIjqcKSpO8S5yiYQ4DnYBh4lPdm%7Ctkp%3ABk9SR_bon8n8ZQ
+        - heading "10.1\" PANASONIC TOUGHPAD FZ-G1 MK4 FZ-G1R0-53TE i5-6300U 2.40GHZ 4GB 128GB LTE" [level=3]
+        - text: Opens in a new window or tab
+      - text: "Full working Condition STYLUS NOT INCLUDED - GRADE B/C Pre-Owned $76.39 to $98.23 Was: $95.4820% off Buy It Now Shipping not specified Located in United Kingdom 66+ sold priceholes-com (10,306) 99.3%"
+    - listitem:
+      - link "PANASONIC TOUGHBOOK CF-D1 MK3 i5-6300U 2.40GHZ 8GB 1TB SSD TAB TOUGHPAD -GRADE B Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/125884841081?_skw=laptop&itmmeta=01JZJ97YGSZ41JK43EXKTPQC4T&hash=item1d4f523c79:g:HR0AAOSwSWpj7TtV&itmprp=enc%3AAQAKAAAA4FkggFvd1GGDu0w3yXCmi1fo8xS7wr%2FpRJM1VcRlcA%2BhfPtOXzAuRBe60XiIRHKIW4CltjNmKPVm7mGSEB6afb1BYKwBIeKU0uQaMjeQt7GEpREwY2PSB9lH%2F2S0JvkZ1EhHx6MlpfQGHgQId%2FVhNxsD5riDJgTrwndROiLS7urmo879JkIpfTLfdmRittHl6AoagPju6jZzJVyGqqVn0WMeP2nN9FF115N%2BL2ju2ekcnSNO81nkEfM4tfQ2sXOCjyynlAkOSju4l5XFz8grabhOlU4M1fhmEMOEty0wcwEX%7Ctkp%3ABk9SR_bon8n8ZQ
+        - heading "PANASONIC TOUGHBOOK CF-D1 MK3 i5-6300U 2.40GHZ 8GB 1TB SSD TAB TOUGHPAD -GRADE B" [level=3]
+        - text: Opens in a new window or tab
+      - text: Fully working toughbooks with only very minor marks Pre-Owned $272.93 to $450.38 Buy It Now Shipping not specified Located in United Kingdom 8+ sold priceholes-com (10,306) 99.3%
+    - listitem:
+      - link "watch Dell Latitude 5510 Intel i5 10310U 1.70GHz 16GB RAM 256GB SSD 15.6\" FHD Win 11 -":
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=185994892236&pt=null&srt=01000a000000504aa199aab934de8369cd1f47e94ec321666e6b2fdd876fd00bc851ab0713e795bacae9cb278e3992d35f25244e38829dd21ef6b0eecfefb99f841b962076661d0bcbaf5d0467772c345959b99505d1fa&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - button "Open product gallery Dell Latitude 5510 Intel i5 10310U 1.70GHz 16GB RAM 256GB SSD 15.6\" FHD Win 11 -"
+      - link "Dell Latitude 5510 Intel i5 10310U 1.70GHz 16GB RAM 256GB SSD 15.6\" FHD Win 11 - Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/185994892236?_skw=laptop&itmmeta=01JZJ97YGSTHE7FXPCA0XMYQKT&hash=item2b4e28d3cc:g:7g0AAeSwNqRoTnMR&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1dEn4zPGENANrm%2BXIjPuqSsdbwRz7i6joBscaHnV%2BttaQ95mm9XjmzezTFsOy7TAoTFgWiD3YEh78na4CS1lhXr0qCpgMhGJcXQ8o%2F1ZF65khSQqpmlHOG%2BurIT73j%2FHtlUZXbzZDY46S9R8UgJl8wCptE%2B3VopBVBC7pkmex0FsLl99d99fL%2BF%2Bi6DUNRInmXJpa%2F7rm3eCZuBB%2BQjmkA8znWPotnc8KZxTPpc2UvW6A%3D%3D%7Ctkp%3ABk9SR_bon8n8ZQ
+        - heading "Dell Latitude 5510 Intel i5 10310U 1.70GHz 16GB RAM 256GB SSD 15.6\" FHD Win 11 -" [level=3]
+        - text: Opens in a new window or tab
+      - text: Pre-Owned · Dell $220.28 Buy It Now +$32.12 delivery Located in Australia 161 sold bneacttrader (44,257) 98.5%
+    - listitem:
+      - link "watch Dell Latitude 5410 Intel i5-10310U 1.70GHz 8GB RAM 128GB SSD WIN11 Pro Laptops":
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=187385464314&pt=null&srt=01000a00000050fcbd285df628a885fa9cc0442063e9bb66220148aa398ae6d235c681799036ecbdb6bd4bf8c6663c6e8fb86237940206425ef7d9929dee63a019ca272afe56078eaa8c077b1429be63c0dfb9327e0981&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - link "Dell Latitude 5410 Intel i5-10310U 1.70GHz 8GB RAM 128GB SSD WIN11 Pro Laptops Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/187385464314?_skw=laptop&itmmeta=01JZJ97YGS45HP7AB2Y2KQFXK4&hash=item2ba10b45fa:g:UioAAeSwu-FoZpvz&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1eWWVhRDjunNVqpUT0IS2ez1wqrduaPab1eNJ%2BawOPyfG6Fo%2FgAjwxyJpITgGn%2Fo%2F83kSPvcUoFhjKeBU1ifMqsKGYL3TZFKiQSRDtY%2BP2WRDNIZGJYuIqaJiTnIteF9ezB6W%2FbAw23yo%2BZ0rA0JNxYfGCJw8phZUrgsK7b4eMjwnpG8tnakw4S2Bifdzi%2B%2FNJH29MJN7RRZisIPa%2Bsquk1pBK2klf%2BaF5CsEFKf8d3SQ%3D%3D%7Ctkp%3ABk9SR_jon8n8ZQ
+        - heading "Dell Latitude 5410 Intel i5-10310U 1.70GHz 8GB RAM 128GB SSD WIN11 Pro Laptops" [level=3]
+        - text: Opens in a new window or tab
+      - text: Pre-Owned · Dell $95.00 Buy It Now +$74.00 delivery Located in United States 13 watchers
+      - button "Top Rated Plus"
+      - text: Top Rated Plus surplusspectra (18,596) 98.8%
+    - listitem:
+      - link "watch HP CHROMEBOOK 11A-NA0090NR MT8183, 4GB RAM, 64GB eMMC":
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=226691670073&pt=null&srt=01000a000000505a9366fd598249ff00cacd4647240279024485733d00619b7dd115dfca726efea183facdec9f8850a843bfdbcbe56f36bc162dce10acb6fb037573c98e41687e14c00dcd15d6d2061b61928fc137c5ff&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - link "HP CHROMEBOOK 11A-NA0090NR MT8183, 4GB RAM, 64GB eMMC Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/226691670073?_skw=laptop&itmmeta=01JZJ97YGS7PSJYYHTTJB9KYKM&hash=item34c7e06039:g:cm4AAOSwbjtn9qpe&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1fxiKIN%2BWCLziuBabMhqmljvg8%2BDGkyZ1nohQr5z14HgTKf2775U77f3A9g5%2F8yTnOwhPt9nUS%2BVr%2BpmfPFrb%2BcefGoYmhhGP6MLd8Y25mh2OIjhLPXkZq2gv2xGuKnjwrkICEwWx5OVSuUb8dssDyFkZy0TQxQ5kumdUI05KPlARBN6ySApv9ADWrnZpz64RkwdjrBV0c%2FH5w%2B3ixUJNXZ2uJa13%2BXl%2Btpj9DgH7cVUw%3D%3D%7Ctkp%3ABlBMUPjon8n8ZQ
+        - heading "HP CHROMEBOOK 11A-NA0090NR MT8183, 4GB RAM, 64GB eMMC" [level=3]
+        - text: Opens in a new window or tab
+      - text: Open Box · HP $125.50 or Best Offer +$87.10 delivery Located in United States Benefits charity 15 watchers Save up to 20% when you buy more eworksil (1,875) 98.8%
+    - listitem:
+      - 'link "watch ~OVERSTOCK~ 14\" DELL Latitude Laptop PC: Intel i7QC! 16GB RAM! 512GB NVME SSD!"':
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=116674738259&pt=null&srt=01000a00000050ff44d9588fe3de0352a3c2758f849c691a017892e65c4d5370fd096447c59c5ff8111f9aa7bbec903b80020d6f390c8ae49c5c216682aab45646c4b7d37f178e6d30d18ed91b86bbf7771211fb28ca6d&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - 'link "~OVERSTOCK~ 14\" DELL Latitude Laptop PC: Intel i7QC! 16GB RAM! 512GB NVME SSD! Opens in a new window or tab"':
+        - /url: https://www.ebay.com/itm/116674738259?_skw=laptop&itmmeta=01JZJ97YGSMKGYWXA06C010RX9&hash=item1b2a5b3853:g:Jt8AAeSwXV5oY99M&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1ftFpgajgF7esXk7GxVkuta45Qd5bbYOSSs3doo7rKfsAzX4hmMLFzUjbY02wV4dH%2F694eQboqwuCFWPTkISjnC2fb%2FXXc4oGO4c4Xc1NU%2F7LOQMEx3BholexCGiO3nBXL0elhiemO%2FaJEm%2FEdAV9PtIT1CyPfLuxjJRxseVOu2l7kVZvTCdKYHJCtHsQAqxXm3UhpvD1WLrNFVDh7hlrWcaN2WneQzLQiMIOeZnSA87w%3D%3D%7Ctkp%3ABlBMUPjon8n8ZQ
+        - 'heading "~OVERSTOCK~ 14\" DELL Latitude Laptop PC: Intel i7QC! 16GB RAM! 512GB NVME SSD!" [level=3]'
+        - text: Opens in a new window or tab
+      - text: "BACKLIT KEYBOARD! FHD 1080P! WEBCAM! WINDOWS 11! Excellent - Refurbished · Dell $269.95 Was: $329.9918% off or Best Offer +$114.24 delivery Located in United States eBay Refurbished Last one"
+      - button "Top Rated Plus"
+      - text: Top Rated Plus rinuvo (7,360) 99.3%
+    - listitem:
+      - link "watch 2-in-1 Touchscreen Lenovo 500e 2nd Gen 11.6\" Chromebook (4GB RAM / 32GB Storage)":
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=177234240812&pt=null&srt=01000a000000505947be41b4fab11b2b1a686f17cea8c0cfbb7034633b1cd113bac0694c21c4742bde0d190e9423eded29d9f26cef9ca8b0edf7358f24fc4f0a81745bcb28a6f39dd6b4c29411904f65b21a8a23bdce27&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - link "2-in-1 Touchscreen Lenovo 500e 2nd Gen 11.6\" Chromebook (4GB RAM / 32GB Storage) Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/177234240812?_skw=laptop&itmmeta=01JZJ97YGSHQRMRGX82W9C1PJJ&hash=item2943fbe52c:g:45QAAeSw~kRoYvPd&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1dMIUPlVKiu%2FRbNcaGhmSjsonRI3YKFV9YJKFCNhT7bt7BvhE0LChY6pm9bbwvlH7h8%2By%2FWk4o%2FCoIMbakvIpcGeap02Wz9qsQYyua2st6BUULCZ2xJh2wE%2FJ6zevjyikDcAB%2Bk9iIIGH6abt1F7WRyghFgqzFn%2F8qr4pA0oPqErHoUljo2Y9sF%2FwiI3I1jRv1CqWUE0kjVLpR%2B3sTbpE%2BoA3qvOywbTntYBO%2BxdRY%2FwQ%3D%3D%7Ctkp%3ABlBMUPjon8n8ZQ
+        - heading "2-in-1 Touchscreen Lenovo 500e 2nd Gen 11.6\" Chromebook (4GB RAM / 32GB Storage)" [level=3]
+        - text: Opens in a new window or tab
+      - text: "STYLUS INCLUDED 💻 FREE WARRANTY 💎 Very Good - Refurbished · Lenovo $50.99 Was: $59.9915% off Buy It Now +$73.48 delivery Located in United States eBay Refurbished Save up to 10% when you buy more winston.ajax.llc (1,655) 96.7%"
+    - listitem:
+      - link "HP EliteBook 14\" FHD Laptop AMD Ryzen 5 Pro Up To 32GB RAM 1TB SSD Windows 11 PC Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/286601719329?_skw=laptop&itmmeta=01JZJ97YGSPR4XZG2R0M785GVG&hash=item42bacb2e21:g:aq0AAOSwpEBoNhIb&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1e9fGZ%2BL5jg046GyixcQ3XmCOfciqVbgG%2BVG8vDmCTry8YtFwmjpXjVOXcxRcZruDYIJLYSLljCPATdwJt5ryyQQg4zSG1uXl%2FJjVMyCraglqsIfJlxvtPYs7OkbgFTR0Vxkh%2BAaDtlEc1qLYFnCAh--spk9QHnz0lXkcXsxQQbEOJF7UE70qNu6J7X9gWyrL4hyxaYNT9ct8S0r7KCvE5YoTT2i44hRy%2BPz%2FEqqvqeqw%3D%3D%7Ctkp%3ABk9SR_jon8n8ZQ
+        - heading "HP EliteBook 14\" FHD Laptop AMD Ryzen 5 Pro Up To 32GB RAM 1TB SSD Windows 11 PC" [level=3]
+        - text: Opens in a new window or tab
+      - text: "Genuine Windows 11 OS! Great Condition! Fast Shipping! Good - Refurbished $210.98 to $446.24 Was: $263.7320% off Buy It Now +$97.22 delivery Located in United States eBay Refurbished 23+ sold discountcomputerdepot (132,555) 98.6%"
+    - listitem:
+      - link "Lenovo ThinkPad 14” Core i5 FHD Laptop PC Up To 32GB RAM 1TB SSD Windows 11 Pro Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/256879744174?_skw=laptop&itmmeta=01JZJ97YGSV59D2KFWKS4FVM77&hash=item3bcf39d4ae:g:ReAAAOSwjY9oSzCA&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1fd%2BZ%2Fz%2FXYxYXy9DZozrUceI8RoajwrTZ4MFz3kOAjAiNBNfwdu8cgkfn8rOC3MyZx2sYfX59VR1G0XvdNrl87AsMrx2jL7DiKp4Y59vsbI1eELt%2B9PBJW1PMRD0c%2BAjfFbFXRyTnhc6kBPPt4nQPjMqLvcZvZgTBPo1WcI2tdd3t4QfMavkgmB%2BMJnAa0qYau8bDGNFRprlFZkkljY3Ot3oXjXKdsgfuw87ZgedMlReg%3D%3D%7Ctkp%3ABk9SR_jon8n8ZQ
+        - heading "Lenovo ThinkPad 14” Core i5 FHD Laptop PC Up To 32GB RAM 1TB SSD Windows 11 Pro" [level=3]
+        - text: Opens in a new window or tab
+      - text: "Genuine Windows 11 OS! Great Condition! Fast Shipping! Very Good - Refurbished $200.58 to $353.58 Was: $250.7320% off Buy It Now +$94.82 delivery Located in United States eBay Refurbished 75+ sold discountcomputerdepot (132,555) 98.6%"
+    - listitem:
+      - link "10.1\" PANASONIC TOUGHPAD FZ-G1 MK4 i5-6300U 2.40GHZ 8GB 128GB SSD RJ45 LTE WWAN Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/116544155216?_skw=laptop&itmmeta=01JZJ97YGS23DRS7WGW33YAW3D&hash=item1b2292ae50:g:58kAAOSw94ln7GbP&itmprp=enc%3AAQAKAAAA4FkggFvd1GGDu0w3yXCmi1d09yWD%2BPxJV1to9ZUMJ96q7NMS%2Bc7hw2Mvv457pEiGr2kKP9eTeFbQFVuRSD%2FDyDhL2FUpqQ5SrXznayog2M4QkjgB9ywOoiu2SnLfqgMD%2BbER7zG7WbL50yoM2qNqFZt%2FcCHlaAkdLJfP4cR9rcYueEsC1y%2BeL4ZouFjYd82EHAizba4MGqrYjzxg0BfPHC%2Fdk6OP8el14GAbqG%2FQn6WVTbXMB3J5uNR66epUZ3vzDaDHgMmy3UMxPD8GW15P7uoA7kpyx57koC6fOeEGiCw4%7Ctkp%3ABk9SR_jon8n8ZQ
+        - heading "10.1\" PANASONIC TOUGHPAD FZ-G1 MK4 i5-6300U 2.40GHZ 8GB 128GB SSD RJ45 LTE WWAN" [level=3]
+        - text: Opens in a new window or tab
+      - text: Pre-Owned $102.31 to $129.61 Buy It Now Shipping not specified Located in United Kingdom 5+ watchers priceholes-com (10,306) 99.3%
+    - listitem:
+      - link "watch Microsoft Surface Laptop Go 12.4\" i5 1GHz/16GB/256GB 21O-00001 (Skin) w/Warranty":
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=356817981519&pt=null&srt=01000a000000509fe5f8e0e25f502df4c110bcfda4ceab041e84c1ea5f27059a2503b86335ea29589d2c6f6dad2c287db4535bcea36fd4c4530bf96e638fa33721ca40b300ff30c774200c666ade722aa3f11c7cc06f62&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - link "Microsoft Surface Laptop Go 12.4\" i5 1GHz/16GB/256GB 21O-00001 (Skin) w/Warranty Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/356817981519?_skw=laptop&epid=14048922027&itmmeta=01JZJ97YGSB7MA16XDF3JB74HS&hash=item531402504f:g:ORIAAOSwptVoCRwW&itmprp=enc%3AAQAKAAAA4FkggFvd1GGDu0w3yXCmi1cRFxRFYlVTIkT50AeUlc4knTBVY46EIxyfSJcF3LPLmWZICpIkhWnopM4CMjUMApz%2B2tFE1hLhUvnk2qLrj5RUYGkHa4GiiMJouDuhigj4rjxTrb5e%2F%2ByC3VthkzlyVdflDQrx10iY9ugewLTVV%2BrcWYfl%2BryBA9tLJgen0ZemPd9sqGOCKqeW22ADrQIoqLLUezVg9oZrEOBfvJUMpiq0tDAJe8hbAvseuKGXdOX6FZjw%2BfiuTx1be73UjE%2Fk49JPD6YgsDvi%2BzWWiPRyqh73%7Ctkp%3ABk9SR_jon8n8ZQ
+        - heading "Microsoft Surface Laptop Go 12.4\" i5 1GHz/16GB/256GB 21O-00001 (Skin) w/Warranty" [level=3]
+        - text: Opens in a new window or tab
+      - text: Good - Refurbished · Microsoft
+      - link "5.0 out of 5 stars. 2 product ratings - Microsoft Surface Laptop Go 12.4\" i5 1GHz/16GB/256GB 21O-00001 (Skin) w/Warranty":
+        - /url: https://www.ebay.com/p/14048922027?iid=356817981519#UserReviews
+      - text: "$260.99 List price: $550.0053% off Buy It Now +$112.17 delivery Located in United States eBay Refurbished"
+      - button "Top Rated Plus"
+      - text: Top Rated Plus tekdeals (39,789) 98.7%
+    - listitem:
+      - link "watch Microsoft Surface Laptop Studio 2 14.4\" (512GB SSD, Intel Core i7 13th Gen.":
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=277253127373&pt=null&srt=01000a00000050cdaf3a82a2ddbe92559234acc445724947359c0236db7538b9951beaf60a44ef0ae639fba15a3add7dc012a8744d21567bae64b33c120fd06754bdd3aa51b8abd97ad97d738c238f60e80624a628b32f&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - link "Microsoft Surface Laptop Studio 2 14.4\" (512GB SSD, Intel Core i7 13th Gen. Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/277253127373?_skw=laptop&epid=5062942228&itmmeta=01JZJ97YGTNXXNFMXDEM1ZFWW2&hash=item408d92fccd:g:c-EAAOSwfPVm9eiR&itmprp=enc%3AAQAKAAAA4FkggFvd1GGDu0w3yXCmi1fxN48I8HqLpT8NiWXL9Jffsg%2B4nqCkWHYB0EqTnflmHiNgyHgbfTIFF8rLTMY9JKl3fduHpw088TIvdBa1sjsDc7S4uwNd4eHfnO7Zw%2B5bWo9DAxSPB%2FkeoEX8tUCJIebEUA7gLyCr6xbF5JMZLWG3tmi2sRG2MmC1KIUV1kx50sBNIjnGaRoHQAtJSWnWbrrNuiaaaTDNtdlWHaMUW%2BYlaMbKiRk%2FWCK%2BY5iTfWHBb3mi4haQbBm6vw2sV17Yi7kJoGjzLN4dFpD5erXerFAB%7Ctkp%3ABk9SR_jon8n8ZQ
+        - heading "Microsoft Surface Laptop Studio 2 14.4\" (512GB SSD, Intel Core i7 13th Gen." [level=3]
+        - text: Opens in a new window or tab
+      - text: Open Box · Microsoft $855.00 or Best Offer +$258.59 delivery Located in United States 15 watchers gr8sellr2013 (143) 100%
+    - listitem:
+      - link "watch Lenovo ThinkPad X1 Carbon Laptop 14” FHD Core i7 16GB RAM 512GB SSD Win 10 Pro":
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=286258263660&pt=null&srt=01000a0000005083e942bfb64b5c96537b0558bb3f1a3c763cce49a8ff3f677a7ecabe7e12210693420c551e03fe409556b3ed74a9e3a16ac5e324075336f7fbc1ec8b430e1b2a229a44501bc697b01b52f6fd938261e7&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - link "Lenovo ThinkPad X1 Carbon Laptop 14” FHD Core i7 16GB RAM 512GB SSD Win 10 Pro Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/286258263660?_skw=laptop&itmmeta=01JZJ97YGT1Y6YBQGK2WPKHFBE&hash=item42a652766c:g:zL8AAeSwd8VoZMQO&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1eG8Llt8RniCErvKifTrrzHbZGHSUnXDux1nj2hL%2BBSJ6vEzmn2cgu5hqr78dKwvzCVzeuDabs%2Bpw%2BiLOk11rR1D8sT2eSRJUjoB9MIMoDePsOdpnvifaza19T5wTE26SB9UW81Vc1y2YIpeIy3pfuwHkoa98nhi3ittv7kWubqqfY7laZwWr7CqalIfaoGr0QQihNJDAQEELVgk19CCH3O42TyzKpARYL88RNIp%2BQGdQ%3D%3D%7Ctkp%3ABk9SR_jon8n8ZQ
+        - heading "Lenovo ThinkPad X1 Carbon Laptop 14” FHD Core i7 16GB RAM 512GB SSD Win 10 Pro" [level=3]
+        - text: Opens in a new window or tab
+      - text: Very Good - Refurbished · Lenovo $291.80 Buy It Now +$119.26 delivery Located in United States eBay Refurbished 224 sold discountcomputerdepot (132,555) 98.6%
+    - listitem:
+      - link "10.1\" PANASONIC TOUGHPAD FZ-G1 MK2 FZ-G1FA-50BE i5-4310U 2.00GHZ 8GB 256GB LTE Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/126730720195?_skw=laptop&itmmeta=01JZJ97YGT39CZZET0V661VTCX&hash=item1d81bd53c3:g:zOUAAOSw~qVnErRr&itmprp=enc%3AAQAKAAAA4FkggFvd1GGDu0w3yXCmi1dlGPSRUDj%2FqvQCWoZUCmzinp%2FM3I7Fp1V82880Q4UNCAqFXPOPk9fT8vyR6cu8Od3KQoPuruIp4gdcYFsbdGOGEeXUt%2Fi6EvGQ5F%2B%2FGoVu0EhUQDNIY31crJucYC6cBFIl7g1QL7rNPRnrFV4uS75FZ3C5uXw96RTpr2e8kao8gKaUI28y%2FkwXdpIsRaZqW0p8z4Ukhk0Zec2UrJzVXRH62iWL0N4g9lR9%2BKjC0GFBh%2Bg3Pvb2eiqYAyCFaYRPVOafq08TMO%2FWr2OuX8QDz48k%7Ctkp%3ABk9SR_jon8n8ZQ
+        - heading "10.1\" PANASONIC TOUGHPAD FZ-G1 MK2 FZ-G1FA-50BE i5-4310U 2.00GHZ 8GB 256GB LTE" [level=3]
+        - text: Opens in a new window or tab
+      - text: Pre-Owned $109.13 to $136.43 Buy It Now Shipping not specified Located in United Kingdom priceholes-com (10,306) 99.3%
+    - listitem:
+      - link "watch HP EliteBook 14\" Laptop PC Computer Core i5 8GB RAM 128GB SSD WiFi Windows 10":
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=254391083564&pt=null&srt=01000a00000050f1079d3b65612be6d535aa5074078fcaa48b345a45bd44fd5898be244377c75b881fd8e63366fed562a85672c099d90dc9e1b058b1c76c66307fb94e52128d46bbbcf2f87d8e915e9cf245acaa4345ae&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - link "HP EliteBook 14\" Laptop PC Computer Core i5 8GB RAM 128GB SSD WiFi Windows 10 Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/254391083564?_skw=laptop&itmmeta=01JZJ97YGT6RK4ZAPS82MDY57P&hash=item3b3ae3e22c:g:gnwAAeSwTyxoZzJ9&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1fPFb6PdA5UnPIGdUGD1ZoLZM%2BmpTmFKJkFAdfoyAQTXxdcCEAa3ZTE%2BcIVKz0yl5w796qsdwpHsLuFWprDpohYGGvY7ZzzjOAHr4NYZvkRXNzRiVELB4rJLYU52Bbg3Xz9g7CXEghch6iNF58G%2FiPSKIzRSqNFrwRuIVWSajZVRPcD4eT0Y4jYWCdq8wQamwlPAsYhH7n7os8vZan7UudHrcVhFbpxHbswTyhXSzO1uQ%3D%3D%7Ctkp%3ABk9SR_jon8n8ZQ
+        - heading "HP EliteBook 14\" Laptop PC Computer Core i5 8GB RAM 128GB SSD WiFi Windows 10" [level=3]
+        - text: Opens in a new window or tab
+      - text: Good - Refurbished · HP $138.43 or Best Offer +$83.99 delivery Located in United States eBay Refurbished 292 sold discountcomputerdepot (132,555) 98.6%
+    - listitem:
+      - link "watch Dell Latitude Business Laptop Computer 14\" Core i3 16GB RAM 256GB SSD Windows 10":
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=256245941032&pt=null&srt=01000a000000502c15eea3bf8c70f558065590697870f5dfdb411a7cdb2fc165b3225039bcd8f745c7804763cfd4b6aec19934bb45fc771390fa805b9a6e041bc964f3813b9ecde9b1d05a3746f686f119cc9e64e915ca&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - link "Dell Latitude Business Laptop Computer 14\" Core i3 16GB RAM 256GB SSD Windows 10 Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/256245941032?_skw=laptop&itmmeta=01JZJ97YGTG1M34TFJC0YXADMQ&hash=item3ba972c328:g:8vwAAeSwpEhoZyxv&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1fQc0%2FD%2FtALqv7uJ%2BXA3VqcA0xXUD3IbDGbgRXMB2H7Z9pbh5ZHYh2RsVwrpkB7fEQ%2BwmraTGxZp0iCaBjkWtKsLj1AYGBbNNbIcnz52FBSQYP345HiE3w6YYF49PHaQTy3yxniu9y%2Fp82J8XPtEE4fVdggBlOLM94miQ67n17hEM6jI%2B3LzY6T7gJRlLhNIbPbejKDPsafOeWYiOb09MbULAlEB0Ey7mMmnguHUV34MQ%3D%3D%7Ctkp%3ABk9SR_jon8n8ZQ
+        - heading "Dell Latitude Business Laptop Computer 14\" Core i3 16GB RAM 256GB SSD Windows 10" [level=3]
+        - text: Opens in a new window or tab
+      - text: Very Good - Refurbished · Dell $148.83 Buy It Now +$86.38 delivery Located in United States eBay Refurbished Almost gone discountcomputerdepot (132,555) 98.6%
+    - listitem:
+      - link "watch Dell Precision 15.6” Laptop Intel Xeon E3-1545 32GB RAM 256GB SSD Windows 10 Pro":
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=286045958900&pt=null&srt=01000a000000500560088688e7e7bce3cbd1781c72425ddd64d685ee07ebfacdc7429068b5e23d887f28635c71350710628dfffb195d8459e142179d2a0b57659758e137825a81771d872c7d953a3c6ff5e12c9f9dd73e&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - link "Dell Precision 15.6” Laptop Intel Xeon E3-1545 32GB RAM 256GB SSD Windows 10 Pro Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/286045958900?_skw=laptop&itmmeta=01JZJ97YGTAKCGKGN0AK4KK2QR&hash=item4299aaf2f4:g:094AAOSw3U5oOS9C&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1efmyoMvfHIYo9xunAyQ71rqasz98Y2dvjmCQTPyFrap%2BMJNAP1kvEwAg3S09zaDZwzXXEdCN31wrYMzS%2FfanyUQhRc3S6egm9uMbED9BjXLJF4FP1hVSHGIXUbiri65UIU8IMYJwFhfasRZ6Cy%2FYHhvAh3foOkCsRPizlYIRs45ss3Odz0w2pAAPwMHdphf8q%2FReAcE4fxEgasPI8Z99Voilg6hmpmHsL5q0GdIBbA7g%3D%3D%7Ctkp%3ABk9SR_jon8n8ZQ
+        - heading "Dell Precision 15.6” Laptop Intel Xeon E3-1545 32GB RAM 256GB SSD Windows 10 Pro" [level=3]
+        - text: Opens in a new window or tab
+      - text: Very Good - Refurbished · Dell $293.18 Buy It Now +$116.12 delivery Located in United States eBay Refurbished 54 sold discountcomputerdepot (132,555) 98.6%
+    - listitem:
+      - link "watch Microsoft Surface Laptop 2 1769 13\" Touch Laptop Core i5-8250U 8GB RAM 256GB SSD":
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=167623647979&pt=null&srt=01000a00000050b3074f1a538324096d4a87b335e822db6a916ebd9c464dfff8c7ce295034f9f2e6a52af063c6bb27a3296bbab61b7f1fcac61f3eb6b91b17b5c103fb9e6c4132fd540c8c41aa21a775a166ba0b490d79&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - link "Microsoft Surface Laptop 2 1769 13\" Touch Laptop Core i5-8250U 8GB RAM 256GB SSD Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/167623647979?_skw=laptop&itmmeta=01JZJ97YGTTEP5C8F1F316Z8J9&hash=item270725e2eb:g:DV0AAeSwGGtoRIjV&itmprp=enc%3AAQAKAAAA4FkggFvd1GGDu0w3yXCmi1coAXxbBGHNbZW8YkDdoOdcb6caLWfbQNt%2F%2BJFHEi7HX2u8ge2n3o20Gc2u6pGSlW6Y898Il99%2FXFOBrDMz5C9aBXIKZ26pupgv51RclQ12bwgBFxrSNokp6gdir8nk09DWzPqdagUKQoio7mZR6%2FjAAlEQqD7%2F4RTkhVLyZ2GQNh%2BySWcleI9i0fbminvFdK3bEBQMPNKUc5utCXWX6EJDD8PoLTnKIpI9%2FaEOIFAjW9Ml3wTbMqWyWn%2BukBdSuXIcMBeLfBqOjLinCXm3BDcG%7Ctkp%3ABk9SR_ron8n8ZQ
+        - heading "Microsoft Surface Laptop 2 1769 13\" Touch Laptop Core i5-8250U 8GB RAM 256GB SSD" [level=3]
+        - text: Opens in a new window or tab
+      - text: Pre-Owned · Microsoft · 256 GB $44.00 3 bids · Time left 6h 10m left (Today 07:20 PM) +$77.27 delivery Located in United States irecycleherellc (1,228) 99.2%
+    - listitem:
+      - link "watch Dell Latitude 5410 i5-10310U 3.2GHz 8GB RAM 256GB SSD Win 11 Pro":
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=127208311853&pt=null&srt=01000a00000050b4fe7745e78faeb32afb6218e6faa8defcfa9eef183b1d1060b989be29bac1ef46215ecb91a8dabb27a0b18e504b15a60e0f37089127e1c18747a11e1197f6fd5ef016609c2e676bc02c308bb51dc737&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - link "Dell Latitude 5410 i5-10310U 3.2GHz 8GB RAM 256GB SSD Win 11 Pro Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/127208311853?_skw=laptop&itmmeta=01JZJ97YGTT63G6BVN1D07ER6P&hash=item1d9e34cc2d:g:RT4AAeSwjDFoY~Aw&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1c7Tywv7nRHKJtUz%2BNj1PZh%2FFfikxRkH2EEtjL%2BRXYuP3PDO6XOf0X2M08SsDE96y%2Fp7wcPfkUQiJf4e1WAci%2B4siRFnNmI4MujF9cLmSt6x28k%2FsTX11%2Fz1MzGxsvAKsVYh7vqAGC5TIl967%2FaZWKOrXLF82qaFBMO7mBlQ7JaDdla3%2FXWoYkuoXE7osNHPeeKwC5HWuMQuqZ1HdxPzyk6Y2vPy%2BorER5rwqAQ1a57Jw%3D%3D%7Ctkp%3ABk9SR_ron8n8ZQ
+        - heading "Dell Latitude 5410 i5-10310U 3.2GHz 8GB RAM 256GB SSD Win 11 Pro" [level=3]
+        - text: Opens in a new window or tab
+      - text: Pre-Owned · Dell · 256 GB $115.00 or Best Offer +$78.60 delivery Located in United States Last one 21 watchers Extra 5% off with coupon
+      - button "Top Rated Plus"
+      - text: Top Rated Plus g_tech_resale (16,582) 98.5%
+    - listitem:
+      - 'link "watch 14\" DELL Latitude Laptop PC: Intel Core i7 ! 16GB RAM, 1TB NVME Storage! 1080P!!"':
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=116674761427&pt=null&srt=01000a00000050120c72ac1403d47a26b323c0c8114f1ff705ce82978e374be59bdf737b43c3c8b8461aa2ee0acd35e05b2d1b478926f246274f37327521f88e0f7e897d0289eef0fcdf57877f93bed2c465e67b8287f4&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - 'link "14\" DELL Latitude Laptop PC: Intel Core i7 ! 16GB RAM, 1TB NVME Storage! 1080P!! Opens in a new window or tab"':
+        - /url: https://www.ebay.com/itm/116674761427?_skw=laptop&itmmeta=01JZJ97YGTMYYD3Q2CY9A6WS0W&hash=item1b2a5b92d3:g:iKwAAOSwjMFn7qmF&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1dIMnPkxmCIwtKL%2F%2B%2FEk0VvT7h5TxBhgQreGnpU3TlVvKvMs7tjmtjRJYgk%2BWnfxppVTn3WCHBlZxey%2FqWoY2NWPCg3Flp8hJYHJ4F%2FCxjpGiW05vTre9m43SUj4L9ulMwOVLANbnQYBqV7gachz1yEjcGJR%2Fv2ngrbmAUVJCrsXAye1hnckTCFkiSPIGDfHtE76JnN7g9Skhkq9DpitV91xdSZlBOs6UzE8I7HmxEYlA%3D%3D%7Ctkp%3ABlBMUPron8n8ZQ
+        - 'heading "14\" DELL Latitude Laptop PC: Intel Core i7 ! 16GB RAM, 1TB NVME Storage! 1080P!!" [level=3]'
+        - text: Opens in a new window or tab
+      - text: "BACKLIT KEYBOARD! FHD 1080P! WEBCAM! WINDOWS 11! Excellent - Refurbished · Dell $319.97 Was: $382.9716% off or Best Offer +$125.74 delivery Located in United States eBay Refurbished Last one"
+      - button "Top Rated Plus"
+      - text: Top Rated Plus rinuvo (7,360) 99.3%
+    - listitem:
+      - link "watch HP CHROMEBOOK 11A-NA0090NR MT8183 4GB RAM, 64GB SSD-SCRATCHED":
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=226274233022&pt=null&srt=01000a00000050dfe1a71994e4cebdaec64a0dfbb5aba5b2753b2a442c43b89f3ab138da37e79a94b591705104b9cbcff825761f41cd6310aa084738b5c4387f4838cec6ecdd4782365aac68fd1bc740a4278ca4925b8d&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - link "HP CHROMEBOOK 11A-NA0090NR MT8183 4GB RAM, 64GB SSD-SCRATCHED Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/226274233022?_skw=laptop&itmmeta=01JZJ97YGTMZ0T2B1QK5AFJ5EC&hash=item34aefecabe:g:jtMAAOSwRL9mrUIT&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1fkEanLP0W5jfUo2IzqZj8ZPaalaBDMdbadtz2I5NWwJQfuc8vxqHIkf5gnVIu2PI1GO0NmnjSlupNXO%2BSE1bwuoutoyS6OPMEqn%2BRo1BAK9%2F2B%2BW7BEXHN7FF%2FuYctgNQdRwaLnyaaJjxamjAtspuceGUFhnbqv5pxz3TsiUpAlgXA9oTacTWJp%2BFljENRGwQY%2FRFkzduQMqMe4DW%2Bq7wTU2YNzmRhvwTswTmZH6FJFg%3D%3D%7Ctkp%3ABlBMUPron8n8ZQ
+        - heading "HP CHROMEBOOK 11A-NA0090NR MT8183 4GB RAM, 64GB SSD-SCRATCHED" [level=3]
+        - text: Opens in a new window or tab
+      - text: Pre-Owned · HP $85.90 or Best Offer +$93.25 delivery Located in United States Benefits charity Save up to 20% when you buy more eworksil (1,875) 98.8%
+    - listitem:
+      - link "watch Dell Latitude 5410 14\" TOUCH i7 10810U 1.9GHZ 16GB 256gb SSD M.2 Win 11 P laptop":
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=226781693365&pt=null&srt=01000a00000050b03fe801c503d821666ba4dfe3a2bc27799cbd9855ee2560a7c89218829384050c8125fd944624759e80ea092089de1c20e20ecd57f197d5d9f9f0736777c418710b5096519494de2c7e481a6eafce18&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - link "Dell Latitude 5410 14\" TOUCH i7 10810U 1.9GHZ 16GB 256gb SSD M.2 Win 11 P laptop Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/226781693365?_skw=laptop&itmmeta=01JZJ97YGTZE1N1X8RK2H32ED7&hash=item34cd3e05b5:g:L9oAAOSwBrtj1FAd&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1f59wBuWF3%2FUvRxLbu8795xCSqzsdh6JlVFGA%2BYFpuvq922In%2FyYIRXn4%2FXRdTp4lx2GZW5xcF6d32l3kIAGGyDL0xY%2BAvTmTx72NSqGOwk%2BiGW9Vu59eFeZY6HT5TrSii%2FkdDZ9bBuhqQbV581hqsBAvWcM2oTpgVjbFfxgdroLjeqnrQKOjG5c5j3GrOHGZo%2FHJyuX4Wlt122KF3XeJO9MuLY6N3hqyKNpNN4iIVcOg%3D%3D%7Ctkp%3ABlBMUPron8n8ZQ
+        - heading "Dell Latitude 5410 14\" TOUCH i7 10810U 1.9GHZ 16GB 256gb SSD M.2 Win 11 P laptop" [level=3]
+        - text: Opens in a new window or tab
+      - text: Excellent - Refurbished · Dell · 256 GB $269.99 or Best Offer +$114.24 delivery Located in United States eBay Refurbished kl0 (43,194) 98.5%
+    - listitem:
+      - link "watch 2-IN-1 TOUCH ASUS C214M Chromebook Tablet (4GB RAM / 32GB STORAGE / Intel CPU)":
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=176936659353&pt=null&srt=01000a00000050bfb71c13cd0f938f475fd520118bc694e8e984250c9b1fc41723c58eab47d0d1ab4305b094fb431d2d8f5cb3f9cc1568a08974e563be5818cdd61aae96e0f1925b48cfff6013a72b19b55bca974a8910&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - link "2-IN-1 TOUCH ASUS C214M Chromebook Tablet (4GB RAM / 32GB STORAGE / Intel CPU) Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/176936659353?_skw=laptop&epid=24033690687&itmmeta=01JZJ97YGTQXRRWXMNG4RRFFNX&hash=item29323f2999:g:6rEAAeSwSXBoYrfX&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1fet%2BClK--3VmHnImftH8pKvvjQ1lV5QqKY4UysY7pYyY45DFfQDfginWYXbVkoRcz7xysdx%2B5V%2BZNHlngzdTV0N%2BA8%2BOMvxo9g8nskFfaJAavlaQ7QuSB4GQ1WwHXveiWt3MxX1v4jcy33geinYGy0rIVyhdQMyRLfKg5xolhs4UOfbwBhKV%2FM%2BCRXTZR19woXMGMzJx%2B7eUedNgvyi%2BBuKswZajXHklvUhzG5YeGL0w%3D%3D%7Ctkp%3ABlBMUPron8n8ZQ
+        - heading "2-IN-1 TOUCH ASUS C214M Chromebook Tablet (4GB RAM / 32GB STORAGE / Intel CPU)" [level=3]
+        - text: Opens in a new window or tab
+      - text: Very Good - Refurbished · HP · 32 GB
+      - link "4.5 out of 5 stars. 4 product ratings - 2-IN-1 TOUCH ASUS C214M Chromebook Tablet (4GB RAM / 32GB STORAGE / Intel CPU)":
+        - /url: https://www.ebay.com/p/24033690687?iid=176936659353#UserReviews
+      - text: $49.99 Buy It Now +$63.64 delivery Located in United States eBay Refurbished Almost gone Save up to 10% when you buy more winston.ajax.llc (1,655) 96.7%
+    - listitem:
+      - link "watch Dell i7 Windows 11 pro Latitude Laptop Computer 14\" 8GB 256GB SSD WiFi BT E7440":
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=226380037654&pt=null&srt=01000a00000050428d49138e856eb79fa2d1685058d39e03c7025ba78abe3002b2ea326431f71c0629f0cd6986f4fe31e85e58b6ad63f34810645e2c6a32df1eadec5a1d771e581eb52ad6665672b435072337087a229e&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - link "Dell i7 Windows 11 pro Latitude Laptop Computer 14\" 8GB 256GB SSD WiFi BT E7440 Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/226380037654?_skw=laptop&itmmeta=01JZJ97YGTK4F632ZK88QY8SFX&hash=item34b54d3e16:g:o8sAAOSwdoVoN2eL&itmprp=enc%3AAQAKAAAA4FkggFvd1GGDu0w3yXCmi1ehY9CCeNiObCBxBn6AXLXMNXlbpAH%2F8%2Bj%2B%2FAaWRF3AIsBUEEJ%2FE7P7uFO%2Bb0RWD%2Fm64Sz8nEcpk2e5z67lvgN4EOzQmJqRtVI7AGoIDG0J6YKLZsX1BnF%2BgO3mi2ndgvQVcxv76syTqRMrGbFW1pWK%2BLD%2FrqoSIu5qGSXw03SjdY0n0WWenatjHwEtY%2BTqrMA74k%2BBssmwGJCUqu%2BurRAFSDRjv7X2i0yjqe47K2n2L8NqvWGaWI%2F0du%2BOI6Jkn7WSFpwfMXr4lS4sbtyZ%2BFpE%7Ctkp%3ABk9SR_ron8n8ZQ
+        - heading "Dell i7 Windows 11 pro Latitude Laptop Computer 14\" 8GB 256GB SSD WiFi BT E7440" [level=3]
+        - text: Opens in a new window or tab
+      - text: Very Good - Refurbished · Dell $164.99 Buy It Now +$80.07 delivery Located in United States eBay Refurbished 47 sold
+      - button "Top Rated Plus"
+      - text: Top Rated Plus acebiz (2,144) 99.6%
+    - listitem:
+      - link "15.6 Inch Laptop 16GB RAM 512GB ROM Quad Core 2.9GHz CPU Fingerprint Reader Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/187110163408?_skw=laptop&itmmeta=01JZJ97YGT5GDTX2TKDYWF1RSH&hash=item2b90a283d0:g:fasAAOSwqEtjoXpQ&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1fPhcx6scuRlVrJK0Teviub1VV14I2rP0%2B%2Bh%2B4msFOpDIroFduQWWz6hlF%2BPClqbRx8KTHzcQ2Xln4v%2B7xXJNTEquMOytygGbYX5Uuakaf1LMacCzrAbKJ%2FIAYrGonk%2Fgw2uQLOPLRAoel8VQ%2F8%2BNsRikapap6FwSlpW7uytaJLeXmMmMKjzuaPsctnaAeVltzmjwbAFekZgBzXukSV2Eh8%2FQJznqVLSZ6dGowMRO5OOQ%3D%3D%7Ctkp%3ABk9SR_ron8n8ZQ
+        - heading "15.6 Inch Laptop 16GB RAM 512GB ROM Quad Core 2.9GHz CPU Fingerprint Reader" [level=3]
+        - text: Opens in a new window or tab
+      - text: "Brand New $356.84 Was: $379.626% off Buy It Now +$2.00 delivery Located in China utoejkjd (1,934) 99.3%"
+    - listitem:
+      - link "watch Dell Latitude E5450 14\" Laptop Core i5 16GB RAM 256GB SSD WiFi Windows 10 Pro":
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=283936359520&pt=null&srt=01000a00000050536cdaf2f71e1f1ce5fad57baf37b3e300d25fb7d5d6849fa87f4661667543f17571ffb7484624f1a5322f60fe14441076308f97fb77be9caad97010637f1c2b7aefdaefe56a71188958f3e93ff1000f&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - link "Dell Latitude E5450 14\" Laptop Core i5 16GB RAM 256GB SSD WiFi Windows 10 Pro Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/283936359520?_skw=laptop&itmmeta=01JZJ97YGTP00BPB4875KK86N3&hash=item421bed0460:g:GBsAAOSwMCtnWS3X&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1cCuaeZOcuFkLUdI8A3Ys0de6wHnl5KJnH6qk2UwQWFUwgG7uQpT3lXvArDoLudytCHGx%2FqERo7eWvqgKOdRg9msEjpW2qBTscOKjwmxsndH%2BZX8%2Fz2XxOIL1jUufd%2FkfHZ2qB5KHeDZXEFb2ONGXlet7Q3fEGBe1QC9qp9RtPvU66758HfbtFL8qCFwAMeq94E9Zxayrc%2Bt2RROrY%2BHBthlED90jLIIKDFca%2FrKEpUiQ%3D%3D%7Ctkp%3ABk9SR_ron8n8ZQ
+        - heading "Dell Latitude E5450 14\" Laptop Core i5 16GB RAM 256GB SSD WiFi Windows 10 Pro" [level=3]
+        - text: Opens in a new window or tab
+      - text: Pre-Owned · Dell $168.11 or Best Offer +$90.81 delivery Located in United States 143 sold discountcomputerdepot (132,555) 98.6%
+    - listitem:
+      - link "watch Dell i7 Windows 11 pro Latitude Laptop Computer 14\" 16GB 512GB SSD WiFi BT E7440":
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=226809162117&pt=null&srt=01000a00000050d01c8783b1575766e82ec57835cd268f2dd22cf8a51b978fd8aef3872335c9d59b56c31dc1bcfb3dbab6f8b9e464116ce2a8720ec6218019bcc6a38ed52ad41401db28ac6269999511eaed08bfa2c4c1&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - link "Dell i7 Windows 11 pro Latitude Laptop Computer 14\" 16GB 512GB SSD WiFi BT E7440 Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/226809162117?_skw=laptop&itmmeta=01JZJ97YGT4WC3CBS7C9QQET7V&hash=item34cee12985:g:MlEAAOSwAzRoSY4t&itmprp=enc%3AAQAKAAAA4FkggFvd1GGDu0w3yXCmi1fflJpUCh8LEgddzBsXB0ej6qJI%2F4B4Yf8B9mSUHqToufjDc1RAwgqRdNjUKJsN75UPlyfkzzL5jYtkzBw8P4AdC0fgUnPftkeanLxo%2FbypgwiyS%2FHDuiYVE5pm3XyAH7zU0bCrqTiBLf0SHkjmXBrteIDBdtkfhjX4%2B7w7t9ft4ZbfW%2BgiB9mV8ryOfQM3GL8%2B4xc%2BKKaqjAUE%2Be5shXGZo5nW3m92ZypB4OsIMrN8iy5V7IkqNnI7YQSQtoZ3GwtSddYp%2FeYGq3hHY%2BnOUl08%7Ctkp%3ABk9SR_ron8n8ZQ
+        - heading "Dell i7 Windows 11 pro Latitude Laptop Computer 14\" 16GB 512GB SSD WiFi BT E7440" [level=3]
+        - text: Opens in a new window or tab
+      - text: Very Good - Refurbished · Dell $199.99 Buy It Now +$94.69 delivery Located in United States eBay Refurbished 39 watchers
+      - button "Top Rated Plus"
+      - text: Top Rated Plus acebiz (2,144) 99.6%
+    - listitem:
+      - link "watch Lenovo IdeaPad D330 Celeron N4000 Windows 10 Pro RAM 4GB Storage 64GB Laptop":
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=317062205112&pt=null&srt=01000a0000005078fe09380be06baa4c92d055eaf5566afa3f8982933c892a5e0f9520a2a014d642ec6ab82db99fd3de9f0bfefcc07f8a7563dd72f0137ce0830bbd90aaca2cd23c210defdd66b590f6ea2d5722cea7e3&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - link "New Listing Lenovo IdeaPad D330 Celeron N4000 Windows 10 Pro RAM 4GB Storage 64GB Laptop Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/317062205112?_skw=laptop&itmmeta=01JZJ97YGTRM5MN92X4ZZVENB4&hash=item49d2614eb8:g:pEcAAeSwMCJoa0Hx&itmprp=enc%3AAQAKAAAA4FkggFvd1GGDu0w3yXCmi1fUQlVc1PWOvDaBDC8TO4WsYOa%2B7%2BvhKHIeIait2GIN1w8qrDqeoawCVaNgbXOzkie3uPGTp2pYp9JdA1%2FGy0qC1VTCkK3KTZFIAm6El1ISdrx2u%2ByNtFGYOAoFIwenTa7vNpGn7%2BJNY3odZXTBsYSZHrBMqi87%2Fa8zoqwdgTEHJQ8z1rqMiQzM9isqnRJf0kCb740tjDuO2wW1RgPlIP%2B6t1oJBJSKJvU0laeLTC5GblcB%2FPL0JKm21OtR8zWGs%2BnXPnQYUP8QyHnyrHI2e6E%2B%7Ctkp%3ABk9SR_ron8n8ZQ
+        - heading "New Listing Lenovo IdeaPad D330 Celeron N4000 Windows 10 Pro RAM 4GB Storage 64GB Laptop" [level=3]
+        - text: Opens in a new window or tab
+      - text: Pre-Owned · Lenovo $171.00 or Best Offer +$15.00 delivery Located in Japan Free returns good-value-online-japan-store (2,268) 99.7%
+    - listitem:
+      - 'link "watch 15.6\" FHD Lenovo ThinkPad Laptop: Intel i5QC! 16GB RAM~512GB SSD! Windows 11!"':
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=115847969040&pt=null&srt=01000a000000505d6c0310a2d6320c1d5de56ef84b0f8e849e4b392fb4373bdfc12f30fc1903d492ac8ff4a37b19a1d668238b31b25ce3d884c5b80355327f92ede5aaf00d21468d551bd79e23b84b99448f40038a9458&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - 'link "15.6\" FHD Lenovo ThinkPad Laptop: Intel i5QC! 16GB RAM~512GB SSD! Windows 11! Opens in a new window or tab"':
+        - /url: https://www.ebay.com/itm/115847969040?_skw=laptop&itmmeta=01JZJ97YGT86CSNGSJSWZYDZEG&hash=item1af913b910:g:7xAAAOSwR5Rn4XEN&itmprp=enc%3AAQAKAAAA4FkggFvd1GGDu0w3yXCmi1czH%2FAH3GmIe2irz7dfwHyyco8gFN0m4Bq26fKUS6i3BOgEQWHTiW9wc55vqpFSzKY8uQYXa%2BHeh9KtVi5xawuaduvzU94RBtGUJZoSNnucTtz8XSAukzCJsXKf3AERVR9yxuOo6mcKL6XmNDXmmmAouwepG7G2bmS1hG0fEXaKtKamZdzEazRBaUzdtAQRfOEEMweMYyxcseBXKeJ3vr0U3p29nrbo20spFuP%2BbiqgROX3PJzg0nKIFqjUxJahTTaoyUEARgQmX7cVmo20ffvW%7Ctkp%3ABk9SR_ron8n8ZQ
+        - 'heading "15.6\" FHD Lenovo ThinkPad Laptop: Intel i5QC! 16GB RAM~512GB SSD! Windows 11!" [level=3]'
+        - text: Opens in a new window or tab
+      - text: "15.6\" FHD Display! Windows 11! 1 Year Warranty! Good - Refurbished · Lenovo $244.95 Was: $294.9517% off or Best Offer +$108.49 delivery Located in United States eBay Refurbished Last one"
+      - button "Top Rated Plus"
+      - text: Top Rated Plus rinuvo (7,360) 99.3%
+    - listitem:
+      - link "watch Dell Latitude Rugged 5414 CORE i7 16GB RAM 500GB Win10 CAM TOUCH GPS CELL":
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=376304653480&pt=null&srt=01000a00000050336a3eab0154ba911bd14760e5e697f7e4d2e4d2bb101d315fb4d788c772fce0940865745b8e5144b2fc2916f3425cf77f4facf6df90c325ddc67a148c5782ad14d50c9a8485485fa4ac0118f016d3f5&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - link "Dell Latitude Rugged 5414 CORE i7 16GB RAM 500GB Win10 CAM TOUCH GPS CELL Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/376304653480?_skw=laptop&itmmeta=01JZJ97YGT1274WK74W6JBGJQF&hash=item579d8154a8:g:GPUAAOSwjCFmQ4T7&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1fWvzMa7voRb5ZMlV%2BfNZGuMHCO78dQZRH3DK6o5gx4CghZ%2F62nHINd05PNjp1vtyE3NOgS1S1r65K7XsMwvN%2Ff8lCLuRkleCXLKT0r4QrUD3Py%2BxJjr1dgt9r0gUYyCyRZbVQFl4nSzIdU%2FiOt1tWjxewY4KoSH2HYQz6s%2FUIIelHffN3E5BRZz7UwXSREUOvg8nqqb3lAocwWZ3IfBMbt%2FZFpLxKuQI%2FUqBaIY4YaYQ%3D%3D%7Ctkp%3ABlBMUPron8n8ZQ
+        - heading "Dell Latitude Rugged 5414 CORE i7 16GB RAM 500GB Win10 CAM TOUCH GPS CELL" [level=3]
+        - text: Opens in a new window or tab
+      - text: ORANGE LID - EXCELLENT CONDITION Pre-Owned · Dell · 500 GB $477.77 or Best Offer +$195.17 delivery Located in United States 103 watchers Save up to 5% when you buy more like-new-laptops (20,453) 99.7%
+    - listitem:
+      - 'link "watch 14\" DELL Latitude Laptop PC: Intel Core i7! 16GB RAM ~ 480GB SSD! Windows 10!"':
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=116185378389&pt=null&srt=01000a0000005088d9ed70f5c1d0fc17b387434b553ab103a681f217be02d460da491e1b78e4e81a63b10de0f12fa97c50557c70b12216910c3fe8630c874dff5dd4e584160bc8428fd92998adfad00a344753a95e0cc2&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - 'link "14\" DELL Latitude Laptop PC: Intel Core i7! 16GB RAM ~ 480GB SSD! Windows 10! Opens in a new window or tab"':
+        - /url: https://www.ebay.com/itm/116185378389?_skw=laptop&itmmeta=01JZJ97YGT73DZ1SM7G4WV7AG7&hash=item1b0d302e55:g:IK0AAOSwIWhoWrD6&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1eDfqUwxWfjmmvehI8rW3HIDyH17r%2Fr3Aj9i6%2B6MLluAs9bd81gXE4EjvBWvIMnvYNNQkSdz0%2FK0TaL8usZ2uqw2P0MFOnDVhr0y5qvLuVUtxPyLQQoDaFRWwb%2BfA5eFjRF606KZ29ZqKj3RaaFZ3U91btBoLAVrlcd7%2BnTTbVgSGjqAHvv1QvDT4ihxHW4I85pxrAPTA%2BvC8HYC3pI8XlW9NyvmeSj9GruIq9dDosQsQ%3D%3D%7Ctkp%3ABlBMUPron8n8ZQ
+        - 'heading "14\" DELL Latitude Laptop PC: Intel Core i7! 16GB RAM ~ 480GB SSD! Windows 10!" [level=3]'
+        - text: Opens in a new window or tab
+      - text: "Built in Webcam! Wi-Fi Ready! 1 Year Warranty! Good - Refurbished · Dell $168.99 Was: $218.9923% off or Best Offer +$100.81 delivery Located in United States eBay Refurbished Last one"
+      - button "Top Rated Plus"
+      - text: Top Rated Plus rinuvo (7,360) 99.3%
+    - listitem:
+      - 'link "10.1\" PANASONIC TOUGHPAD FZ-G1 MK2 FZ-G1FA-50BE i5-4310U 2.00GHZ 8GB 256GB #PRM Opens in a new window or tab"':
+        - /url: https://www.ebay.com/itm/127003120345?_skw=laptop&itmmeta=01JZJ97YGTJTC3SNERMNZQ5T3M&hash=item1d91f9d2d9:g:-yEAAOSwZn1n2-Zw&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1feRYhrKdaokqNPBVsw5MChACI4NsEBw1ddfHL0QlPLNaHAMmvKjr6upZpr0YyvBpeViBtnlJaqEwyRomcUln8KrHBqfc1O3X%2FaG%2FFGuCeJO3R3va9CMJaj0a1qOKC0fkk5yGO2qz%2BGdBWOQUasE2lmw8vdjfSP7qUlgEFlDf9Swe2FfwkncEZn7YKP%2BMSEWiKzDjWdGC7a4FZLGON7jW%2Bwz8e93FUZcyB7I4AiUmnZXg%3D%3D%7Ctkp%3ABk9SR_ron8n8ZQ
+        - 'heading "10.1\" PANASONIC TOUGHPAD FZ-G1 MK2 FZ-G1FA-50BE i5-4310U 2.00GHZ 8GB 256GB #PRM" [level=3]'
+        - text: Opens in a new window or tab
+      - text: "Pre-Owned $70.93 to $87.31 Was: $88.6620% off Buy It Now Shipping not specified Located in United Kingdom priceholes-com (10,306) 99.3%"
+    - listitem:
+      - link "watch HP 15.6\" laptop (Intel, 8Gb RAM, 256Gb SSD, 3.7Ghz) BRAND NEW 15FD0015TG":
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=387766014263&pt=null&srt=01000a00000050cfb1d4d7953b136079b26c859bc5549b6ed0c32592cf53defdabc85569139959c52a870130476c7038924bc544a61a5e4b5f356998cda820b0689c57a688099b86f8aa1393a23a71beda67cdc10c7012&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - link "HP 15.6\" laptop (Intel, 8Gb RAM, 256Gb SSD, 3.7Ghz) BRAND NEW 15FD0015TG Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/387766014263?_skw=laptop&epid=20070251258&itmmeta=01JZJ97YGT3R2GCMT2TC7JETTB&hash=item5a48a7d137:g:7UAAAOSw1MVnasSv&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1fAZA7D9Zpdq7hOfgyOad9K4v75Ax8LOPEWKhN6Q3ioIW9giHnRcwRPQmivqjPIg%2FAFErXlxteTD0eMXViGAf05A1ZCykPpSXx8%2F%2B2xZwQBfL%2FTP%2FZcWrCtSy2ie2Z6422XV8wOqWWDqtT7G%2B4wAy2gWRxcgayTXkYGYbYILTWNgTL6e5no8lk0mJIOtFLW6JrWpzDQiRXNAb5Bfui8alhhRjZiRXaGEP5PCvkUYqfaeQ%3D%3D%7Ctkp%3ABk9SR_ron8n8ZQ
+        - heading "HP 15.6\" laptop (Intel, 8Gb RAM, 256Gb SSD, 3.7Ghz) BRAND NEW 15FD0015TG" [level=3]
+        - text: Opens in a new window or tab
+      - text: "Brand New · HP $259.99 Was: $399.9935% off Buy It Now +$111.94 delivery Located in United States 54 watchers"
+      - button "Top Rated Plus"
+      - text: Top Rated Plus gearedgadgets (3,014) 98%
+    - listitem:
+      - link "watch 2025 Lenovo IdeaPad Laptop 15.6\" Intel Dual-Core, 20GB RAM 1TB SSD, 1-Yr MS 365":
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=116546294649&pt=null&srt=01000a00000050278ae22d7cc53aa282435c990993d68beccb2787760ba0a212093cb1130de2e9eb73d011a54fd5f30326d1bf2e249225d0d32b1f785678c332d30ecf7dffd3c6a4a464784ed13da3a5303065eff711c2&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - link "2025 Lenovo IdeaPad Laptop 15.6\" Intel Dual-Core, 20GB RAM 1TB SSD, 1-Yr MS 365 Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/116546294649?_skw=laptop&itmmeta=01JZJ97YGTDVTP0HRWHQX7BKC1&hash=item1b22b35379:g:DowAAOSwBIpn7Ze0&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1cG6bkBoJcrkmGezXt1%2BqB%2B78ufqUCwD6eeKVeqLJ63M89edS3lEBdofOG35Tf07ShSQ0h%2BIOVf38XFxNHqEOPt8G73DMQoRftSshlrdujg3N1BEF2n3O6%2BjavesRYHtK%2Bax3TrffpC3hWxUWrwn9wqBG3DvyEgglJht32ByDzbNot5QeAplJ05UiquHnbyhsg5qDAdHtrlIxLTFV5xxv6stFxKHQAHRBlu40%2F3s8axTQ%3D%3D%7Ctkp%3ABk9SR_ron8n8ZQ
+        - heading "2025 Lenovo IdeaPad Laptop 15.6\" Intel Dual-Core, 20GB RAM 1TB SSD, 1-Yr MS 365" [level=3]
+        - text: Opens in a new window or tab
+      - text: "✅Free MS Office 365 ✅Fast Shipping ✅On Sale & Warranty Brand New · Lenovo · 1 TB $339.00 Was: $739.0054% off or Best Offer +$139.91 delivery Located in United States 93 sold"
+      - button "Top Rated Plus"
+      - text: Top Rated Plus hellogoodlife1 (14,410) 97.9%
+    - listitem:
+      - link "watch 14.1 inch Windows 11 pro Laptop 8GB LPDDR4 RAM 256GB SSD Intel Celeron N4020C":
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=177245516208&pt=null&srt=01000a00000050c14644526410b2f8c94899cc6db5c4317c0d989e51c67461161656388a564868ea1c65b08df91458da85eb5b0d32c65c352a32804fd47f7966d9249d953e9f47e81f249d20e545668f950fabd4707a89&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - link "14.1 inch Windows 11 pro Laptop 8GB LPDDR4 RAM 256GB SSD Intel Celeron N4020C Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/177245516208?_skw=laptop&itmmeta=01JZJ97YGTGY7WX56A8DFJXJ1M&hash=item2944a7f1b0:g:910AAOSwvRNoWhNy&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1fBBsmPkzJPW0TXL5xH5G1EVbe43bg6xzrHKmaerX%2Fkd%2FyEYTfeZ5eJZxgPw4TLiUv%2FMNNTWbU0JD0BmZhEehDGHKKtVYMd1Yjb3xeuuha0dQnLi3gKm5%2B9QkeC0Mo2nma1KnD%2B9uPzlmoQQwO3snQF1ldMYbZZ82tMv%2FYelHo5RFrfmYs9d3HveuScuD0IMOLhLTemKZArYOKVx%2Ft2Vzdhnk%2BEOOH2TLSonhbVX5vOwA%3D%3D%7Ctkp%3ABk9SR_ron8n8ZQ
+        - heading "14.1 inch Windows 11 pro Laptop 8GB LPDDR4 RAM 256GB SSD Intel Celeron N4020C" [level=3]
+        - text: Opens in a new window or tab
+      - text: Open Box · Unbranded · 256 GB $150.00 Buy It Now +$83.19 delivery Located in United States
+      - button "Top Rated Plus"
+      - text: Top Rated Plus cheaperthanamzn (288) 99.6%
+    - listitem:
+      - link "watch Dell Latitude E7240 Laptop i7 4600u 16GB RAM 256GB SSD No Cam HDMI ☆WIN 11 PRO☆":
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=396832204385&pt=null&srt=01000a000000504084069faa3e1791ee8b1921fd886b5d3aaccc4a4045f318d748d5f8e02385cb181e96dfb9436b3678dc94fba388851ef176f32980756e64dcfc90a89eea6827515afdc0f5a0ed53014c12b7e3558e78&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - button "Open product gallery Dell Latitude E7240 Laptop i7 4600u 16GB RAM 256GB SSD No Cam HDMI ☆WIN 11 PRO☆"
+      - link "New Listing Dell Latitude E7240 Laptop i7 4600u 16GB RAM 256GB SSD No Cam HDMI ☆WIN 11 PRO☆ Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/396832204385?_skw=laptop&itmmeta=01JZJ97YGTVWCS74VM74HZFWB2&hash=item5c650ae661:g:kyEAAeSw6GRoa5DR&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1dha2Nvo2oduFIPVm9H1XnfqWpXp2ozvjBDVDd4pttM5sRJ8qjnDYQfIPGJX77030D1SGxN68X8HHxF3iWzsaSk3tRQW1p2EoC8EPzBhUq%2BDb7zT3KMphPsbkzb6VcdBkIHZKVp5GcUVRaSSEdL820bMcKNxeXj3Re%2Bh3dz4dhAzcWaFY9e28iYBIIPL9WLsmIvAR4FnzLlB6RhtISOyhMMneOjWfX%2BTyq0fPBA9kUU0g%3D%3D%7Ctkp%3ABk9SR_zon8n8ZQ
+        - heading "New Listing Dell Latitude E7240 Laptop i7 4600u 16GB RAM 256GB SSD No Cam HDMI ☆WIN 11 PRO☆" [level=3]
+        - text: Opens in a new window or tab
+      - text: Pre-Owned · Dell $135.05 or Best Offer +$49.83 delivery Located in Australia 3co.3lectronics (623) 100%
+    - listitem:
+      - link "watch Acer Spin 7 SP714-51 FHD Touchscreen i7-7Y75 8GB RAM 256GB SSD (Windows 10 Pro)":
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=187376863181&pt=null&srt=01000a00000050266c403df3321f190abb3fe2d9c09379d22a4459feec32f5c5f1ede4c87d55e69341fe5a8325af138abe2856f0be1a1ffbffa40336e4e71b75eb4099d1b12547db2700de004cce1a66b3e38710c8a8ee&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - link "Acer Spin 7 SP714-51 FHD Touchscreen i7-7Y75 8GB RAM 256GB SSD (Windows 10 Pro) Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/187376863181?_skw=laptop&itmmeta=01JZJ97YGTFFNY1XKF467525Y4&hash=item2ba08807cd:g:8U8AAOSwGsBoV9w7&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1dAjzMVnS3czfZlfH8XAo0vvbWWtMNVkFICTK9MUdjr0sVFrQdCu6Yg2nap7gsFAZ88G3k%2FqqMXDG2MAKWQ73n0YZqGCCyIbyjgCKcIAJUdaxLphn%2BESRhW71spufb0MeUU0wOIcMPZET%2FV2CB5TFHxyBWkX9M2nlzzCfZV1yNu1zrytHvddCuo%2BItXcOJqiPA7uaXa%2FTm9tqUXM9a4Q1lGJRs6r9QmPU65GjRwFCeG%2BA%3D%3D%7Ctkp%3ABk9SR_zon8n8ZQ
+        - heading "Acer Spin 7 SP714-51 FHD Touchscreen i7-7Y75 8GB RAM 256GB SSD (Windows 10 Pro)" [level=3]
+        - text: Opens in a new window or tab
+      - text: Pre-Owned · Acer $52.00 30 bids · Time left 2h 24m left (Today 03:35 PM) +$74.06 delivery Located in United States biff_howard_tannen (14,756) 96.1%
+    - listitem:
+      - link "watch Lenovo Yoga 7i 16\" 2-in-1 2K FHD+ TOUCH 1.7 GHz Intel Core Ultra 5 125U 16GB 512":
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=277247754775&pt=null&srt=01000a00000050b6fb3f1f35e10b30f791cd87cd7e5819927e14c7b1c2666a7667e49566b7d78c078b098bace62af7db03384f5dafcc52b846071a43af10131c47aa04d4a9245bca2ea12bf816b6a3c4f8899e144e4d7c&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - link "Lenovo Yoga 7i 16\" 2-in-1 2K FHD+ TOUCH 1.7 GHz Intel Core Ultra 5 125U 16GB 512 Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/277247754775?_skw=laptop&itmmeta=01JZJ97YGTCHRTS2P5TH5W3N7T&hash=item408d410217:g:oW0AAeSwl-ZoZXzR&itmprp=enc%3AAQAKAAAA4FkggFvd1GGDu0w3yXCmi1cRMg9s%2BWCMNutpxJfcxNum1mLXGNjx2%2F8VEH28DiR%2BCfw0C2SxV6VfDk3kf3%2FEqQtDl2GMHssrhyyH8moVb1s1LFpIAao%2FlFJ6XB0OQEL7M5a0KPbTiV1p8fS3PbQA54QiM6hp%2FY6BNLGiwm2VWpkSbzBSabuw88jA1JCnddcmW39ZG0f4P1AnAhKSSIIP8%2FFYdy9T58CQcMu8RqdnVOjxeipd%2BSA6yC5VpZrSM6%2BS5wej2TzQekgSPrp9FKoXMEM6mPj%2FK1E028ggTCtfPOBV%7Ctkp%3ABk9SR_zon8n8ZQ
+        - heading "Lenovo Yoga 7i 16\" 2-in-1 2K FHD+ TOUCH 1.7 GHz Intel Core Ultra 5 125U 16GB 512" [level=3]
+        - text: Opens in a new window or tab
+      - text: Open Box - 9.5 - Factory Warranty to 02-2026 Open Box · Lenovo · 512 GB $330.00 26 bids · Time left 7h 33m left (Today 08:43 PM) +$150.00 delivery Located in United States Benefits charity divinegrace108 (746) 100%
+    - listitem:
+      - link "Dell Latitude 5400 Laptop 8th Gen Core i5- Webcam - up to 32GB RAM & 2TB SSD Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/295574053536?_skw=laptop&itmmeta=01JZJ97YGTZ6STNQFR7XWQVC8D&hash=item44d19622a0:g:Uh4AAOSwxNJkFtMA&itmprp=enc%3AAQAKAAAA4FkggFvd1GGDu0w3yXCmi1ftUcSJRZT%2B7SZkWSfWQQzgR2uxAfTd0MhtAyCuzqaWzdxz7lEyYrHNbYIxg%2FpgeBwyV5POJKRxfcbSrBjFz3ptBMKPOo3MmYn8RbikkQ1%2FypzygIhNinF%2FV2IBgRpBpvPXLIUWm49qAj%2Bv43HDnqJmXQhQtY%2BJt1dqPopIInWw%2BttdawPHyzoTiR%2FKuwKoVdrgJPIRRj%2BOvvEebtVWiZV7f7BXOd5Sgu6lOh2OBLDVHIcltZgtix3pl2om%2BVFIV89YgJ%2FeS4bs0hWugzMG8tDO%7Ctkp%3ABk9SR_zon8n8ZQ
+        - heading "Dell Latitude 5400 Laptop 8th Gen Core i5- Webcam - up to 32GB RAM & 2TB SSD" [level=3]
+        - text: Opens in a new window or tab
+      - text: Customize! Up To 32GB RAM and 2TB SSD Pre-Owned $148.00 to $287.00 Buy It Now +$93.09 delivery Located in United States 58+ sold
+      - button "Top Rated Plus"
+      - text: Top Rated Plus skeez3535 (53,474) 99.7%
+    - listitem:
+      - link "watch Dell Latitude 3520 | 15.6'' | I3-1135G7 2.40GHz | 8GB RAM 256GB SSD | WIN 11PRO":
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=286387333815&pt=null&srt=01000a00000050b3f91ae76eb7d64d881b374d830d0febec4eceb6fcde8d9b0d54182468f553eaf8827704c947522998dd868d0e23aaf90d59648103c7b1bbd005cd20da1f91434ad55850f7b7e698371216a3f68a0593&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - link "Dell Latitude 3520 | 15.6'' | I3-1135G7 2.40GHz | 8GB RAM 256GB SSD | WIN 11PRO Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/286387333815?_skw=laptop&itmmeta=01JZJ97YGTQMAPG9R70KZCR68Q&hash=item42ae03eab7:g:1skAAeSw7JZoZY1a&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1fu7QoNuRyFrrffasunSXWeSDCF4bBIzVLKq9UMT63FgSstmLJrq%2BgqphWOZdcBcD1fX%2F%2BwbIz%2BtbkjVmuyz2sd6AetqE%2FyWLjUfQJItsCucQqiQA14SGh5w3JJIP8mAOANZ1eFiVIYTE3Y1fg1uhZ2TOf4ezSevF2d%2BJJLNMJUzCFOlwMJj8SkhICd0RZ0UylGFDGs4WbvO%2Bc2fQ2Q%2FGkRwD%2F7dU9j04lBajZ2ceK2rw%3D%3D%7Ctkp%3ABk9SR_zon8n8ZQ
+        - heading "Dell Latitude 3520 | 15.6'' | I3-1135G7 2.40GHz | 8GB RAM 256GB SSD | WIN 11PRO" [level=3]
+        - text: Opens in a new window or tab
+      - text: Pre-Owned · Dell $125.00 Buy It Now +$95.04 delivery Located in United States juluplus (57,854) 97.1%
+    - listitem:
+      - link "watch Dell Latitude 5420 14” Laptop Core i5 11th Gen 16GB Ram 256GB SSD Windows 11 Pro":
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=266433553734&pt=null&srt=01000a00000050210dbd69cb2883a33afe394feed8cd2f1d9e62fbbe2a401b508b75a3ef2f35eea76535b5deb7324186b4a6e1c4c2cb983cad51d0c21128a731d9bab7d0aa6a8ae51c2bd201c3a06816c9b0c94e73c880&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - link "Dell Latitude 5420 14” Laptop Core i5 11th Gen 16GB Ram 256GB SSD Windows 11 Pro Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/266433553734?_skw=laptop&itmmeta=01JZJ97YGTZE4VXVKW2J0797CH&hash=item3e08ad6546:g:Sy0AAOSwE09mfGeb&itmprp=enc%3AAQAKAAAA4FkggFvd1GGDu0w3yXCmi1c%2BXpMLpBdFI8Ougi7jV0aPkBa2%2Bhq5s4Pc%2BROepZ29NpjBIH5q7T%2FFXf4rzGPkwgj4yTXqLSNU3cVLmirF3OtNj1fs3BIg47Mw3QWjwOYyWuM7YPFVKUrAz1%2FHRL%2FR8R3O7fiB2iIJko3FWHJ1EijvTTIb2B99xDnjZaGrl3ttLLs%2Bd5H3rZgBiTCwaxnUti%2FcUFRzlaWMLa%2F9QwpFDx%2FQB0Pz4P90VyE5zJtj25kgAlgVfoXvEgUKW6C8T8v70ZIw6Z0qT5gTnp01Xn4V%2Fm%2BQ%7Ctkp%3ABk9SR_zon8n8ZQ
+        - heading "Dell Latitude 5420 14” Laptop Core i5 11th Gen 16GB Ram 256GB SSD Windows 11 Pro" [level=3]
+        - text: Opens in a new window or tab
+      - text: Good - Refurbished · Dell $248.11 Buy It Now +$109.21 delivery Located in United States eBay Refurbished 157 sold discountcomputerdepot (132,555) 98.6%
+    - listitem:
+      - link "watch Dell Latitude Business PC Laptop Core i5 14\" 16GB RAM 128GB SSD Windows 10 HDMI":
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=254648554969&pt=null&srt=01000a00000050f3970fc159d4dc5de7b035c5d2c9c6d1b55a40c3d45a6e4172a9acf84f26e5825dd88b21c4c886f3cde56835307f1cdf5ea39c7d039fb7bb04f91ac7274764397e29fdd03dc611c168df65ef0ad6af62&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - link "Dell Latitude Business PC Laptop Core i5 14\" 16GB RAM 128GB SSD Windows 10 HDMI Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/254648554969?_skw=laptop&itmmeta=01JZJ97YGTMFKYSR25GDNWYJ40&hash=item3b4a3c95d9:g:VIUAAOSw-mloUQEz&itmprp=enc%3AAQAKAAAA4FkggFvd1GGDu0w3yXCmi1cY2aacTXzVuuo3CW%2BADeFFO6yNQ81pZOqWxTFnIP3mxdCOklCScJ1QQi4kokTS%2BbY2JajF8YbRp3OMl%2FoCUrFgKiu%2ByZCF91JewRCIMfdntztNQToNEw74UbJ1oL6wsVfnA%2BuVUJOFt%2FlqgabTX%2B%2FoVZBpLiJ1R5qXcpZsStLkyY0T2cycVg3a8g0wKKuYC0756C2bPyomT4WQ5tek%2BbrkMl6fanMAxKALKswqGoThV0s0k0dlksG0xWbmiPbE5esRccVNZd7PiFLsCzXmxOHJ%7Ctkp%3ABk9SR_zon8n8ZQ
+        - heading "Dell Latitude Business PC Laptop Core i5 14\" 16GB RAM 128GB SSD Windows 10 HDMI" [level=3]
+        - text: Opens in a new window or tab
+      - text: Good - Refurbished · Dell $170.11 Buy It Now +$91.27 delivery Located in United States eBay Refurbished 295 sold discountcomputerdepot (132,555) 98.6%
+    - listitem:
+      - link "2025 ASUS Vivobook 14\" FHD Laptop, 6-Core Intel i3 Up to 40GB RAM 2TB SSD WinPro Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/146416413593?_skw=laptop&itmmeta=01JZJ97YGTJ1RGMS3BHK96SNTE&hash=item2217192b99:g:5nUAAOSwwaRnmTvJ&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1enZpK3vJP3QjK6i7SUQ2FoeAvuWMc4gxPbW0ysn1Sr54%2FSSsaTeDASi4uJIQ6QPre4cCvdyFM3H%2B7ZsvIHwtJdcxe%2BPuuj6A8YGO%2BZMNogzpeG8dRHjx%2Ff%2FMZGXLdkfPPNsgkApSu4FbYvbJ1SUNTIhKkPoZ5uRO9zBo%2FQ1cI3S3ctL3XphAG2eTMmq36o18XtOgP0dsgXCJjXgOq4CP8iuRLs8cgn8WkxdE3HyDWE7g%3D%3D%7Ctkp%3ABk9SR_zon8n8ZQ
+        - heading "2025 ASUS Vivobook 14\" FHD Laptop, 6-Core Intel i3 Up to 40GB RAM 2TB SSD WinPro" [level=3]
+        - text: Opens in a new window or tab
+      - text: ✅Lifetime Office 2024 ✅16GB|40GB RAM✅512GB|2TB SSD Brand New $299.00 to $499.00 Buy It Now +$137.02 delivery Located in United States
+      - button "Top Rated Plus"
+      - text: Top Rated Plus hellogoodlife1 (14,410) 97.9%
+    - listitem:
+      - link "watch Apple MacBook Air 13\" 2020 M1 3.20GHz 8GB RAM 256GB SSD macOS - Good":
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=205499851353&pt=null&srt=01000a00000050115e6234a527c20918641f742fd5cfb93306c74e68edaceb5cec8b878462f2c9f8179375e2c560d77e92be21bc255fd0f4d3ea8de83101b8580f7803f31309a6deac4c3022a2791144a9769f95ce27df&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - button "Open product gallery Apple MacBook Air 13\" 2020 M1 3.20GHz 8GB RAM 256GB SSD macOS - Good"
+      - link "Apple MacBook Air 13\" 2020 M1 3.20GHz 8GB RAM 256GB SSD macOS - Good Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/205499851353?_skw=laptop&epid=23079467845&itmmeta=01JZJ97YGV7HN580A21567R4F7&hash=item2fd8bee259:g:pB8AAeSw6mZoLR7P&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1eCjOfsyakiRqkBzvSqjDXn1ea9mtWKnAfcTfjZGlx8YqZQ9qTiXMYq%2F1XMSg%2Feh%2FfWeOLIO0F69i3KJMXPPDL3tLKYvOlJ2hm5%2FCa3%2B5RS5pR2bhZiDQpXQO%2FxUwmj7upDw8xkr02qq%2BeoAo3H4JIQQ0GPXi1nA5uVaOs9m1ktCZgFvNfV%2F%2BXSy2fAZBz2QxwIiHjH4s2ECuXDSJp3rKIG99T2y7ja9cBzHkPiUTskKQ%3D%3D%7Ctkp%3ABk9SR_zon8n8ZQ
+        - heading "Apple MacBook Air 13\" 2020 M1 3.20GHz 8GB RAM 256GB SSD macOS - Good" [level=3]
+        - text: Opens in a new window or tab
+      - text: Good - Refurbished · Apple $458.26 Buy It Now +$32.12 delivery Located in Australia 251 sold bneacttrader (44,257) 98.5%
+    - listitem:
+      - link "watch Dell Latitude 3410 14 inch (256GB, Intel Core i5 10th Gen., 1.60GHz, 24GB)...":
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=146681584556&pt=null&srt=01000a00000050a4aeca97326b6b61c126dd582d2fd29e363bd847e714de6653aae0b53abd29cb9c08600c871810038b363a764bc5a8b7c0548ebab9963526b6460413d176f9be5694152016d14d961f7c40fe6f1c1546&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - link "Dell Latitude 3410 14 inch (256GB, Intel Core i5 10th Gen., 1.60GHz, 24GB)... Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/146681584556?_skw=laptop&epid=26039146647&itmmeta=01JZJ97YGVGT1ZJM34496PV0K1&hash=item2226e75bac:g:RssAAeSwyEdoUmJ~&itmprp=enc%3AAQAKAAAA4FkggFvd1GGDu0w3yXCmi1dWGV1E5UQlBQoJx6lkXLR23NWD1toNrvBgF%2Bd9l%2FOaOPiFTPelVwtNsVTJy%2FpkRkOuMtaLhvy8RE8m8631Xw7JHNrwAZfXj9xAvzU4DWTIVuoKnwySk8q0SL53hUlVCFNbQwjgQ9BDtJVjdV4yjc94BcE6fo7ABpPixtR0qkkOQLXAzu%2F7n5Kbu4FktBxGtjn50AVAZNfj%2B6v%2BeRecRO4JRIpzVE6k0WSNRqrT2Eap%2Bq1tzSK6uVr0KWENRu4tothyAsWC%2BF93ZOb3dZuDj5Q5%7Ctkp%3ABk9SR_zon8n8ZQ
+        - heading "Dell Latitude 3410 14 inch (256GB, Intel Core i5 10th Gen., 1.60GHz, 24GB)..." [level=3]
+        - text: Opens in a new window or tab
+      - text: Pre-Owned · Dell · 256 GB $99.00 20 bids · Time left 2h 34m left (Today 03:44 PM) +$83.16 delivery Located in United States jdmintegra82 (138) 100%
+    - listitem:
+      - link "watch Lenovo ThinkPad 14\" Laptop PC Computer Core i5 16GB RAM 256GB SSD Windows 10":
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=264840566038&pt=null&srt=01000a0000005001f6f1ccd6dfea21865409d640e9843b0fddedf51e0cae81a985969e7ecc55b13f17b51ccfa454cc57d5869ba9752007e8cc478e76378a08fcc49399810af735b1cbde5f66995a2beec669391c2f6984&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - link "Lenovo ThinkPad 14\" Laptop PC Computer Core i5 16GB RAM 256GB SSD Windows 10 Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/264840566038?_skw=laptop&epid=3034601728&itmmeta=01JZJ97YGVH694HN7829PH5T6W&hash=item3da9ba5516:g:yOQAAOSwbJ5oXhDq&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1cCd0Mtyk43Xs7x6CvmxxCjcTgGCr0xe61hgjO6tnuy%2FwFJJGl3EmYagMjmQU4tSxoRRsrtmCsqk1OCMjD5skgjsbiktFHmd32OF0CCyE4Ss1QcxTroI35oE%2F3Z42zqDh4pzZwz6itkeB95qkS6B6RoVDLVTrf8SegJZdtZu%2FdQorXmt57Rw4uJ0e3dcIDTG0G10jlYEXjJAuL0BBw6ARA0DaN83BNVzacO%2BRdXeJvwMg%3D%3D%7Ctkp%3ABk9SR_zon8n8ZQ
+        - heading "Lenovo ThinkPad 14\" Laptop PC Computer Core i5 16GB RAM 256GB SSD Windows 10" [level=3]
+        - text: Opens in a new window or tab
+      - text: Good - Refurbished · Lenovo
+      - link "5.0 out of 5 stars. 11 product ratings - Lenovo ThinkPad 14\" Laptop PC Computer Core i5 16GB RAM 256GB SSD Windows 10":
+        - /url: https://www.ebay.com/p/3034601728?iid=264840566038#UserReviews
+      - text: $169.90 or Best Offer +$91.22 delivery Located in United States eBay Refurbished 471 sold Save up to 5% when you buy more discountcomputerdepot (132,555) 98.6%
+    - listitem:
+      - link "watch Dell Latitude 7290 Laptop 12.5\" i5 8250U 16GB RAM 256GB M.2 Nvme SSD ☆WIN 11 PRO":
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=396820317289&pt=null&srt=01000a00000050749ea588d3569f9b9284a2dcb0ae79431dfa27a073ff9b22d24e71f9da96a50b9b443e2ecef955773fd4a150ca813b1205347f15c68d85ee841cde20bca30492b621fcbc9bbe85bb988b435e10156093&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - button "Open product gallery Dell Latitude 7290 Laptop 12.5\" i5 8250U 16GB RAM 256GB M.2 Nvme SSD ☆WIN 11 PRO"
+      - link "Dell Latitude 7290 Laptop 12.5\" i5 8250U 16GB RAM 256GB M.2 Nvme SSD ☆WIN 11 PRO Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/396820317289?_skw=laptop&itmmeta=01JZJ97YGVWWY2TM78SDKEFN58&hash=item5c64558469:g:NuEAAeSwXg1oWs6z&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1cQtYD5v%2BNGm%2F36JHv7OrnNYo1zUuj0U6Y%2FJLNHS6pM%2BybXEWYaE8pBPJoF%2F5031wCiobw8iG3uRDguBnIXCagwbJdZFMqRtptvm3MPg42gZdDmeDhVsgB6AOCsAT1BIp%2FasHOVesDEA26nSdfmqfynbw%2BEmtU5MB%2FhSKzyc33Tm7wSCsQKOJ6aboH8FDIKYTKdqmoQ80A%2FKbqqIp9dCivW8YlipB1ZuwmM7jU%2BwxOD9A%3D%3D%7Ctkp%3ABk9SR_zon8n8ZQ
+        - heading "Dell Latitude 7290 Laptop 12.5\" i5 8250U 16GB RAM 256GB M.2 Nvme SSD ☆WIN 11 PRO" [level=3]
+        - text: Opens in a new window or tab
+      - text: Pre-Owned · Dell $170.46 or Best Offer +$49.83 delivery Located in Australia 7 watchers 3co.3lectronics (623) 100%
+    - listitem:
+      - link "10.1\" PANASONIC TOUGHPAD FZ-G1 MK4 i5-6300U 2.40GHZ 8GB 256GB LTE LAN Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/126730959959?_skw=laptop&itmmeta=01JZJ97YGV8HY5V5KSRD72PKTF&hash=item1d81c0fc57:g:5W8AAOSwxfpnEujl&itmprp=enc%3AAQAKAAAA4FkggFvd1GGDu0w3yXCmi1cU%2FBSYsJxSIrWpaunqIOmPvaUNl%2FBMr0liORHYuUsSQK%2Ftli43yqaAvLZkR0iBhH3BMW%2FLPy3mgv6a0ZB%2FsyV%2BVqAkPBs8DdNZ4E32f8Lnzm4H35374sm8KBStF4q4jqar7z25xbjpP82%2FmDAWpC%2BHheYhTzAQLnKoZ%2FQ22%2FMxBMGzylScmGrWeNv%2F80b9qFpkQJXKax%2BVCJ54EkBVRhOf3dyeiSKO6FwM5EAcH4tmbutMNY%2FSFLQudme9WT1%2BxJe6YrV9gQV5BL7L6qAqTaeV%7Ctkp%3ABk9SR_zon8n8ZQ
+        - heading "10.1\" PANASONIC TOUGHPAD FZ-G1 MK4 i5-6300U 2.40GHZ 8GB 256GB LTE LAN" [level=3]
+        - text: Opens in a new window or tab
+      - text: "Pre-Owned $136.45 to $152.83 Was: $191.0320% off Buy It Now Shipping not specified Located in United Kingdom 81+ sold priceholes-com (10,306) 99.3%"
+    - listitem:
+      - link "watch CHUWI 13.3'' Laptop Computer PC Windows 10 Home PC 2.7GHz 8GB 256GB HD WIFI":
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=335838101983&pt=null&srt=01000a0000005075e85fe905d5cf123eeb562b83ce8f2c94aa1635faeb6f1953a58e6036698c4c24f8a83893de9a6d90a86a89aa5b0e1ac989ded667d72f4117213f4c362d32d03b93e96bb91dddfc07a80a8ba6abf33d&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - link "CHUWI 13.3'' Laptop Computer PC Windows 10 Home PC 2.7GHz 8GB 256GB HD WIFI Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/335838101983?_skw=laptop&itmmeta=01JZJ97YGV5J27X1GQJN0B1248&hash=item4e3182c1df:g:OuIAAOSwUKhl7lB5&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1ceW5tRq7pPvfsg0ON49ktiXHq%2F4t2WXKHN1xeer0WsF1p6Ribbhmb5RFFjmpQ0%2BZhK7zaomY%2BakHculx1qNbImWnmvLKxu6zrA91A5RH7PB9oGC2O%2FpdVNd6sFmNriIE0gfnHZuaLamwEVCIbiZ1rx2A2OfMJTfXJp0t04U4gLtJCQP2IK11Lay2AEgu%2BObVwqXqs7ai%2F%2BZHmtnOfKVvIuSoMYdd8wDpGESvjYValiVg%3D%3D%7Ctkp%3ABk9SR_zon8n8ZQ
+        - heading "CHUWI 13.3'' Laptop Computer PC Windows 10 Home PC 2.7GHz 8GB 256GB HD WIFI" [level=3]
+        - text: Opens in a new window or tab
+      - text: "Brand New · Chuwi · 256 GB $139.99 Was: $199.9930% off Buy It Now +$84.34 delivery Located in United States Free returns 229 sold chuwi2018 (3,596) 98.9%"
+    - listitem:
+      - link "watch DELL LATITUDE 7430 Win 11 Home I5-1235U 8GB RAM 512GB NVME | Grade B":
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=277249891649&pt=null&srt=01000a0000005036adf9eed560971331cb396f1a5482b49b487cbe92cf4d49580035920ae30cc9767bc6794aeb72390f08feda99d6e764de9b22f573c028f9f379ebf964757f0fc3526da069ea17ba3935eef607397f5b&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - link "DELL LATITUDE 7430 Win 11 Home I5-1235U 8GB RAM 512GB NVME | Grade B Opens in a new window or tab":
+        - /url: https://www.ebay.com/itm/277249891649?_skw=laptop&itmmeta=01JZJ97YGV9PY23NS6X8A39CHJ&hash=item408d619d41:g:3dcAAeSw~pdoZuXm&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1f8MmmMS2QEYeNBIGgs3FU1Lq8WdTgRnLUb%2FddxtIMVNffEqdZYh8XLCdwBiygGS8nZabeT1Bvh%2Fgc6ZmrpTT05JpTpaIOCIJFvvDYnxwqJqAknkpY7LBswFAzI6wIoQbqM7hEEPV2EVvk%2B%2B%2FWLf7d8Mss3TmspMzGIbT2Mo7gdG3OmiIK%2BSl1sLK6dv0sX1%2FqkRiYkM9phkCXpCKPBM9ZOqZsth98lVKHJSTcG19bsLA%3D%3D%7Ctkp%3ABlBMUPzon8n8ZQ
+        - heading "DELL LATITUDE 7430 Win 11 Home I5-1235U 8GB RAM 512GB NVME | Grade B" [level=3]
+        - text: Opens in a new window or tab
+      - text: "Pre-Owned · Dell $240.00 Was: $300.0020% off or Best Offer +$122.27 delivery Located in United States Benefits charity 15 watchers comprenewonline (9,484) 99.1%"
+    - listitem:
+      - 'link "watch *LIMITED-TIME DISCOUNT* Dell Latitude Laptop: 8GB Ram, 256SSD, Backlit Keyboard!"':
+        - /url: https://www.ebay.com/myb/WatchListAdd?item=116237471775&pt=null&srt=01000a000000508f6f795738420a7001a80c5d6a1208eedcb49c4672ae4788a7ab611edff5d03836debed62d6e799371f9cce841146a143f4df71fe09e57a4eefcd9668930ff988a56026527c4c9f7795bc7310541728b&ru=https%3A%2F%2Fwww.ebay.com%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+      - 'link "*LIMITED-TIME DISCOUNT* Dell Latitude Laptop: 8GB Ram, 256SSD, Backlit Keyboard! Opens in a new window or tab"':
+        - /url: https://www.ebay.com/itm/116237471775?_skw=laptop&itmmeta=01JZJ97YGV6ZQ4TJVWCMV6HGJQ&hash=item1b104b101f:g:neIAAOSwzCdn5VjL&itmprp=enc%3AAQAKAAAAwFkggFvd1GGDu0w3yXCmi1e8VvvPE6Ct5RQpu30VXZLR9KC0Ftgu5uBaz8wsYcSgIFF6x6Tc3lZW4GO64h%2BkKf0QyphO87akjQPjpzp12EHDM6nEdDCVbBLcfNryS%2BBQEMFM6Ae8FnzuqglUihrCy5dKtTFu08DMt%2FSgXFlxMXvDqETsh7CP5Cnt3YJggSzjVWTr92bW%2B8rN7yUewoSWfoGcpzprqIfyzxXOtxfTYbjS350Czn0ev37ssRywMYIAFQ%3D%3D%7Ctkp%3ABlBMUPzon8n8ZQ
+        - 'heading "*LIMITED-TIME DISCOUNT* Dell Latitude Laptop: 8GB Ram, 256SSD, Backlit Keyboard!" [level=3]'
+        - text: Opens in a new window or tab
+      - text: "Built in Webcam! Wi-Fi Ready! Free Shipping!! FHD! Good - Refurbished · Dell · 8 GB $140.00 Was: $190.0026% off or Best Offer +$84.35 delivery Located in United States eBay Refurbished Last one"
+      - button "Top Rated Plus"
+      - text: Top Rated Plus rinuvo (7,360) 99.3%
+    - listitem:
+      - group "Multi-Aspect Guidance Carousel":
+        - button "Go to previous slide - Multi-Aspect Guidance Carousel" [disabled]
+        - list:
+          - listitem:
+            - heading "Shop by RAM Size" [level=2]
+            - link "16 GB - apply Shop by RAM Size filter":
+              - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&RAM%2520Size=16%2520GB&_dcat=177
+          - listitem:
+            - link "8 GB - apply Shop by RAM Size filter":
+              - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&RAM%2520Size=8%2520GB&_dcat=177
+          - listitem:
+            - link "32 GB - apply Shop by RAM Size filter":
+              - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&RAM%2520Size=32%2520GB&_dcat=177
+          - listitem:
+            - link "64 GB - apply Shop by RAM Size filter":
+              - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&RAM%2520Size=64%2520GB&_dcat=177
+          - listitem:
+            - link "4 GB - apply Shop by RAM Size filter":
+              - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&RAM%2520Size=4%2520GB&_dcat=177
+          - listitem:
+            - link "512 GB - apply Shop by RAM Size filter":
+              - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&RAM%2520Size=512%2520GB&_dcat=177
+          - listitem:
+            - link "256 GB - apply Shop by RAM Size filter":
+              - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&RAM%2520Size=256%2520GB&_dcat=177
+          - listitem:
+            - link "2 GB - apply Shop by RAM Size filter":
+              - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&RAM%2520Size=2%2520GB&_dcat=177
+          - listitem:
+            - heading "Shop by Screen Size" [level=2]
+            - link "15-15.9 in - apply Shop by Screen Size filter":
+              - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&Screen%2520Size=15%252D15%252E9%2520in&_dcat=177
+          - listitem:
+            - link "14-14.9 in - apply Shop by Screen Size filter":
+              - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&Screen%2520Size=14%252D14%252E9%2520in&_dcat=177
+        - button "Go to next slide - Multi-Aspect Guidance Carousel"
+    - listitem:
+      - link "Tell us what you think - opens in new window or tab":
+        - /url: https://connect.ebay.com/srv/survey/a/search.srp.node
+    - listitem:
+      - navigation "Results Pagination - Page 1":
+        - status:
+          - heading "Results Pagination - Page 1" [level=2]
+        - button "Go to previous search page" [disabled]
+        - list:
+          - listitem:
+            - link "1":
+              - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&_pgn=1
+          - listitem:
+            - link "2":
+              - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&_pgn=2
+          - listitem:
+            - link "3":
+              - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&_pgn=3
+          - listitem:
+            - link "4":
+              - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&_pgn=4
+          - listitem:
+            - link "5":
+              - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&_pgn=5&rt=nc
+          - listitem:
+            - link "6":
+              - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&_pgn=6&rt=nc
+          - listitem:
+            - link "7":
+              - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&_pgn=7&rt=nc
+          - listitem:
+            - link "8":
+              - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&_pgn=8&rt=nc
+          - listitem:
+            - link "9":
+              - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&_pgn=9&rt=nc
+        - link "Go to next search page":
+          - /url: https://www.ebay.com/sch/i.html?_nkw=laptop&_sacat=0&_from=R40&_pgn=2
+      - text: Items Per Page
+      - group "Items Per Page":
+        - button "60"
+  - heading "Related Searches" [level=2]
+  - group "Related Searches Carousel":
+    - button "Go to previous slide - Related Searches" [disabled]
+    - list:
+      - listitem:
+        - link "surface":
+          - /url: https://www.ebay.com/sch/i.html?_sacat=0&_from=R40&_nkw=surface
+      - listitem:
+        - link "laptop computers":
+          - /url: https://www.ebay.com/sch/i.html?_sacat=0&_from=R40&_nkw=laptop+computers
+      - listitem:
+        - link "laptop gaming":
+          - /url: https://www.ebay.com/sch/i.html?_sacat=0&_from=R40&_nkw=laptop+gaming
+      - listitem:
+        - link "macbook":
+          - /url: https://www.ebay.com/sch/i.html?_sacat=0&_from=R40&_nkw=macbook
+      - listitem:
+        - link "iphone":
+          - /url: https://www.ebay.com/sch/i.html?_sacat=0&_from=R40&_nkw=iphone
+      - listitem:
+        - link "laptop dell":
+          - /url: https://www.ebay.com/sch/i.html?_sacat=0&_from=R40&_nkw=laptop+dell
+      - listitem:
+        - link "dell":
+          - /url: https://www.ebay.com/sch/i.html?_sacat=0&_from=R40&_nkw=dell
+      - listitem:
+        - link "hp laptop":
+          - /url: https://www.ebay.com/sch/i.html?_sacat=0&_from=R40&_nkw=hp+laptop
+    - button "Go to next slide - Related Searches"
+  - img "Busy"
+  - img
+- text: Feedback
+- link "Leave feedback about your eBay search experience - opens in new window or tab":
+  - /url: https://www.ebay.com/srv/survey/a/search.srp.node?ctx=url%3D%2Fsch%2Fi.html%3F_nkw%3Dlaptop%26_sacat%3D0%26_from%3DR40
+- contentinfo:
+  - list:
+    - listitem:
+      - link "About eBay":
+        - /url: https://www.ebayinc.com
+    - listitem:
+      - link "Announcements":
+        - /url: https://community.ebay.com/t5/Announcements/bg-p/Announcements
+    - listitem:
+      - link "Community":
+        - /url: https://community.ebay.com
+    - listitem:
+      - link "Security Center":
+        - /url: https://pages.ebay.com/securitycenter/index.html
+    - listitem:
+      - link "Seller Center":
+        - /url: https://www.ebay.com/sellercenter
+    - listitem:
+      - link "Policies":
+        - /url: https://www.ebay.com/help/policies/default/ebays-rules-policies?id=4205
+    - listitem:
+      - link "Affiliates":
+        - /url: https://partnernetwork.ebay.com/
+    - listitem:
+      - link "Help & Contact":
+        - /url: https://www.ebay.com/help/home
+    - listitem:
+      - link "Site Map":
+        - /url: https://pages.ebay.com/sitemap.html
+  - text: Copyright © 1995-2025 eBay Inc. All Rights Reserved.
+  - link "Accessibility":
+    - /url: https://www.ebayinc.com/accessibility/
+  - text: ","
+  - link "User Agreement":
+    - /url: https://www.ebay.com/help/policies/member-behaviour-policies/user-agreement?id=4259
+  - text: ","
+  - link "Privacy":
+    - /url: https://www.ebay.com/help/policies/member-behaviour-policies/user-privacy-notice-privacy-policy?id=4260
+  - text: ","
+  - link "Consumer Health Data":
+    - /url: https://www.ebayinc.com/company/privacy-center/privacy-notice/consumer-health-data-privacy-policy/
+  - text: ","
+  - link "Payments Terms of Use":
+    - /url: https://pages.ebay.com/payment/2.0/terms.html
+  - text: ","
+  - link "Cookies":
+    - /url: https://www.ebay.com/help/policies/member-behaviour-policies/ebay-cookie-notice?id=4267
+  - text: ","
+  - link "CA Privacy Notice":
+    - /url: https://www.ebayinc.com/company/privacy-center/privacy-notice/state-privacy-disclosures/#california
+  - text: ","
+  - link "Your Privacy Choices":
+    - /url: https://www.ebay.com/adchoice/ccpa
+  - text: and
+  - link "AdChoice":
+    - /url: https://www.ebay.com/adchoice
+- link "*Learn about pricing":
+  - /url: https://pages.ebay.com/buy/popup/pricing.html
+- text: Amounts shown in italicized text are for items listed in currency other than U.S. dollars and are approximate conversions to U.S. dollars based upon Bloomberg's conversion rates. For more recent exchange rates, please use the
+- link "Universal Currency Converter":
+  - /url: https://pages.ebay.com/services/buyandsell/currencyconverter.html
+- text: "This page was last updated: Jul-7 04:09. Number of bids and bid amounts may be slightly out of date. See each listing for international shipping options and costs."
+- img
+```

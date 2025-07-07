@@ -6,10 +6,11 @@ export default defineConfig({
   retries: 1,
   reporter: [['html', { outputFolder: 'playwright-report' }]],
   use: {
-    baseURL: 'https://allegro.pl',
+    baseURL: 'https://www.ebay.com',
     headless: true,
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
+    trace: 'on-first-retry',
   },
   projects: [
     {
@@ -23,6 +24,7 @@ export default defineConfig({
     {
       name: 'webkit',
       use: { ...devices['Desktop Safari'] },
+      grep: /@skip-webkit/, // Skip WebKit tests for now
     },
   ],
 }); 

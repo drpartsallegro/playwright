@@ -1,0 +1,623 @@
+# Page snapshot
+
+```yaml
+- img
+- img
+- button "Open" [disabled]:
+  - text: Open
+  - img
+- banner:
+  - link "Skip to main content":
+    - /url: "#mainContent"
+  - navigation:
+    - text: Hi!
+    - link "Sign in":
+      - /url: https://signin.ebay.com/ws/eBayISAPI.dll?SignIn&sgfl=gh&ru=https%3A%2F%2Fwww.ebay.com%2F
+    - text: or
+    - link "register":
+      - /url: https://signup.ebay.com/pa/crte?ru=https%3A%2F%2Fwww.ebay.com%2F
+    - link "Daily Deals":
+      - /url: https://www.ebay.com/deals
+    - link "Brand Outlet":
+      - /url: https://www.ebay.com/b/Brand-Outlet/bn_7115532402
+    - link "Gift Cards":
+      - /url: https://www.ebay.com/giftcards
+    - link "Help & Contact":
+      - /url: https://www.ebay.com/help/home
+    - link "Sell":
+      - /url: https://www.ebay.com/sl/sell
+    - link "Watchlist":
+      - /url: https://www.ebay.com/mye/myebay/watchlist
+    - button "Expand Watch List"
+    - link "My eBay":
+      - /url: https://www.ebay.com/mys/home?source=GBH
+    - button "Expand My eBay"
+    - button "Expand Notifications"
+    - link "Your shopping cart contains 0 items":
+      - /url: https://cart.ebay.com
+    - button "Expand Cart"
+  - link "eBay Home":
+    - /url: https://www.ebay.com
+    - img "eBay Home"
+  - button "Shop by category"
+  - text: Enter your search keyword
+  - combobox "Search for anything" [expanded]: iphone
+  - button "Clear search"
+  - combobox "Select a category for search":
+    - option "All Categories" [selected]
+    - option "Antiques"
+    - option "Art"
+    - option "Baby"
+    - option "Books"
+    - option "Business & Industrial"
+    - option "Cameras & Photo"
+    - option "Cell Phones & Accessories"
+    - option "Clothing, Shoes & Accessories"
+    - option "Coins & Paper Money"
+    - option "Collectibles"
+    - option "Computers/Tablets & Networking"
+    - option "Consumer Electronics"
+    - option "Crafts"
+    - option "Dolls & Bears"
+    - option "Movies & TV"
+    - option "eBay Motors"
+    - option "Entertainment Memorabilia"
+    - option "Gift Cards & Coupons"
+    - option "Health & Beauty"
+    - option "Home & Garden"
+    - option "Jewelry & Watches"
+    - option "Music"
+    - option "Musical Instruments & Gear"
+    - option "Pet Supplies"
+    - option "Pottery & Glass"
+    - option "Real Estate"
+    - option "Specialty Services"
+    - option "Sporting Goods"
+    - option "Sports Mem, Cards & Fan Shop"
+    - option "Stamps"
+    - option "Tickets & Experiences"
+    - option "Toys & Hobbies"
+    - option "Travel"
+    - option "Video Games & Consoles"
+    - option "Everything Else"
+  - button "Search"
+  - link "Advanced":
+    - /url: https://www.ebay.com/sch/ebayadvsearch
+  - status: 1 result is available; to navigate, use up and down arrow keys on desktop or swipe left and right on touch devices.
+  - listbox:
+    - listitem: Recent Searches
+    - option "laptop"
+- region "Use eBay with Google":
+  - alert
+  - iframe
+- main:
+  - list:
+    - listitem:
+      - link "eBay Live":
+        - /url: https://www.ebay.com/ebaylive
+    - listitem:
+      - link "Saved":
+        - /url: https://www.ebay.com/mye/myebay/saved
+    - listitem:
+      - link "Motors":
+        - /url: https://www.ebay.com/b/Auto-Parts-and-Vehicles/6000/bn_1865334
+      - 'button "Expand: Motors"'
+    - listitem:
+      - link "Electronics":
+        - /url: https://www.ebay.com/b/Electronics/bn_7000259124
+      - 'button "Expand: Electronics"'
+    - listitem:
+      - link "Collectibles":
+        - /url: https://www.ebay.com/b/Collectibles-Art/bn_7000259855
+      - 'button "Expand: Collectibles"'
+    - listitem:
+      - link "Home & Garden":
+        - /url: https://www.ebay.com/b/Home-Garden/11700/bn_1853126
+      - 'button "Expand: Home & Garden"'
+    - listitem:
+      - link "Clothing, Shoes & Accessories":
+        - /url: https://www.ebay.com/b/Clothing-Shoes-Accessories/11450/bn_1852545
+      - 'button "Expand: Clothing, Shoes & Accessories"'
+    - listitem:
+      - link "Toys":
+        - /url: https://www.ebay.com/b/Toys-Hobbies/220/bn_1865497
+      - 'button "Expand: Toys"'
+    - listitem:
+      - link "Sporting Goods":
+        - /url: https://www.ebay.com/b/Sporting-Goods/888/bn_1865031
+      - 'button "Expand: Sporting Goods"'
+    - listitem:
+      - link "Business & Industrial":
+        - /url: https://www.ebay.com/b/Business-Industrial/12576/bn_1853744
+      - 'button "Expand: Business & Industrial"'
+    - listitem:
+      - link "Jewelry & Watches":
+        - /url: https://www.ebay.com/b/Jewelry-Watches/281/bn_1865273
+      - 'button "Expand: Jewelry & Watches"'
+    - listitem:
+      - link "Refurbished":
+        - /url: https://www.ebay.com/b/eBay-Refurbished/bn_7040708936
+      - 'button "Expand: Refurbished"'
+  - group:
+    - button "Go to previous banner"
+    - list:
+      - listitem:
+        - text: Live it up all summer long Make plans and find everything you need to bring them to life.
+        - link "Shop now":
+          - /url: https://pages.ebay.com/summerprep/?_trkparms=pageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Cparentrq%3Ae493d7501970a670cc5639cefffb090e%7Ciid%3A6%7Cvlpname%3Avlp_homepage%7Cii%3A6df9ab74-440f-4187-ad22-9ba47f6acd49
+    - button "Go to next banner"
+    - button "Pause Banner Carousel"
+  - list:
+    - listitem
+    - listitem
+    - listitem
+    - listitem
+  - link "From essentials to exclusives":
+    - /url: https://www.ebay.com/e/fashion/ag-pre-loved-sneakers?_trkparms=pageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Cparentrq%3Ae493d7501970a670cc5639cefffb090e%7Ciid%3A1
+    - heading "From essentials to exclusives" [level=2]
+  - text: Shop pre-loved sneakers for an everyday fit or a major flex.
+  - link "Check 'em out":
+    - /url: https://www.ebay.com/e/fashion/ag-pre-loved-sneakers?_trkparms=pageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Cparentrq%3Ae493d7501970a670cc5639cefffb090e%7Ciid%3A1
+  - heading "Score these trending kicks" [level=2]:
+    - link "Score these trending kicks":
+      - /url: https://www.ebay.com/vlp/sneakers?_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Ciid%3A1%7Cli%3A9803
+  - link "See all Score these trending kicks":
+    - /url: https://www.ebay.com/vlp/sneakers?_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Ciid%3A1%7Cli%3A8342
+  - group:
+    - list:
+      - listitem:
+        - link "Jordan 5 Retro OG Metallic Reimagined":
+          - /url: https://www.ebay.com/b/Jordan-5-Retro-OG-Black-Metallic-Reimagined/15709/bn_7122075202?_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Cc%3A1%7Ciid%3A1%7Cli%3A8874
+          - heading "Jordan 5 Retro OG Metallic Reimagined" [level=3]
+      - listitem:
+        - link "Nike Kobe 8 Protro What The Kobe":
+          - /url: https://www.ebay.com/b/Nike-Kobe-8-Protro-2025-What-The-Kobe/15709/bn_7124553159?_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Cc%3A2%7Ciid%3A1%7Cli%3A8874
+          - heading "Nike Kobe 8 Protro What The Kobe" [level=3]
+      - listitem:
+        - link "Jordan 4 Retro White Cement 2025":
+          - /url: https://www.ebay.com/b/Jordan-4-Retro-OG-2025-White-Cement/15709/bn_7124557223?_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Cc%3A3%7Ciid%3A1%7Cli%3A8874
+          - heading "Jordan 4 Retro White Cement 2025" [level=3]
+      - listitem:
+        - link "Jordan 4 Retro SP x Nike SB Navy":
+          - /url: https://www.ebay.com/b/Nike-SB-x-Air-Jordan-4-Retro-SP-Navy/15709/bn_7122103177?_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Cc%3A4%7Ciid%3A1%7Cli%3A8874
+          - heading "Jordan 4 Retro SP x Nike SB Navy" [level=3]
+      - listitem:
+        - link "Caitlin Clark x Nike Kobe 5 Protro":
+          - /url: https://www.ebay.com/e/fashion/nike-caitlin-clark-x-zoom-kobe-5-protro?_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Cc%3A5%7Ciid%3A1%7Cli%3A8874
+          - heading "Caitlin Clark x Nike Kobe 5 Protro" [level=3]
+      - listitem:
+        - link "Jordan 11 Low Retro Bred 2025":
+          - /url: https://www.ebay.com/b/Jordan-11-Retro-2025-Low-Bred/15709/bn_7122302372?_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Cc%3A6%7Ciid%3A1%7Cli%3A8874
+          - heading "Jordan 11 Low Retro Bred 2025" [level=3]
+      - listitem:
+        - link "Jordan 14 Retro 2025 Ferrari":
+          - /url: https://www.ebay.com/b/Jordan-14-Retro-2025-Ferrari/15709/bn_7124557516?_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Cc%3A7%7Ciid%3A1%7Cli%3A8874
+          - heading "Jordan 14 Retro 2025 Ferrari" [level=3]
+  - heading "Trending in Sneakers" [level=2]
+  - group:
+    - button "Go to the previous slide, Trending in Sneakers - Carousel" [disabled]
+    - list:
+      - listitem:
+        - link "Size 10- Nike Caitlin Clark x Zoom Kobe 5 Protro Indiana Fever IM3207-400 NEW Size 10- Nike Caitlin Clark x Zoom Kobe 5 Protro Indiana Fever IM3207-400 NEW $349.99":
+          - /url: https://www.ebay.com/itm/267311108841?_trkparms=amclksrc%3DITM%26aid%3D777008%26algo%3DPERSONAL.TOPIC%26ao%3D1%26asc%3D20240603120050%26meid%3D2b3ce05ccf1e42f4b7632025b364c5b8%26pid%3D102175%26rk%3D1%26rkt%3D1%26itm%3D267311108841%26pmt%3D0%26noa%3D1%26pg%3D4375194%26algv%3DNoSignalMostSearched%26brand%3DNike&_trksid=p4375194.c102175.m166538&_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Ciid%3A1%7Cvlpname%3Avlp_homepage
+          - img "Size 10- Nike Caitlin Clark x Zoom Kobe 5 Protro Indiana Fever IM3207-400 NEW"
+          - heading "Size 10- Nike Caitlin Clark x Zoom Kobe 5 Protro Indiana Fever IM3207-400 NEW" [level=3]
+          - text: $349.99
+        - button "Add Size 10- Nike Caitlin Clark x Zoom Kobe 5 Protro Indiana Fever IM3207-400 NEW to your watch list"
+      - listitem:
+        - link "Nike Kobe 5 Protro Caitlin Clark PE NEW RELEASE 2025 Indiana Fever Men Size 10.5 Nike Kobe 5 Protro Caitlin Clark PE NEW RELEASE 2025 Indiana Fever Men Size 10.5 $370.00":
+          - /url: https://www.ebay.com/itm/286685508074?_trkparms=amclksrc%3DITM%26aid%3D777008%26algo%3DPERSONAL.TOPIC%26ao%3D1%26asc%3D20240603120050%26meid%3D2b3ce05ccf1e42f4b7632025b364c5b8%26pid%3D102175%26rk%3D1%26rkt%3D1%26itm%3D286685508074%26pmt%3D0%26noa%3D1%26pg%3D4375194%26algv%3DNoSignalMostSearched%26brand%3DNike&_trksid=p4375194.c102175.m166538&_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Ciid%3A1%7Cvlpname%3Avlp_homepage
+          - img "Nike Kobe 5 Protro Caitlin Clark PE NEW RELEASE 2025 Indiana Fever Men Size 10.5"
+          - heading "Nike Kobe 5 Protro Caitlin Clark PE NEW RELEASE 2025 Indiana Fever Men Size 10.5" [level=3]
+          - text: $370.00
+        - button "Add Nike Kobe 5 Protro Caitlin Clark PE NEW RELEASE 2025 Indiana Fever Men Size 10.5 to your watch list"
+      - listitem:
+        - link "Kobe V Protro Caitlin Clark Kobe V Protro Caitlin Clark $304.00":
+          - /url: https://www.ebay.com/itm/376375363744?_trkparms=amclksrc%3DITM%26aid%3D777008%26algo%3DPERSONAL.TOPIC%26ao%3D1%26asc%3D20240603120050%26meid%3D2b3ce05ccf1e42f4b7632025b364c5b8%26pid%3D102175%26rk%3D1%26rkt%3D1%26itm%3D376375363744%26pmt%3D0%26noa%3D1%26pg%3D4375194%26algv%3DNoSignalMostSearched%26brand%3DNike&_trksid=p4375194.c102175.m166538&_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Ciid%3A1%7Cvlpname%3Avlp_homepage
+          - img "Kobe V Protro Caitlin Clark"
+          - heading "Kobe V Protro Caitlin Clark" [level=3]
+          - text: $304.00
+        - button "Add Kobe V Protro Caitlin Clark to your watch list"
+      - listitem:
+        - link "Men's Kobe 5 Protro \"Caitlin Clark Ind Fever\" Size 13 *IN HAND* Men's Kobe 5 Protro \"Caitlin Clark Ind Fever\" Size 13 *IN HAND* $375.00":
+          - /url: https://www.ebay.com/itm/317044579552?_trkparms=amclksrc%3DITM%26aid%3D777008%26algo%3DPERSONAL.TOPIC%26ao%3D1%26asc%3D20240603120050%26meid%3D2b3ce05ccf1e42f4b7632025b364c5b8%26pid%3D102175%26rk%3D1%26rkt%3D1%26itm%3D317044579552%26pmt%3D0%26noa%3D1%26pg%3D4375194%26algv%3DNoSignalMostSearched%26brand%3DNike&_trksid=p4375194.c102175.m166538&_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Ciid%3A1%7Cvlpname%3Avlp_homepage
+          - img "Men's Kobe 5 Protro \"Caitlin Clark Ind Fever\" Size 13 *IN HAND*"
+          - heading "Men's Kobe 5 Protro \"Caitlin Clark Ind Fever\" Size 13 *IN HAND*" [level=3]
+          - text: $375.00
+        - button "Add Men's Kobe 5 Protro \"Caitlin Clark Ind Fever\" Size 13 *IN HAND* to your watch list"
+      - listitem:
+        - link "Size 10.5 - Nike Caitlin Clark x Zoom Kobe 5 Protro Indiana Fever Size 10.5 - Nike Caitlin Clark x Zoom Kobe 5 Protro Indiana Fever $325.00":
+          - /url: https://www.ebay.com/itm/277247930722?_trkparms=amclksrc%3DITM%26aid%3D777008%26algo%3DPERSONAL.TOPIC%26ao%3D1%26asc%3D20240603120050%26meid%3D2b3ce05ccf1e42f4b7632025b364c5b8%26pid%3D102175%26rk%3D1%26rkt%3D1%26itm%3D277247930722%26pmt%3D1%26noa%3D1%26pg%3D4375194%26algv%3DNoSignalMostSearched%26brand%3DNike&_trksid=p4375194.c102175.m166538&_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Ciid%3A1%7Cvlpname%3Avlp_homepage
+          - img "Size 10.5 - Nike Caitlin Clark x Zoom Kobe 5 Protro Indiana Fever"
+          - heading "Size 10.5 - Nike Caitlin Clark x Zoom Kobe 5 Protro Indiana Fever" [level=3]
+          - text: $325.00
+        - button "Add Size 10.5 - Nike Caitlin Clark x Zoom Kobe 5 Protro Indiana Fever to your watch list"
+    - button "Go to the next slide, Trending in Sneakers - Carousel"
+  - heading "eBay Live" [level=2]:
+    - link "eBay Live":
+      - /url: https://www.ebay.com/ebaylive?_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Ciid%3A1%7Cvlpname%3Avlp_homepage
+  - text: Tune in and shop curated experiences
+  - link "See all":
+    - /url: https://www.ebay.com/ebaylive?_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Ciid%3A1%7Cvlpname%3Avlp_homepage
+  - group:
+    - button "Go to the previous slide, Your Recently Viewed Items - Carousel" [disabled]
+    - list:
+      - listitem:
+        - 'link "AFSHARI COMICS: Monday Morning Coffee with Joey"':
+          - /url: https://www.ebay.com/ebaylive/events/4Vy6s1ziJflm3S5x?_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Ciid%3A1%7Cvlpname%3Avlp_homepage
+          - 'img "AFSHARI COMICS: Monday Morning Coffee with Joey"'
+        - button
+        - link "21":
+          - /url: https://www.ebay.com/ebaylive/events/4Vy6s1ziJflm3S5x
+        - link "Event hostname icon comicbookshoppingnetworkcbsn":
+          - /url: /usr/comicbookshoppingnetworkcbsn
+          - img "Event hostname icon"
+          - text: comicbookshoppingnetworkcbsn
+        - 'link "AFSHARI COMICS: Monday Morning Coffee with Joey"':
+          - /url: https://www.ebay.com/ebaylive/events/4Vy6s1ziJflm3S5x?_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Ciid%3A1%7Cvlpname%3Avlp_homepage
+          - paragraph: "AFSHARI COMICS: Monday Morning Coffee with Joey"
+      - listitem:
+        - link "SLABS, COMICS & MORE W/ PCB HOBBY CREW! ALL DAY + FREE SHIPPING 7/7 P":
+          - /url: https://www.ebay.com/ebaylive/events/BX0EyBUgcv2rlpdW?_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Ciid%3A1%7Cvlpname%3Avlp_homepage
+          - img "SLABS, COMICS & MORE W/ PCB HOBBY CREW! ALL DAY + FREE SHIPPING 7/7 P"
+        - button
+        - text: Jul 7, 3pm
+        - link "Event hostname icon pcbhobby":
+          - /url: /usr/pcbhobby
+          - img "Event hostname icon"
+          - text: pcbhobby
+        - link "SLABS, COMICS & MORE W/ PCB HOBBY CREW! ALL DAY + FREE SHIPPING 7/7 P":
+          - /url: https://www.ebay.com/ebaylive/events/BX0EyBUgcv2rlpdW?_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Ciid%3A1%7Cvlpname%3Avlp_homepage
+          - paragraph: SLABS, COMICS & MORE W/ PCB HOBBY CREW! ALL DAY + FREE SHIPPING 7/7 P
+      - listitem:
+        - link "Monday Morning Chaos w/ Cowabunga Steve":
+          - /url: https://www.ebay.com/ebaylive/events/YhSKDkx6EefpgQiT?_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Ciid%3A1%7Cvlpname%3Avlp_homepage
+          - img "Monday Morning Chaos w/ Cowabunga Steve"
+        - button
+        - text: Jul 7, 3pm
+        - link "Event hostname icon cowabungacomics":
+          - /url: /usr/cowabungacomics
+          - img "Event hostname icon"
+          - text: cowabungacomics
+        - link "Monday Morning Chaos w/ Cowabunga Steve":
+          - /url: https://www.ebay.com/ebaylive/events/YhSKDkx6EefpgQiT?_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Ciid%3A1%7Cvlpname%3Avlp_homepage
+          - paragraph: Monday Morning Chaos w/ Cowabunga Steve
+      - listitem:
+        - link "THE SUNDAY COLLECTIVE WITH STACY!":
+          - /url: https://www.ebay.com/ebaylive/events/x6jOi34421A5ICGn?_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Ciid%3A1%7Cvlpname%3Avlp_homepage
+          - img "THE SUNDAY COLLECTIVE WITH STACY!"
+        - button
+        - text: Jul 7, 3:30pm
+        - link "Event hostname icon ourcozycorner":
+          - /url: /usr/ourcozycorner
+          - img "Event hostname icon"
+          - text: ourcozycorner
+        - link "THE SUNDAY COLLECTIVE WITH STACY!":
+          - /url: https://www.ebay.com/ebaylive/events/x6jOi34421A5ICGn?_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Ciid%3A1%7Cvlpname%3Avlp_homepage
+          - paragraph: THE SUNDAY COLLECTIVE WITH STACY!
+    - button "Go to the next slide, Your Recently Viewed Items - Carousel"
+  - text: Luxury bags with lasting power Collect coveted styles backed by Authenticity Guarantee.
+  - link "Shop now":
+    - /url: https://www.ebay.com/authenticity-guarantee/handbags?_trkparms=pageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Cparentrq%3Ae493d7501970a670cc5639cefffb090e%7Ciid%3A3%7Cvlpname%3Avlp_homepage%7Cii%3Ab465b04e-e134-492e-828e-a9b1bb20cfdb
+  - heading "Trending in Watches" [level=2]
+  - group:
+    - button "Go to the previous slide, Trending in Watches - Carousel" [disabled]
+    - list:
+      - listitem:
+        - link "Barn Find! 1961 OMEGA Speedmaster 2998-5 Straight Lug Cal. 321 - For Repair Barn Find! 1961 OMEGA Speedmaster 2998-5 Straight Lug Cal. 321 - For Repair $3,161.00":
+          - /url: https://www.ebay.com/itm/336047938204?_trkparms=amclksrc%3DITM%26aid%3D777008%26algo%3DPERSONAL.TOPIC%26ao%3D1%26asc%3D20240603121338%26meid%3Dfc0760da95ef4a8a8593044e5d7b856c%26pid%3D102176%26rk%3D1%26rkt%3D1%26itm%3D336047938204%26pmt%3D0%26noa%3D1%26pg%3D4375194%26algv%3DNoSignalMostWatched%26brand%3DOMEGA&_trksid=p4375194.c102176.m166539&_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Ciid%3A1%7Cvlpname%3Avlp_homepage
+          - img "Barn Find! 1961 OMEGA Speedmaster 2998-5 Straight Lug Cal. 321 - For Repair"
+          - heading "Barn Find! 1961 OMEGA Speedmaster 2998-5 Straight Lug Cal. 321 - For Repair" [level=3]
+          - text: $3,161.00
+        - button "Add Barn Find! 1961 OMEGA Speedmaster 2998-5 Straight Lug Cal. 321 - For Repair to your watch list"
+      - listitem:
+        - link "Rolex Sea-Dweller 116600 with original box and original papers NO RESERVE Rolex Sea-Dweller 116600 with original box and original papers NO RESERVE $11,500.00":
+          - /url: https://www.ebay.com/itm/277251342880?_trkparms=amclksrc%3DITM%26aid%3D777008%26algo%3DPERSONAL.TOPIC%26ao%3D1%26asc%3D20240603121338%26meid%3Dfc0760da95ef4a8a8593044e5d7b856c%26pid%3D102176%26rk%3D1%26rkt%3D1%26itm%3D277251342880%26pmt%3D0%26noa%3D1%26pg%3D4375194%26algv%3DNoSignalMostWatched%26brand%3DRolex&_trksid=p4375194.c102176.m166539&_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Ciid%3A1%7Cvlpname%3Avlp_homepage
+          - img "Rolex Sea-Dweller 116600 with original box and original papers NO RESERVE"
+          - heading "Rolex Sea-Dweller 116600 with original box and original papers NO RESERVE" [level=3]
+          - text: $11,500.00
+        - button "Add Rolex Sea-Dweller 116600 with original box and original papers NO RESERVE to your watch list"
+      - listitem:
+        - link "Tudor Black Bay Bronze Bucherer Blue, 43mm, Box, Papers, Serviced, Excellent Tudor Black Bay Bronze Bucherer Blue, 43mm, Box, Papers, Serviced, Excellent $2,276.00":
+          - /url: https://www.ebay.com/itm/277248146178?_trkparms=amclksrc%3DITM%26aid%3D777008%26algo%3DPERSONAL.TOPIC%26ao%3D1%26asc%3D20240603121338%26meid%3Dfc0760da95ef4a8a8593044e5d7b856c%26pid%3D102176%26rk%3D1%26rkt%3D1%26itm%3D277248146178%26pmt%3D0%26noa%3D1%26pg%3D4375194%26algv%3DNoSignalMostWatched%26brand%3DTUDOR&_trksid=p4375194.c102176.m166539&_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Ciid%3A1%7Cvlpname%3Avlp_homepage
+          - img "Tudor Black Bay Bronze Bucherer Blue, 43mm, Box, Papers, Serviced, Excellent"
+          - heading "Tudor Black Bay Bronze Bucherer Blue, 43mm, Box, Papers, Serviced, Excellent" [level=3]
+          - text: $2,276.00
+        - button "Add Tudor Black Bay Bronze Bucherer Blue, 43mm, Box, Papers, Serviced, Excellent to your watch list"
+      - listitem:
+        - link "ROLEX Steel & 18K Yellow Gold 40mm Submariner Black 16613N Box 2005/2006 ROLEX Steel & 18K Yellow Gold 40mm Submariner Black 16613N Box 2005/2006 $7,600.00":
+          - /url: https://www.ebay.com/itm/317044341360?_trkparms=amclksrc%3DITM%26aid%3D777008%26algo%3DPERSONAL.TOPIC%26ao%3D1%26asc%3D20240603121338%26meid%3Dfc0760da95ef4a8a8593044e5d7b856c%26pid%3D102176%26rk%3D1%26rkt%3D1%26itm%3D317044341360%26pmt%3D0%26noa%3D1%26pg%3D4375194%26algv%3DNoSignalMostWatched%26brand%3DRolex&_trksid=p4375194.c102176.m166539&_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Ciid%3A1%7Cvlpname%3Avlp_homepage
+          - img "ROLEX Steel & 18K Yellow Gold 40mm Submariner Black 16613N Box 2005/2006"
+          - heading "ROLEX Steel & 18K Yellow Gold 40mm Submariner Black 16613N Box 2005/2006" [level=3]
+          - text: $7,600.00
+        - button "Add ROLEX Steel & 18K Yellow Gold 40mm Submariner Black 16613N Box 2005/2006 to your watch list"
+      - listitem:
+        - link "Audemars Piguet Royal Oak- Black + Extra Links Audemars Piguet Royal Oak- Black + Extra Links $3,155.00":
+          - /url: https://www.ebay.com/itm/157143189525?_trkparms=amclksrc%3DITM%26aid%3D777008%26algo%3DPERSONAL.TOPIC%26ao%3D1%26asc%3D20240603121338%26meid%3Dfc0760da95ef4a8a8593044e5d7b856c%26pid%3D102176%26rk%3D1%26rkt%3D1%26itm%3D157143189525%26pmt%3D1%26noa%3D1%26pg%3D4375194%26algv%3DNoSignalMostWatched%26brand%3DAudemars%2BPiguet&_trksid=p4375194.c102176.m166539&_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Ciid%3A1%7Cvlpname%3Avlp_homepage
+          - img "Audemars Piguet Royal Oak- Black + Extra Links"
+          - heading "Audemars Piguet Royal Oak- Black + Extra Links" [level=3]
+          - text: $3,155.00
+        - button "Add Audemars Piguet Royal Oak- Black + Extra Links to your watch list"
+    - button "Go to the next slide, Trending in Watches - Carousel"
+  - heading "20% off for 4th of July and beyond" [level=2]:
+    - link "20% off for 4th of July and beyond":
+      - /url: https://www.ebay.com/e/daily-deals/25-rw27-july-4?_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Ciid%3A3%7Cli%3A9803
+  - link "See all 20% off for 4th of July and beyond":
+    - /url: https://www.ebay.com/e/daily-deals/25-rw27-july-4?_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Ciid%3A3%7Cli%3A8342
+  - group:
+    - list:
+      - listitem:
+        - link "Tech":
+          - /url: https://www.ebay.com/e/daily-deals/25-rw27-july-4-tech?_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Cc%3A1%7Ciid%3A3%7Cli%3A8874
+          - heading "Tech" [level=3]
+      - listitem:
+        - link "Home and garden":
+          - /url: https://www.ebay.com/e/daily-deals/25-rw27-july-4-home-and-garden?_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Cc%3A2%7Ciid%3A3%7Cli%3A8874
+          - heading "Home and garden" [level=3]
+      - listitem:
+        - link "eBay Refurbished finds":
+          - /url: https://www.ebay.com/e/daily-deals/25-rw27-july-4-refurbished?_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Cc%3A3%7Ciid%3A3%7Cli%3A8874
+          - heading "eBay Refurbished finds" [level=3]
+      - listitem:
+        - link "Women’s fashion":
+          - /url: https://www.ebay.com/e/fashion/womens-clothing-july-4th-rm-sfc-063025?_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Cc%3A4%7Ciid%3A3%7Cli%3A8874
+          - heading "Women’s fashion" [level=3]
+      - listitem:
+        - link "Men’s fashion":
+          - /url: https://www.ebay.com/e/fashion/mens-clothing-july-4th-rm-sfc-063025?_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Cc%3A5%7Ciid%3A3%7Cli%3A8874
+          - heading "Men’s fashion" [level=3]
+      - listitem:
+        - link "Watches":
+          - /url: https://www.ebay.com/e/fashion/watches-july-4th-rm-sfc-063025?_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Cc%3A6%7Ciid%3A3%7Cli%3A8874
+          - heading "Watches" [level=3]
+      - listitem:
+        - link "Jewelry":
+          - /url: https://www.ebay.com/e/fashion/jewelry-july-4th-rm-sfc-063025?_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Cc%3A7%7Ciid%3A3%7Cli%3A8874
+          - heading "Jewelry" [level=3]
+  - text: Look for a Top Rated Plus badge Your order will be shipped within 1 business day, plus tracking.
+  - link "Learn more":
+    - /url: https://www.ebay.com/help/buying/resolving-issues-sellers/seller-ratings?id=4023&_trkparms=pageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Cparentrq%3Ae493d7501970a670cc5639cefffb090e%7Ciid%3A2%7Cvlpname%3Avlp_homepage%7Cii%3Ad8aff31e-30b3-43f9-a936-244e0449e86b#TopRatedPlus
+  - group:
+    - button "Go to the previous slide, Today's Deals - Carousel" [disabled]
+    - list:
+      - listitem:
+        - heading "Today's Deals" [level=2]:
+          - link "Today's Deals":
+            - /url: https://www.ebay.com/deals?_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Ciid%3A1%7Cvlpname%3Avlp_homepage
+        - text: All With Free Shipping
+        - link "Shop now":
+          - /url: https://www.ebay.com/deals?_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Ciid%3A1%7Cvlpname%3Avlp_homepage
+      - listitem:
+        - link "Bose QuietComfort Ultra Noise Cancelling Headphones, Certified Refurbished Bose QuietComfort Ultra Noise Cancelling Headphones, Certified Refurbished $329.00 previous price $379.00":
+          - /url: https://www.ebay.com/itm/166708867898?_trkparms=amclksrc%3DITM%26aid%3D777008%26algo%3DPERSONAL.TOPIC%26ao%3D1%26asc%3D20231108131718%26meid%3D20454fbbc73e43ff9b58f4e104e277a8%26pid%3D101910%26rk%3D1%26rkt%3D1%26itm%3D166708867898%26pmt%3D0%26noa%3D1%26pg%3D4375194%26algv%3DFeaturedDealsV2&_trksid=p4375194.c101910.m150506&_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Ciid%3A1%7Cvlpname%3Avlp_homepage
+          - img "Bose QuietComfort Ultra Noise Cancelling Headphones, Certified Refurbished"
+          - heading "Bose QuietComfort Ultra Noise Cancelling Headphones, Certified Refurbished" [level=3]
+          - text: $329.00 $379.00
+      - listitem:
+        - link "Apple iPhone 14 Pro Max 256GB Network Unlocked Excellent Condition Apple iPhone 14 Pro Max 256GB Network Unlocked Excellent Condition $643.54 previous price $1,199.00":
+          - /url: https://www.ebay.com/itm/355063742942?_trkparms=amclksrc%3DITM%26aid%3D777008%26algo%3DPERSONAL.TOPIC%26ao%3D1%26asc%3D20231108131718%26meid%3D20454fbbc73e43ff9b58f4e104e277a8%26pid%3D101910%26rk%3D1%26rkt%3D1%26itm%3D355063742942%26pmt%3D0%26noa%3D1%26pg%3D4375194%26algv%3DFeaturedDealsV2&_trksid=p4375194.c101910.m150506&_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Ciid%3A1%7Cvlpname%3Avlp_homepage
+          - img "Apple iPhone 14 Pro Max 256GB Network Unlocked Excellent Condition"
+          - heading "Apple iPhone 14 Pro Max 256GB Network Unlocked Excellent Condition" [level=3]
+          - text: $643.54 $1,199.00
+      - listitem:
+        - link "New Balance Men's Fresh Foam X EVOZ v4 Shoe New Balance Men's Fresh Foam X EVOZ v4 Shoe $74.99 previous price $99.99":
+          - /url: https://www.ebay.com/itm/197168472552?_trkparms=amclksrc%3DITM%26aid%3D777008%26algo%3DPERSONAL.TOPIC%26ao%3D1%26asc%3D20231108131718%26meid%3D20454fbbc73e43ff9b58f4e104e277a8%26pid%3D101910%26rk%3D1%26rkt%3D1%26itm%3D197168472552%26pmt%3D0%26noa%3D1%26pg%3D4375194%26algv%3DFeaturedDealsV2&_trksid=p4375194.c101910.m150506&_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Ciid%3A1%7Cvlpname%3Avlp_homepage
+          - img "New Balance Men's Fresh Foam X EVOZ v4 Shoe"
+          - heading "New Balance Men's Fresh Foam X EVOZ v4 Shoe" [level=3]
+          - text: $74.99 $99.99
+    - button "Go to the next slide, Today's Deals - Carousel"
+  - heading "Trending in Refurbished" [level=2]
+  - group:
+    - button "Go to the previous slide, Trending in Refurbished - Carousel" [disabled]
+    - list:
+      - listitem:
+        - link "Soundcore Sleep A20 Noise Blocking Sleep Earbuds Sleep Monitor 80Hr Play |Refurb Soundcore Sleep A20 Noise Blocking Sleep Earbuds Sleep Monitor 80Hr Play |Refurb $119.99 previous price $149.99":
+          - /url: https://www.ebay.com/itm/387295723325?_trkparms=amclksrc%3DITM%26aid%3D777008%26algo%3DPERSONAL.TOPIC%26ao%3D1%26asc%3D20240603121456%26meid%3D115a76591c7f46f9839c2cc009eaccf8%26pid%3D102177%26rk%3D1%26rkt%3D1%26itm%3D387295723325%26pmt%3D1%26noa%3D1%26pg%3D4375194%26algv%3DNoSignalMostWatched%26brand%3Dsoundcore&_trksid=p4375194.c102177.m166540&_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Ciid%3A1%7Cvlpname%3Avlp_homepage
+          - img "Soundcore Sleep A20 Noise Blocking Sleep Earbuds Sleep Monitor 80Hr Play |Refurb"
+          - heading "Soundcore Sleep A20 Noise Blocking Sleep Earbuds Sleep Monitor 80Hr Play |Refurb" [level=3]
+          - text: $119.99 $149.99
+        - button "Add Soundcore Sleep A20 Noise Blocking Sleep Earbuds Sleep Monitor 80Hr Play |Refurb to your watch list"
+      - listitem:
+        - link "Anker Soundcore Motion Boom Plus Portable Bluetooth Speaker Outdoor 80W |Refurb Anker Soundcore Motion Boom Plus Portable Bluetooth Speaker Outdoor 80W |Refurb $115.99 previous price $179.99":
+          - /url: https://www.ebay.com/itm/385104891418?_trkparms=amclksrc%3DITM%26aid%3D777008%26algo%3DPERSONAL.TOPIC%26ao%3D1%26asc%3D20240603121456%26meid%3D115a76591c7f46f9839c2cc009eaccf8%26pid%3D102177%26rk%3D1%26rkt%3D1%26itm%3D385104891418%26pmt%3D1%26noa%3D1%26pg%3D4375194%26algv%3DNoSignalMostWatched%26brand%3Dsoundcore&_trksid=p4375194.c102177.m166540&_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Ciid%3A1%7Cvlpname%3Avlp_homepage
+          - img "Anker Soundcore Motion Boom Plus Portable Bluetooth Speaker Outdoor 80W |Refurb"
+          - heading "Anker Soundcore Motion Boom Plus Portable Bluetooth Speaker Outdoor 80W |Refurb" [level=3]
+          - text: $115.99 $179.99
+        - button "Add Anker Soundcore Motion Boom Plus Portable Bluetooth Speaker Outdoor 80W |Refurb to your watch list"
+      - listitem:
+        - link "Arlo VMS4352P-100NAR Pro 4 XL 3 Camera Security Bundle - Certified Refurbished Arlo VMS4352P-100NAR Pro 4 XL 3 Camera Security Bundle - Certified Refurbished $159.00 previous price $599.99":
+          - /url: https://www.ebay.com/itm/134314040206?_trkparms=amclksrc%3DITM%26aid%3D777008%26algo%3DPERSONAL.TOPIC%26ao%3D1%26asc%3D20240603121456%26meid%3D115a76591c7f46f9839c2cc009eaccf8%26pid%3D102177%26rk%3D1%26rkt%3D1%26itm%3D134314040206%26pmt%3D1%26noa%3D1%26pg%3D4375194%26algv%3DNoSignalMostWatched%26brand%3DArlo&_trksid=p4375194.c102177.m166540&_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Ciid%3A1%7Cvlpname%3Avlp_homepage
+          - img "Arlo VMS4352P-100NAR Pro 4 XL 3 Camera Security Bundle - Certified Refurbished"
+          - heading "Arlo VMS4352P-100NAR Pro 4 XL 3 Camera Security Bundle - Certified Refurbished" [level=3]
+          - text: $159.00 $599.99
+        - button "Add Arlo VMS4352P-100NAR Pro 4 XL 3 Camera Security Bundle - Certified Refurbished to your watch list"
+      - listitem:
+        - link "HP EliteBook Ultra G1q 14\" 2.2K Touch X Elite X1E-78-100 16GB 512GB SSD W11P, BL HP EliteBook Ultra G1q 14\" 2.2K Touch X Elite X1E-78-100 16GB 512GB SSD W11P, BL $558.00 previous price $929.99":
+          - /url: https://www.ebay.com/itm/376336361281?_trkparms=amclksrc%3DITM%26aid%3D777008%26algo%3DPERSONAL.TOPIC%26ao%3D1%26asc%3D20240603121456%26meid%3D115a76591c7f46f9839c2cc009eaccf8%26pid%3D102177%26rk%3D1%26rkt%3D1%26itm%3D376336361281%26pmt%3D1%26noa%3D1%26pg%3D4375194%26algv%3DNoSignalMostWatched%26brand%3DHP&_trksid=p4375194.c102177.m166540&_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Ciid%3A1%7Cvlpname%3Avlp_homepage
+          - img "HP EliteBook Ultra G1q 14\" 2.2K Touch X Elite X1E-78-100 16GB 512GB SSD W11P, BL"
+          - heading "HP EliteBook Ultra G1q 14\" 2.2K Touch X Elite X1E-78-100 16GB 512GB SSD W11P, BL" [level=3]
+          - text: $558.00 $929.99
+        - button "Add HP EliteBook Ultra G1q 14\" 2.2K Touch X Elite X1E-78-100 16GB 512GB SSD W11P, BL to your watch list"
+      - listitem:
+        - link "Sportsman 4000 Watt Gasoline Generator Certified Refurbished Sportsman 4000 Watt Gasoline Generator Certified Refurbished $299.99 previous price $399.99":
+          - /url: https://www.ebay.com/itm/402781379824?_trkparms=amclksrc%3DITM%26aid%3D777008%26algo%3DPERSONAL.TOPIC%26ao%3D1%26asc%3D20240603121456%26meid%3D115a76591c7f46f9839c2cc009eaccf8%26pid%3D102177%26rk%3D1%26rkt%3D1%26itm%3D402781379824%26pmt%3D1%26noa%3D1%26pg%3D4375194%26algv%3DNoSignalMostWatched%26brand%3DSportsman&_trksid=p4375194.c102177.m166540&_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Ciid%3A1%7Cvlpname%3Avlp_homepage
+          - img "Sportsman 4000 Watt Gasoline Generator Certified Refurbished"
+          - heading "Sportsman 4000 Watt Gasoline Generator Certified Refurbished" [level=3]
+          - text: $299.99 $399.99
+        - button "Add Sportsman 4000 Watt Gasoline Generator Certified Refurbished to your watch list"
+    - button "Go to the next slide, Trending in Refurbished - Carousel"
+  - link "Featured Deals made easy all year long. Free shipping. Best prices. Get your thing":
+    - /url: https://www.ebay.com/deals?itmprp=enc%3AAQAKAAAAUGJc42PbZezye6cyuxOuth2BoqJi36guIXdtwXkTHNR7r1mVbGjyafSOz9mCKCC9lXkQqQHte3L62cLHGrsMC9wNtX%2FEshL2QzkH7edaviI3%7Ctkp%3AEElOVEVSTkFMmt%2Beyfxl&_trkparms=parentrq%3Ae493d7501970a670cc5639cefffb090e%7Cpageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Cc%3A1%7Ciid%3A1%7Cmi%3A4818%7Cli%3A8991
+  - text: Up to 10% off Van Cleef & Arpels Express yourself through legendary savoir-faire.
+  - link "Shop now":
+    - /url: https://www.ebay.com/e/fashion/van-cleef-arpels-072423?_trkparms=pageci%3Ae2981a32-5b22-11f0-ae0d-b22f8f050dea%7Cparentrq%3Ae493d7501970a670cc5639cefffb090e%7Ciid%3A1%7Cvlpname%3Avlp_homepage%7Cii%3Afdc91e30-6e94-4831-a928-b7292bd52051
+  - button "Help, opens dialogs":
+    - img
+- img
+- contentinfo:
+  - heading "Buy" [level=3]:
+    - link "Buy":
+      - /url: https://www.ebay.com/n/all-categories
+  - list:
+    - listitem:
+      - link "Registration":
+        - /url: https://www.ebay.com/help/account/default/ebay-account?id=4188
+    - listitem:
+      - link "Bidding & buying help":
+        - /url: https://www.ebay.com/help/buying
+    - listitem:
+      - link "Stores":
+        - /url: https://www.ebay.com/b/Stores-HUB/bn_7004224522
+    - listitem:
+      - link "Creator Collections":
+        - /url: https://storefronts.ebay.com/
+    - listitem:
+      - link "eBay for Charity":
+        - /url: https://www.charity.ebay.com/
+    - listitem:
+      - link "Charity Shop":
+        - /url: https://www.ebay.com/b/Charity/bn_7114598164
+    - listitem:
+      - link "Seasonal Sales and events":
+        - /url: https://www.ebay.com/b/Sales-Events/bn_7115049177
+    - listitem:
+      - link "eBay Gift Cards":
+        - /url: https://www.ebay.com/giftcards
+  - heading "Sell" [level=3]:
+    - link "Sell":
+      - /url: https://www.ebay.com/sl/sell
+  - list:
+    - listitem:
+      - link "Start selling":
+        - /url: https://www.ebay.com/sl/sell
+    - listitem:
+      - link "How to sell":
+        - /url: https://pages.ebay.com/seller-center/get-started/selling-basics.html?utm_source=gf-learn-to-sell&utm_medium=onsite
+    - listitem:
+      - link "Business sellers":
+        - /url: https://pages.ebay.com/seller-center/listing-and-marketing/seller-hub.html
+    - listitem:
+      - link "Affiliates":
+        - /url: https://partnernetwork.ebay.com/
+  - heading "Tools & apps" [level=3]
+  - list:
+    - listitem:
+      - link "Developers":
+        - /url: https://developer.ebay.com/
+    - listitem:
+      - link "Security center":
+        - /url: https://pages.ebay.com/securitycenter/index.html
+    - listitem:
+      - link "Site map":
+        - /url: https://pages.ebay.com/sitemap.html
+  - heading "eBay companies" [level=3]
+  - link "TCGplayer":
+    - /url: https://www.tcgplayer.com/
+  - heading "Stay connected" [level=3]
+  - list:
+    - listitem:
+      - link "Facebook":
+        - /url: https://www.facebook.com/ebay/
+    - listitem:
+      - link "X (Twitter)":
+        - /url: https://twitter.com/eBay
+  - heading "About eBay" [level=3]:
+    - link "About eBay":
+      - /url: https://www.ebayinc.com/
+  - list:
+    - listitem:
+      - link "Company info":
+        - /url: https://www.ebayinc.com/company/
+    - listitem:
+      - link "News":
+        - /url: https://www.ebayinc.com/stories/news/
+    - listitem:
+      - link "Deferred Prosecution Agreement with District of Massachusetts":
+        - /url: https://www.ebayinc.com/stories/press-room/#assets-settlements
+    - listitem:
+      - link "Investors":
+        - /url: https://investors.ebayinc.com/overview/default.aspx
+    - listitem:
+      - link "Careers":
+        - /url: https://careers.ebayinc.com/
+    - listitem:
+      - link "Diversity & Inclusion":
+        - /url: https://www.ebayinc.com/company/diversity-equity-inclusion/
+    - listitem:
+      - link "Global Impact":
+        - /url: https://www.ebayinc.com/impact/
+    - listitem:
+      - link "Government relations":
+        - /url: https://www.ebaymainstreet.com/
+    - listitem:
+      - link "Advertise with us":
+        - /url: https://www.ebayads.com/
+    - listitem:
+      - link "Policies":
+        - /url: https://www.ebay.com/help/policies/default/ebays-rules-policies?id=4205
+    - listitem:
+      - link "Verified Rights Owner (VeRO) Program":
+        - /url: https://pages.ebay.com/seller-center/listing-and-marketing/verified-rights-owner-program.html#what-is-the-vero-program
+    - listitem:
+      - link "eCI Licenses":
+        - /url: https://pages.ebay.com/ebayCommerce/mtl.html
+  - heading "Help & Contact" [level=3]:
+    - link "Help & Contact":
+      - /url: https://www.ebay.com/help/home
+  - list:
+    - listitem:
+      - link "Seller Center":
+        - /url: https://pages.ebay.com/seller-center/index.html?utm_source=gf&utm_medium=onsite
+    - listitem:
+      - link "Contact Us":
+        - /url: https://www.ebay.com/help/home
+    - listitem:
+      - link "eBay Returns":
+        - /url: https://pages.ebay.com/returns/
+    - listitem:
+      - link "eBay Money Back Guarantee":
+        - /url: https://pages.ebay.com/ebay-money-back-guarantee/
+  - heading "Community" [level=3]:
+    - link "Community":
+      - /url: https://community.ebay.com/
+  - list:
+    - listitem:
+      - link "Announcements":
+        - /url: https://community.ebay.com/t5/Announcements/bg-p/Announcements
+    - listitem:
+      - link "eBay Community":
+        - /url: https://community.ebay.com/
+    - listitem:
+      - link "eBay for Business Podcast":
+        - /url: https://community.ebay.com/t5/Podcasts/ct-p/Podcasts
+  - heading "eBay Sites" [level=3]
+  - button "eBay Sites - United States - change site": United States
+  - text: Copyright © 1995-2025 eBay Inc. All Rights Reserved.
+  - link "Accessibility":
+    - /url: https://www.ebayinc.com/accessibility/
+  - text: ","
+  - link "User Agreement":
+    - /url: https://www.ebay.com/help/policies/member-behaviour-policies/user-agreement?id=4259
+  - text: ","
+  - link "Privacy":
+    - /url: https://www.ebay.com/help/policies/member-behaviour-policies/user-privacy-notice-privacy-policy?id=4260
+  - text: ","
+  - link "Consumer Health Data":
+    - /url: https://www.ebayinc.com/company/privacy-center/privacy-notice/consumer-health-data-privacy-policy/
+  - text: ","
+  - link "Payments Terms of Use":
+    - /url: https://pages.ebay.com/payment/2.0/terms.html
+  - text: ","
+  - link "Cookies":
+    - /url: https://www.ebay.com/help/policies/member-behaviour-policies/ebay-cookie-notice?id=4267
+  - text: ","
+  - link "CA Privacy Notice":
+    - /url: https://www.ebayinc.com/company/privacy-center/privacy-notice/state-privacy-disclosures/#california
+  - text: ","
+  - link "Your Privacy Choices":
+    - /url: https://www.ebay.com/adchoice/ccpa
+  - text: and
+  - link "AdChoice":
+    - /url: https://www.ebay.com/adchoice
+- img
+```
