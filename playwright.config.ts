@@ -15,8 +15,8 @@ export default defineConfig({
   use: {
     baseURL: 'https://www.ebay.com',
     headless: true,
-    screenshot: 'only-on-failure',
-    video: 'retain-on-failure',
+    screenshot: 'only-on-failure', // or 'only-on-failure'
+    video: 'off',      // <--- THIS IS CRITICAL
     trace: 'on-first-retry',
   },
   projects: [
