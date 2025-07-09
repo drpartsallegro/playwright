@@ -54,6 +54,10 @@ jobs:
     needs: test
     if: always()
     steps:
+      - name: Remove symlinks from report
+        run: |
+          find github-pages -type l -delete
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
