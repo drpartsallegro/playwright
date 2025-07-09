@@ -1,64 +1,66 @@
-import { test, expect } from '@playwright/test';
+import { test, expect, Page } from '@playwright/test';
 import { HomePage } from '../../src/pages/HomePage';
 import { SearchResultsPage } from '../../src/pages/SearchResultsPage';
-import { ProductPage } from '../../src/pages/ProductPage';
+import { SingleProductPage } from '../../src/pages/single/SingleProductPage';
 import { TestData } from '../../src/utils/TestData';
 
 test.describe('eBay Product Page Tests', () => {
   let homePage: HomePage;
   let searchResultsPage: SearchResultsPage;
-  let productPage: ProductPage;
 
   test.beforeEach(async ({ page }) => {
     homePage = new HomePage(page);
     searchResultsPage = new SearchResultsPage(page);
-    productPage = new ProductPage(page);
   });
+
+  async function openProductPage(page: Page) {
+    const firstProduct = page.locator('.srp-results .s-item__link').first();
+    const [newPage] = await Promise.all([
+      page.context().waitForEvent('page'),
+      firstProduct.click(),
+    ]);
+    await newPage.bringToFront();
+    return new SingleProductPage(newPage);
+  }
+
+  async function skipIfSpamProtection(page: Page) {
+    if (await page.locator('text=Please verify yourself to continue').isVisible({ timeout: 2000 })) {
+      console.log('Test skipped due to spam protection screen.');
+      test.skip(true, 'Skipped due to spam protection screen.');
+    }
+  }
 
   test('should load product page with details', async ({ page }) => {
     await homePage.navigateToHomePage();
     await homePage.searchForItem(TestData.SEARCH_TERMS.LAPTOP);
     await searchResultsPage.waitForResults();
-    
-    // Click on first product
-    const firstProduct = page.locator('.srp-results .s-item__link').first();
-    await firstProduct.click();
-    
-    try {
-      await productPage.waitForProductToLoad();
-      
-      const title = await productPage.getProductTitle();
-      const price = await productPage.getProductPrice();
-      
-      expect(title).toBeTruthy();
-      expect(price).toBeTruthy();
-    } catch (error) {
-      console.log('Product page load failed, but test continues');
-      // Verify we're on some kind of product page
-      await expect(page.locator('h1')).toBeVisible();
-    }
+    const singleProductPage = await openProductPage(page);
+    await skipIfSpamProtection(singleProductPage.page);
+    await singleProductPage.waitForProductToLoad();
+    const title = await singleProductPage.getProductTitle();
+    const price = await singleProductPage.getProductPrice();
+    expect(title).toBeTruthy();
+    expect(price).toBeTruthy();
   });
 
   test('should display product images', async ({ page }) => {
     await homePage.navigateToHomePage();
     await homePage.searchForItem(TestData.SEARCH_TERMS.LAPTOP);
     await searchResultsPage.waitForResults();
-    
-    await page.locator('.srp-results .s-item__link').first().click();
-    await productPage.waitForProductToLoad();
-    
-    await expect(productPage.productImages).toBeVisible();
+    const singleProductPage = await openProductPage(page);
+    await skipIfSpamProtection(singleProductPage.page);
+    await singleProductPage.waitForProductToLoad();
+    await expect(singleProductPage.productImages.first()).toBeVisible();
   });
 
   test('should display seller information', async ({ page }) => {
     await homePage.navigateToHomePage();
     await homePage.searchForItem(TestData.SEARCH_TERMS.LAPTOP);
     await searchResultsPage.waitForResults();
-    
-    await page.locator('.srp-results .s-item__link').first().click();
-    await productPage.waitForProductToLoad();
-    
-    const sellerInfo = await productPage.getSellerInfo();
+    const singleProductPage = await openProductPage(page);
+    await skipIfSpamProtection(singleProductPage.page);
+    await singleProductPage.waitForProductToLoad();
+    const sellerInfo = await singleProductPage.getSellerInfo();
     expect(sellerInfo).toBeTruthy();
   });
 
@@ -66,11 +68,10 @@ test.describe('eBay Product Page Tests', () => {
     await homePage.navigateToHomePage();
     await homePage.searchForItem(TestData.SEARCH_TERMS.LAPTOP);
     await searchResultsPage.waitForResults();
-    
-    await page.locator('.srp-results .s-item__link').first().click();
-    await productPage.waitForProductToLoad();
-    
-    const isAvailable = await productPage.isProductAvailable();
+    const singleProductPage = await openProductPage(page);
+    await skipIfSpamProtection(singleProductPage.page);
+    await singleProductPage.waitForProductToLoad();
+    const isAvailable = await singleProductPage.isProductAvailable();
     expect(typeof isAvailable).toBe('boolean');
   });
 
@@ -78,56 +79,42 @@ test.describe('eBay Product Page Tests', () => {
     await homePage.navigateToHomePage();
     await homePage.searchForItem(TestData.SEARCH_TERMS.LAPTOP);
     await searchResultsPage.waitForResults();
-    
-    await page.locator('.srp-results .s-item__link').first().click();
-    await productPage.waitForProductToLoad();
-    
-    if (await productPage.description.count() > 0) {
-      await expect(productPage.description).toBeVisible();
-    } else {
-      test.skip(true, 'Product description not available for this product');
-    }
+    const singleProductPage = await openProductPage(page);
+    await skipIfSpamProtection(singleProductPage.page);
+    await singleProductPage.waitForProductToLoad();
+    await expect(singleProductPage.description).toBeVisible();
   });
 
   test('should add product to cart', async ({ page }) => {
     await homePage.navigateToHomePage();
     await homePage.searchForItem(TestData.SEARCH_TERMS.LAPTOP);
     await searchResultsPage.waitForResults();
-    await page.locator('.srp-results .s-item__link').first().click();
-    await productPage.waitForProductToLoad();
-    if (await productPage.addToCartButton.count() > 0) {
-      await productPage.addToCart();
-      await expect(page).toHaveURL(/cart|addtocart|cart/);
-    } else {
-      test.skip(true, 'Add to Cart button not available for this product');
-    }
+    const singleProductPage = await openProductPage(page);
+    await skipIfSpamProtection(singleProductPage.page);
+    await singleProductPage.waitForProductToLoad();
+    await singleProductPage.addToCart();
+    await expect(singleProductPage.page).toHaveURL(/cart|addtocart|cart/);
   });
 
   test('should initiate Buy It Now', async ({ page }) => {
     await homePage.navigateToHomePage();
     await homePage.searchForItem(TestData.SEARCH_TERMS.LAPTOP);
     await searchResultsPage.waitForResults();
-    await page.locator('.srp-results .s-item__link').first().click();
-    await productPage.waitForProductToLoad();
-    if (await productPage.buyItNowButton.count() > 0) {
-      await productPage.buyItNow();
-      await expect(page).toHaveURL(/checkout|signin/);
-    } else {
-      test.skip(true, 'Buy It Now button not available for this product');
-    }
+    const singleProductPage = await openProductPage(page);
+    await skipIfSpamProtection(singleProductPage.page);
+    await singleProductPage.waitForProductToLoad();
+    await singleProductPage.buyItNow();
+    await expect(singleProductPage.page).toHaveURL(/checkout|signin/);
   });
 
   test('should add product to watchlist', async ({ page }) => {
     await homePage.navigateToHomePage();
     await homePage.searchForItem(TestData.SEARCH_TERMS.LAPTOP);
     await searchResultsPage.waitForResults();
-    await page.locator('.srp-results .s-item__link').first().click();
-    await productPage.waitForProductToLoad();
-    if (await productPage.watchButton.count() > 0) {
-      await productPage.addToWatchlist();
-      await expect(productPage.watchButton).toBeVisible();
-    } else {
-      test.skip(true, 'Watchlist button not available for this product');
-    }
+    const singleProductPage = await openProductPage(page);
+    await skipIfSpamProtection(singleProductPage.page);
+    await singleProductPage.waitForProductToLoad();
+    await singleProductPage.addToWatchlist();
+    await expect(singleProductPage.watchButton).toBeVisible();
   });
 }); 

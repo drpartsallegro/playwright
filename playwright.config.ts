@@ -4,7 +4,14 @@ export default defineConfig({
   testDir: './tests',
   timeout: 30000,
   retries: 1,
-  reporter: [['html', { outputFolder: 'playwright-report' }]],
+  reporter: [
+    ['html', { 
+      outputFolder: 'playwright-report',
+      attachmentsBaseURL: './' // Use relative paths for attachments
+    }],
+    ['json', { outputFile: 'test-results/results.json' }],
+    ['junit', { outputFile: 'test-results/results.xml' }]
+  ],
   use: {
     baseURL: 'https://www.ebay.com',
     headless: true,

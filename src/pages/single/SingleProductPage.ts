@@ -1,7 +1,7 @@
 import { Page, Locator } from '@playwright/test';
-import { BasePage } from './BasePage';
+import { BasePage } from '../BasePage';
 
-export class ProductPage extends BasePage {
+export class SingleProductPage extends BasePage {
   readonly productTitle: Locator;
   readonly productPrice: Locator;
   readonly addToCartButton: Locator;
@@ -14,13 +14,14 @@ export class ProductPage extends BasePage {
   constructor(page: Page) {
     super(page);
     this.productTitle = page.locator('h1[data-testid="x-item-title__mainTitle"], h1.x-item-title__mainTitle, h1');
-    this.productPrice = page.locator('[data-testid="x-price-primary"], .x-price-primary, .price');
-    this.addToCartButton = page.locator('button:has-text("Add to cart"), button:has-text("Add to Cart")');
-    this.buyItNowButton = page.locator('button:has-text("Buy it now"), button:has-text("Buy It Now")');
-    this.watchButton = page.locator('button:has-text("Watch"), button:has-text("Add to watch list")');
-    this.sellerInfo = page.locator('[data-testid="x-about-this-seller"], .x-about-this-seller, .si-inner');
-    this.productImages = page.locator('[data-testid="x-image-viewer"], .x-image-viewer, .ux-image-carousel');
-    this.description = page.locator('[data-testid="x-item-description"], .x-item-description, .itemAttr');
+    this.productPrice = page.getByTestId('x-price-primary');
+    this.addToCartButton = page.getByTestId('x-atc-action').getByTestId('ux-call-to-action');
+    this.buyItNowButton = page.locator('//div[@data-testid="x-bin-action"]');
+    this.watchButton = page.locator('//span[@class="add-to-watch-list"]');
+    // Updated XPaths for 2025
+    this.sellerInfo = page.locator('//div[@class="x-store-information__bio"]/span/span/span').first();
+    this.productImages = page.locator('//div[contains(@class, "ux-image-carousel") or contains(@data-testid, "image-viewer")]', { hasText: '' });
+    this.description = page.locator('//*[@data-testid="d-item-description"]');
   }
 
   async waitForProductToLoad() {

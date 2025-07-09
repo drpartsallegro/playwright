@@ -12,7 +12,7 @@ export class HomePage extends BasePage {
     this.searchInput = page.locator('#gh-ac');
     this.searchButton = page.locator('#gh-search-btn');
     this.signInButton = page.locator('text="Sign in"');
-    this.registerButton = page.locator('text=register');
+    this.registerButton = page.locator('text="register"');
   }
 
   async navigateToHomePage() {
@@ -23,7 +23,7 @@ export class HomePage extends BasePage {
   async searchForItem(searchTerm: string) {
     await this.fillInput(this.searchInput, searchTerm);
     await this.clickElement(this.searchButton);
-    await this.page.waitForLoadState('networkidle');
+    await this.page.waitForLoadState('domcontentloaded');
   }
 
   async clickSignIn() {
