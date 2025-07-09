@@ -42,7 +42,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: playwright-report
+          name: github-pages
           path: test-results/playwright-report/
           retention-days: 30
 
@@ -64,4 +64,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
         with:
-          path: playwright-report 
+          artifact_name: github-pages 
