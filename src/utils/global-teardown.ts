@@ -10,7 +10,7 @@ async function globalTeardown(config: FullConfig) {
   await fixReportPaths();
 }
 
-async function fixReportPaths(reportDir = './playwright-report') {
+async function fixReportPaths(reportDir = './test-results/playwright-report') {
   console.log(`Fixing report paths in: ${reportDir}`);
   
   if (!fs.existsSync(reportDir)) {

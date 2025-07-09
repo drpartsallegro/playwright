@@ -51,7 +51,7 @@ function fixReportPaths(reportDir = './playwright-report') {
 
 // Run if called directly
 if (require.main === module) {
-  const reportDir = process.argv[2] || './playwright-report';
+  const reportDir = process.argv[2] || './test-results/playwright-report';
   fixReportPaths(reportDir);
 }
 

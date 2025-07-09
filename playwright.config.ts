@@ -7,12 +7,10 @@ export default defineConfig({
   globalTeardown: './src/utils/global-teardown.ts',
   reporter: [
     ['html', { 
-      outputFolder: 'playwright-report',
+      outputFolder: 'test-results/playwright-report',
       attachmentsBaseURL: './', // Use relative paths for attachments
       open: 'never' // Don't auto-open browser
-    }],
-    ['json', { outputFile: 'test-results/results.json' }],
-    ['junit', { outputFile: 'test-results/results.xml' }]
+    }]
   ],
   use: {
     baseURL: 'https://www.ebay.com',
