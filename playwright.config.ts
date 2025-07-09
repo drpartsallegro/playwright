@@ -4,10 +4,12 @@ export default defineConfig({
   testDir: './tests',
   timeout: 30000,
   retries: 1,
+  globalTeardown: './src/utils/global-teardown.ts',
   reporter: [
     ['html', { 
       outputFolder: 'playwright-report',
-      attachmentsBaseURL: './' // Use relative paths for attachments
+      attachmentsBaseURL: './', // Use relative paths for attachments
+      open: 'never' // Don't auto-open browser
     }],
     ['json', { outputFile: 'test-results/results.json' }],
     ['junit', { outputFile: 'test-results/results.xml' }]
