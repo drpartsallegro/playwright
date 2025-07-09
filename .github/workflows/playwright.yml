@@ -38,9 +38,13 @@ jobs:
       - name: Run Playwright tests
         run: npx playwright test
 
+      - name: List symlinks in report
+        run: |
+          find test-results/playwright-report -type l -ls || true
+
       - name: Remove symlinks from report
         run: |
-          find test-results/playwright-report -type l -delete
+          find test-results/playwright-report -type l -exec rm -f {} +
 
       - name: Upload test results
         if: always()
